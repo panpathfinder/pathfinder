@@ -41,7 +41,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 			})
 			.state('resultinfo', {
 				url: '/resultInfo',
-				templateUrl: 'templates/Info.html'
+				templateUrl: 'templates/Info.html',
+				controller: 'InfoCtrl'
 			});
 
 		// if none of the above states are matched, use this as the fallback
