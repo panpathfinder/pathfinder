@@ -22,25 +22,19 @@ angular.module('starter.controllers', [])
                 }
             )
         }
+        alert ("Hello World!");
+        alert (navigator.compass.getCurrentHeading ? "Compass found" : "Not Found");
         
-        if (window.myState) {
-            cordova.exec(function (response) {
-                alert (response);
-                alert (JSON.stringify(response));
-                alert (response ? response.direction : "Do not know");
-            }, function(err) {
-                alert('Nothing to echo.' + err);
-            }, "Echo", "poll", []);
-        } else {
-            window.myState = true;
-            cordova.exec(function (response) {
-                alert (JSON.stringify(response));
-            }, function(err) {
-                alert('Nothing to echo.' + err);
-            }, "Echo", "init", []);
+        if (navigator.compass) {
+            function onSuccess(heading) {
+                alert('Heading: ' + JSON.stringify(heading));
+            };
+
+            function onError(error) {
+                alert('CompassError: ' + error.code);
+            };
+            navigator.compass.getCurrentHeading (onSuccess, onError);
         }
-        
-        
     })
 	.controller('InfoCtrl', function($scope, $stateParams) {
         $scope.resultInfo = {};
