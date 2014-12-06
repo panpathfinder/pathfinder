@@ -25,19 +25,19 @@ angular.module('starter.controllers', [])
         
         if (window.myState) {
             cordova.exec(function (response) {
-                alert (response);
+               /* alert (response);
                 alert (JSON.stringify(response));
-                alert (response ? response.direction : "Do not know");
+                alert (response ? response.direction : "Do not know");*/
             }, function(err) {
                 alert('Nothing to echo.' + err);
             }, "Echo", "poll", []);
         } else {
             window.myState = true;
-            cordova.exec(function (response) {
+            /*cordova.exec(function (response) {
                 alert (JSON.stringify(response));
             }, function(err) {
                 alert('Nothing to echo.' + err);
-            }, "Echo", "init", []);
+            }, "Echo", "init", []);*/
         }
     })
 	.controller('InfoCtrl', function($scope, $stateParams) {
@@ -54,15 +54,32 @@ angular.module('starter.controllers', [])
         };
 	})
 	.controller('MapCtrl', function($scope, $stateParams, $cordovaDeviceOrientation, $timeout) {
-        $scope.truthyVal=false;
+        var infoAr = $stateParams.mapId.split("f");
+        $scope.mapImageUrl = (infoAr[0] == 1)? '4301':(infoAr == 2)?'4302':'4301';
+        $scope.mapImageUrl += 'f' + infoAr[1] + '.png';
+        $scope.angle = 0;
+
         var pollTimer;
+        cordova.exec(function (response) {
+                alert (JSON.stringify(response));
+            }, function(err) {
+                alert('Nothing to echo.' + err);
+            }, "Echo", "init", []);
         var poll = function() {
             pollTimer = $timeout(function() {
-                console.log("polling");
+                cordova.exec(function (response) {
+                    /*alert (response);
+                    alert (JSON.stringify(response));
+                    alert (response ? response.direction : "Do not know");*/
+                    if (Math.abs($scope.angle - response.degree) > 10)
+                        $scope.angle = response.degree;
+                }, function(err) {
+                    alert('Nothing to echo.' + err);
+                }, "Echo", "poll", []);
                 poll();
             }, 1000);
         };
-        //poll();
+        poll();
 
 
         /*var locationTimer;
@@ -81,37 +98,11 @@ angular.module('starter.controllers', [])
                 $timeout.cancel(locationTimer);
             }
         );*/
-        var infoAr = $stateParams.mapId.split("f");
-        $scope.mapImageUrl = (infoAr[0] == 1)? '4301':(infoAr == 2)?'4302':'4301';
-        $scope.mapImageUrl += 'f' + infoAr[1] + '.png';
-        $scope.angle = 30;
+        
+        
 
         $scope.rotate = function() {
-            $scope.angle = $scope.angle + 10;
+            //$scope.angle = $scope.angle + 10;
         };
-        $cordovaDeviceOrientation.getCurrentHeading().then(function(result) {
-            // Success!
-        }, function(err) {
-            // An error occurred
-        });
-
-        var options = { frequency: 1000 }; // Update every 1 second
-        var watch = $cordovaDeviceOrientation.watchHeading(options);
-
-        watch.promise.then(function(result) { /* unused */ },
-            function(err) {
-                // An error occurred
-            }, function(position) {
-                // Heading comes back in
-                // position.magneticHeading
-                $scope.angle = 138;
-            });
-
-        $cordovaDeviceOrientation.clearWatch(watch.watchId)
-            .then(function(result) {
-                // Success!
-            }, function(err) {
-                // An error occurred
-            });
     });
 
