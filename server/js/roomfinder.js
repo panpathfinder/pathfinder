@@ -85,11 +85,12 @@ $(document).ready(function () {
         console.log(h);
         paper = Raphael(0, th, w, h);
         paper.image(getMapImageSource(), 0, 0, w, h);
+        drawStarred();
         rect = paper.rect(30, 30, 90, 90);
         rect.attr({
             stroke: "none",
-            "fill-opacity": 0.05,
-            fill: "#f00"
+            "fill-opacity": 0.10,
+            fill: "pink"
         });
         rect.hover(function () {
                 rect.attr({"stroke": "#000"});
