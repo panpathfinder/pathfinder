@@ -5,8 +5,10 @@
         "has_projector": true,
         "display": "Chicago",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1154,
+        "y": 925,
+        "xmax": 2760,
+        "ymax": 2277
     },
     {
         "building": 1,
@@ -14,8 +16,10 @@
         "has_projector": false,
         "display": "Grease",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 520,
+        "y": 781,
+        "xmax": 2760,
+        "ymax": 2277
     },
     {
         "building": 1,
@@ -23,8 +27,10 @@
         "has_projector": false,
         "display": "Hairspray",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 690,
+        "y": 895,
+        "xmax": 2760,
+        "ymax": 2277
     },
     {
         "building": 1,
@@ -32,8 +38,10 @@
         "has_projector": true,
         "display": "Rent",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 1504,
+        "y": 1041,
+        "xmax": 2760,
+        "ymax": 2277
     },
     {
         "building": 1,
@@ -41,8 +49,10 @@
         "has_projector": false,
         "display": "007",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 1050,
+        "y": 199,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -50,8 +60,10 @@
         "has_projector": false,
         "display": "Die Hard",
         "rooms": 10,
-        "x": 0,
-        "y": 1
+        "x": 1200,
+        "y": 167,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -59,8 +71,10 @@
         "has_projector": false,
         "display": "Fight Club",
         "rooms": 10,
-        "x": 0,
-        "y": 1
+        "x": 1668,
+        "y": 161,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -68,8 +82,10 @@
         "has_projector": false,
         "display": "Hot Fuzz",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 574,
+        "y": 913,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -77,8 +93,10 @@
         "has_projector": true,
         "display": "Lethal Weapon",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 1810,
+        "y": 193,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -86,8 +104,10 @@
         "has_projector": false,
         "display": "Mission Impossible",
         "rooms": 10,
-        "x": 0,
-        "y": 1
+        "x": 2294,
+        "y": 951,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -95,8 +115,10 @@
         "has_projector": false,
         "display": "Rambo",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 2520,
+        "y": 883,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -104,8 +126,10 @@
         "has_projector": true,
         "display": "Snatch",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 244,
+        "y": 1045,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -113,8 +137,10 @@
         "has_projector": true,
         "display": "The Bourne Identity",
         "rooms": 3,
-        "x": 0,
-        "y": 1
+        "x": 2588,
+        "y": 971,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -122,8 +148,10 @@
         "has_projector": false,
         "display": "The Last Samurai",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 2666,
+        "y": 1049,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -131,8 +159,10 @@
         "has_projector": true,
         "display": "Top Gun",
         "rooms": 16,
-        "x": 0,
-        "y": 1
+        "x": 2726,
+        "y": 1179,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -140,8 +170,10 @@
         "has_projector": true,
         "display": "Transformer",
         "rooms": 14,
-        "x": 0,
-        "y": 1
+        "x": 144,
+        "y": 1199,
+        "xmax": 2868,
+        "ymax": 2079
     },
     {
         "building": 1,
@@ -149,8 +181,10 @@
         "has_projector": true,
         "display": "Carrie",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1025,
+        "y": 186,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -158,8 +192,10 @@
         "has_projector": false,
         "display": "Dracula",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1135,
+        "y": 96,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -167,8 +203,10 @@
         "has_projector": true,
         "display": "Frankenstein",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 161,
+        "y": 1172,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -176,8 +214,10 @@
         "has_projector": true,
         "display": "Hannibal",
         "rooms": 16,
-        "x": 0,
-        "y": 1
+        "x": 1331,
+        "y": 108,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -185,8 +225,10 @@
         "has_projector": false,
         "display": "Jaws",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1641,
+        "y": 286,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -194,8 +236,10 @@
         "has_projector": true,
         "display": "Poltergeist",
         "rooms": 14,
-        "x": 0,
-        "y": 1
+        "x": 1579,
+        "y": 100,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -203,8 +247,10 @@
         "has_projector": false,
         "display": "Psycho",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1771,
+        "y": 90,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -212,8 +258,10 @@
         "has_projector": false,
         "display": "Rear Window",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1243,
+        "y": 304,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -221,8 +269,10 @@
         "has_projector": true,
         "display": "Silence of the Lambs",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 2295,
+        "y": 912,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -230,8 +280,10 @@
         "has_projector": false,
         "display": "The Ring",
         "rooms": 3,
-        "x": 0,
-        "y": 1
+        "x": 2585,
+        "y": 948,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -239,8 +291,10 @@
         "has_projector": false,
         "display": "The Shining",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 2663,
+        "y": 1022,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -248,8 +302,10 @@
         "has_projector": true,
         "display": "The Sixth Sense",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 2719,
+        "y": 1152,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -257,8 +313,10 @@
         "has_projector": true,
         "display": "Tremors",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 245,
+        "y": 1002,
+        "xmax": 2877,
+        "ymax": 1860
     },
     {
         "building": 1,
@@ -387,8 +445,10 @@
         "has_projector": false,
         "display": "The Holy Grail",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 2086,
+        "y": 1008,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -418,8 +478,10 @@
         "has_projector": false,
         "display": "Beetlejuice",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 607,
+        "y": 924,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -427,8 +489,10 @@
         "has_projector": false,
         "display": "Blade Runner",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1875,
+        "y": 104,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -436,8 +500,10 @@
         "has_projector": true,
         "display": "E.T.",
         "rooms": 16,
-        "x": 0,
-        "y": 1
+        "x": 1413,
+        "y": 112,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -445,8 +511,10 @@
         "has_projector": false,
         "display": "Ghostbusters",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 2431,
+        "y": 964,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -454,8 +522,10 @@
         "has_projector": false,
         "display": "Godzilla",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 1315,
+        "y": 328,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -463,8 +533,10 @@
         "has_projector": false,
         "display": "Gremlins",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 2923,
+        "y": 1164,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -472,8 +544,10 @@
         "has_projector": false,
         "display": "Inception",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1729,
+        "y": 290,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -481,8 +555,10 @@
         "has_projector": false,
         "display": "Matrix",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 119,
+        "y": 1188,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -490,8 +566,10 @@
         "has_projector": true,
         "display": "Metropolis (old)",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 20,
+        "y": 20,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -499,8 +577,10 @@
         "has_projector": false,
         "display": "Oblivion",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 211,
+        "y": 1278,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -508,8 +588,10 @@
         "has_projector": false,
         "display": "Predator",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 2823,
+        "y": 1260,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -517,8 +599,10 @@
         "has_projector": true,
         "display": "Terminator",
         "rooms": 14,
-        "x": 0,
-        "y": 1
+        "x": 1669,
+        "y": 112,
+        "xmax": 3033,
+        "ymax": 1590
     },
     {
         "building": 1,
@@ -598,8 +682,10 @@
         "has_projector": false,
         "display": "Defiant",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1963,
+        "y": 1287,
+        "xmax": 2739,
+        "ymax": 2241
     },
     {
         "building": 2,
@@ -607,8 +693,10 @@
         "has_projector": true,
         "display": "Enterprise",
         "rooms": 20,
-        "x": 0,
-        "y": 1
+        "x": 2161,
+        "y": 673,
+        "xmax": 2739,
+        "ymax": 2241
     },
     {
         "building": 2,
@@ -616,8 +704,10 @@
         "has_projector": false,
         "display": "Interview Room 142",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 803,
+        "y": 1453,
+        "xmax": 2739,
+        "ymax": 2241
     },
     {
         "building": 2,
@@ -625,8 +715,10 @@
         "has_projector": false,
         "display": "Interview Room 143",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 915,
+        "y": 1453,
+        "xmax": 2739,
+        "ymax": 2241
     },
     {
         "building": 2,
@@ -634,8 +726,10 @@
         "has_projector": false,
         "display": "Interview Room 144",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1023,
+        "y": 1453,
+        "xmax": 2739,
+        "ymax": 2241
     },
     {
         "building": 2,
@@ -643,17 +737,21 @@
         "has_projector": true,
         "display": "Intrepid",
         "rooms": 16,
-        "x": 0,
-        "y": 1
+        "x": 1935,
+        "y": 1467,
+        "xmax": 2739,
+        "ymax": 2241
     },
     {
         "building": 2,
         "floor": 1,
         "has_projector": true,
-        "display": "The Pantry -",
-        "rooms": 0,
-        "x": 0,
-        "y": 1
+        "display": "The Pantry",
+        "rooms": 100,
+        "x": 1367,
+        "y": 545,
+        "xmax": 2739,
+        "ymax": 2241
     },
     {
         "building": 2,
@@ -661,8 +759,10 @@
         "has_projector": true,
         "display": "A Few Good Men",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1051,
+        "y": 1888,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -670,8 +770,10 @@
         "has_projector": true,
         "display": "Braveheart",
         "rooms": 14,
-        "x": 0,
-        "y": 1
+        "x": 159,
+        "y": 898,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -679,8 +781,10 @@
         "has_projector": true,
         "display": "Citizen Kane",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 709,
+        "y": 1300,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -688,8 +792,10 @@
         "has_projector": true,
         "display": "Ghost",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 1691,
+        "y": 1924,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -697,8 +803,10 @@
         "has_projector": false,
         "display": "Gladiator",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 215,
+        "y": 1026,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -706,8 +814,10 @@
         "has_projector": false,
         "display": "King Kong",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 287,
+        "y": 1098,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -715,8 +825,10 @@
         "has_projector": true,
         "display": "Memento",
         "rooms": 16,
-        "x": 0,
-        "y": 1
+        "x": 2753,
+        "y": 902,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -724,8 +836,10 @@
         "has_projector": true,
         "display": "MoneyBall",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1839,
+        "y": 1858,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -733,8 +847,10 @@
         "has_projector": false,
         "display": "Phenomenon",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1949,
+        "y": 1752,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -742,8 +858,10 @@
         "has_projector": false,
         "display": "Rain Man",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 2049,
+        "y": 1658,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -751,8 +869,10 @@
         "has_projector": false,
         "display": "Rocky Video Conf",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 2317,
+        "y": 1124,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -760,8 +880,10 @@
         "has_projector": true,
         "display": "The Hunger Games",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 1203,
+        "y": 1922,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -769,8 +891,10 @@
         "has_projector": true,
         "display": "The Karate Kid",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 2537,
+        "y": 1192,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -778,8 +902,10 @@
         "has_projector": false,
         "display": "The Shawshank Redemption",
         "rooms": 3,
-        "x": 0,
-        "y": 1
+        "x": 2613,
+        "y": 1096,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -787,8 +913,10 @@
         "has_projector": false,
         "display": "Titanic",
         "rooms": 7,
-        "x": 0,
-        "y": 1
+        "x": 2683,
+        "y": 1016,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -796,8 +924,10 @@
         "has_projector": false,
         "display": "To Kill A Mocking Bird",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 585,
+        "y": 1184,
+        "xmax": 2907,
+        "ymax": 2094
     },
     {
         "building": 2,
@@ -805,8 +935,10 @@
         "has_projector": false,
         "display": "Apocalypto",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 2792,
+        "y": 648,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -814,8 +946,10 @@
         "has_projector": false,
         "display": "Back to the Future",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1080,
+        "y": 1702,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -823,8 +957,10 @@
         "has_projector": false,
         "display": "Cast Away Video Conf",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 610,
+        "y": 996,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -832,8 +968,10 @@
         "has_projector": false,
         "display": "Great Escape",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1184,
+        "y": 1798,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -841,8 +979,10 @@
         "has_projector": true,
         "display": "Indiana Jones",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 1386,
+        "y": 1782,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -850,8 +990,10 @@
         "has_projector": true,
         "display": "Jurassic Park",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1300,
+        "y": 1576,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -859,8 +1001,10 @@
         "has_projector": false,
         "display": "Lawrence of Arabia",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1698,
+        "y": 1594,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -868,8 +1012,10 @@
         "has_projector": true,
         "display": "North by Northwest",
         "rooms": 14,
-        "x": 0,
-        "y": 1
+        "x": 172,
+        "y": 702,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -877,8 +1023,10 @@
         "has_projector": true,
         "display": "Pirates of the Caribbean",
         "rooms": 14,
-        "x": 0,
-        "y": 1
+        "x": 1630,
+        "y": 1774,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -886,8 +1034,10 @@
         "has_projector": false,
         "display": "Robin Hood",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1838,
+        "y": 1782,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -895,8 +1045,10 @@
         "has_projector": true,
         "display": "The Fugitive",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 270,
+        "y": 868,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -904,8 +1056,10 @@
         "has_projector": false,
         "display": "Zorro",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 2880,
+        "y": 730,
+        "xmax": 3006,
+        "ymax": 1890
     },
     {
         "building": 2,
@@ -913,8 +1067,10 @@
         "has_projector": true,
         "display": "300",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 640,
+        "y": 883,
+        "xmax": 3204,
+        "ymax": 1845
     },
     {
         "building": 2,
@@ -922,8 +1078,10 @@
         "has_projector": false,
         "display": "Batman",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1256,
+        "y": 1731,
+        "xmax": 3204,
+        "ymax": 1845
     },
     {
         "building": 2,
@@ -931,8 +1089,10 @@
         "has_projector": false,
         "display": "Dredd",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1136,
+        "y": 1645,
+        "xmax": 3204,
+        "ymax": 1845
     },
     {
         "building": 2,
@@ -940,8 +1100,10 @@
         "has_projector": true,
         "display": "Hellboy",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 1472,
+        "y": 1713,
+        "xmax": 3204,
+        "ymax": 1845
     },
     {
         "building": 2,
@@ -949,8 +1111,10 @@
         "has_projector": false,
         "display": "Ironman",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1384,
+        "y": 1499,
+        "xmax": 3204,
+        "ymax": 1845
     },
     {
         "building": 2,
@@ -958,8 +1122,10 @@
         "has_projector": true,
         "display": "Superman",
         "rooms": 14,
-        "x": 0,
-        "y": 1
+        "x": 1734,
+        "y": 1705,
+        "xmax": 3204,
+        "ymax": 1845
     },
     {
         "building": 2,
@@ -967,8 +1133,10 @@
         "has_projector": false,
         "display": "The Avengers",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1968,
+        "y": 1727,
+        "xmax": 3204,
+        "ymax": 1845
     },
     {
         "building": 2,
@@ -976,8 +1144,10 @@
         "has_projector": false,
         "display": "Thor",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 3084,
+        "y": 601,
+        "xmax": 3204,
+        "ymax": 1845
     },
     {
         "building": 2,
@@ -985,8 +1155,10 @@
         "has_projector": false,
         "display": "Watchmen",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 110,
+        "y": 615,
+        "xmax": 3204,
+        "ymax": 1845
     },
     {
         "building": 2,
@@ -994,8 +1166,10 @@
         "has_projector": false,
         "display": "Wolverine",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 20,
+        "y": 20,
+        "xmax": 3204,
+        "ymax": 1845
     },
     {
         "building": 2,
@@ -1003,8 +1177,10 @@
         "has_projector": false,
         "display": "X-Men",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 208,
+        "y": 515,
+        "xmax": 3204,
+        "ymax": 1845
     },
     {
         "building": 2,
@@ -1012,8 +1188,10 @@
         "has_projector": false,
         "display": "Bonnie and Clyde",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1125,
+        "y": 1503,
+        "xmax": 3231,
+        "ymax": 1719
     },
     {
         "building": 2,
@@ -1021,8 +1199,10 @@
         "has_projector": false,
         "display": "Casino",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1233,
+        "y": 1613,
+        "xmax": 3231,
+        "ymax": 1719
     },
     {
         "building": 2,
@@ -1030,8 +1210,10 @@
         "has_projector": true,
         "display": "Goodfellas",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 1467,
+        "y": 1605,
+        "xmax": 3231,
+        "ymax": 1719
     },
     {
         "building": 2,
@@ -1039,8 +1221,10 @@
         "has_projector": false,
         "display": "Kill Bill",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1813,
+        "y": 1395,
+        "xmax": 3231,
+        "ymax": 1719
     },
     {
         "building": 2,
@@ -1048,8 +1232,10 @@
         "has_projector": true,
         "display": "Ocean's Eleven",
         "rooms": 14,
-        "x": 0,
-        "y": 1
+        "x": 1743,
+        "y": 1601,
+        "xmax": 3231,
+        "ymax": 1719
     },
     {
         "building": 2,
@@ -1057,8 +1243,10 @@
         "has_projector": false,
         "display": "Pulp Fiction",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1963,
+        "y": 1607,
+        "xmax": 3231,
+        "ymax": 1719
     },
     {
         "building": 2,
@@ -1066,8 +1254,10 @@
         "has_projector": false,
         "display": "Scarface",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 3111,
+        "y": 449,
+        "xmax": 3231,
+        "ymax": 1719
     },
     {
         "building": 2,
@@ -1075,8 +1265,10 @@
         "has_projector": true,
         "display": "Smokin Aces",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 3009,
+        "y": 341,
+        "xmax": 3231,
+        "ymax": 1719
     },
     {
         "building": 2,
@@ -1084,8 +1276,10 @@
         "has_projector": true,
         "display": "The Departed",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 175,
+        "y": 357,
+        "xmax": 3231,
+        "ymax": 1719
     },
     {
         "building": 2,
@@ -1093,8 +1287,10 @@
         "has_projector": false,
         "display": "The Godfather",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 77,
+        "y": 463,
+        "xmax": 3231,
+        "ymax": 1719
     },
     {
         "building": 2,
@@ -1102,8 +1298,10 @@
         "has_projector": false,
         "display": "Dungeons and Dragons",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 20,
+        "y": 20,
+        "xmax": 2808,
+        "ymax": 1290
     },
     {
         "building": 2,
@@ -1111,8 +1309,10 @@
         "has_projector": true,
         "display": "Edward Scissorhands",
         "rooms": 14,
-        "x": 0,
-        "y": 1
+        "x": 20,
+        "y": 20,
+        "xmax": 2808,
+        "ymax": 1290
     },
     {
         "building": 2,
@@ -1120,8 +1320,10 @@
         "has_projector": true,
         "display": "Forrest Gump",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1098,
+        "y": 1194,
+        "xmax": 2808,
+        "ymax": 1290
     },
     {
         "building": 2,
@@ -1129,8 +1331,10 @@
         "has_projector": false,
         "display": "Harry Potter",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1003,
+        "y": 1111,
+        "xmax": 2808,
+        "ymax": 1290
     },
     {
         "building": 2,
@@ -1138,8 +1342,10 @@
         "has_projector": true,
         "display": "Metropolis",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 1302,
+        "y": 1186,
+        "xmax": 2808,
+        "ymax": 1290
     },
     {
         "building": 2,
@@ -1147,8 +1353,10 @@
         "has_projector": true,
         "display": "The Breakfast Club",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 20,
+        "y": 20,
+        "xmax": 2808,
+        "ymax": 1290
     },
     {
         "building": 2,
@@ -1156,7 +1364,9 @@
         "has_projector": true,
         "display": "The Dark Crystal,",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 681,
+        "y": 564,
+        "xmax": 2808,
+        "ymax": 1290
     }
 ]
