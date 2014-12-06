@@ -1,16 +1,8 @@
 [
     {
-        "building": null,
-        "cube": null,
-        "title": null,
-        "office": null,
-        "phone": null,
-        "display": null,
-        "name": null
-    },
-    {
         "building": 2,
         "cube": "2097",
+        "floor": 2,
         "title": "Desktop Support Specialist",
         "office": "Santa Clara 44-2097",
         "phone": "+1 408-753-3905",
@@ -20,6 +12,7 @@
     {
         "building": 1,
         "cube": "4113",
+        "floor": 4,
         "title": "Sr Dir, Software Engineering",
         "office": "Santa Clara 43-4113",
         "phone": "+1-408-753-4069",
@@ -29,6 +22,7 @@
     {
         "building": 1,
         "cube": "4001",
+        "floor": 4,
         "title": "Fellow",
         "office": "Santa Clara 43-4001",
         "phone": "+1-408-753-4054",
@@ -38,6 +32,7 @@
     {
         "building": 2,
         "cube": "3009",
+        "floor": 3,
         "title": "Inside Systems Engineer",
         "office": "Santa Clara 44-3009",
         "phone": "+1-408-753-3812",
@@ -47,6 +42,7 @@
     {
         "building": 1,
         "cube": "4124",
+        "floor": 4,
         "title": "Fellow",
         "office": "Santa Clara 43-4124",
         "phone": "+1-408-753-4067",
@@ -56,6 +52,7 @@
     {
         "building": 1,
         "cube": "2040",
+        "floor": 2,
         "title": "Sr Staff Software QA Engineer",
         "office": "Santa Clara 43-2040",
         "phone": "+1-408-753-4162",
@@ -65,6 +62,7 @@
     {
         "building": 2,
         "cube": "2111",
+        "floor": 2,
         "title": "Mgr, IT",
         "office": "Santa Clara 44-2111",
         "phone": "+1-408-753-3820",
@@ -74,6 +72,7 @@
     {
         "building": 2,
         "cube": "2121",
+        "floor": 2,
         "title": "Principal Network Engineer",
         "office": "Santa Clara 44-2121",
         "phone": "+1-408-753-4236",
@@ -83,6 +82,7 @@
     {
         "building": 2,
         "cube": "2109",
+        "floor": 2,
         "title": "Sr Systems Engineer",
         "office": "Santa Clara 44-2109",
         "phone": "+1-408-753-3832",
@@ -92,6 +92,7 @@
     {
         "building": 2,
         "cube": "4013",
+        "floor": 4,
         "title": "Corporate Services Coordinator",
         "office": "Santa Clara 44-4013",
         "phone": "+1-408-753-4281",
@@ -101,6 +102,7 @@
     {
         "building": 2,
         "cube": "2115",
+        "floor": 2,
         "title": "Sr Mgr, IT",
         "office": "Santa Clara 44-2115",
         "phone": "+1-669-444-6811",
@@ -110,6 +112,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Founder",
         "office": "Santa Clara 43-422",
         "phone": "+1-408-753-3867",
@@ -119,6 +122,7 @@
     {
         "building": 1,
         "cube": "3085",
+        "floor": 3,
         "title": "VP, Security Research",
         "office": "Santa Clara 43-3085",
         "phone": "+1-408-753-4109",
@@ -128,6 +132,7 @@
     {
         "building": 1,
         "cube": "2077",
+        "floor": 2,
         "title": "Sr Mgr, Engineer SQA",
         "office": "Santa Clara 43-2077",
         "phone": "+1-408-753-4113",
@@ -137,6 +142,7 @@
     {
         "building": 1,
         "cube": "3089",
+        "floor": 3,
         "title": "Sr Distinguished Engineer",
         "office": "Santa Clara 43-3089",
         "phone": "+1-408-753-4104",
@@ -146,6 +152,7 @@
     {
         "building": 1,
         "cube": "3096",
+        "floor": 3,
         "title": "Sr Mgr, Software Eng",
         "office": "Santa Clara 43-3096",
         "phone": "+1-408-753-4094",
@@ -155,6 +162,7 @@
     {
         "building": 2,
         "cube": "3027",
+        "floor": 3,
         "title": "Mgr, Support Delivery",
         "office": "Santa Clara 44-3027",
         "phone": "+1-408-216-5411",
@@ -164,6 +172,7 @@
     {
         "building": 2,
         "cube": "4019",
+        "floor": 4,
         "title": "Product Marketing Director",
         "office": "Santa Clara 44-4019",
         "phone": "+1-408-753-4282",
@@ -173,6 +182,7 @@
     {
         "building": 1,
         "cube": "2026",
+        "floor": 2,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-2026",
         "phone": "+1-408-753-4118",
@@ -182,6 +192,7 @@
     {
         "building": 2,
         "cube": "3056",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3056",
         "phone": "+1-408-216-5376",
@@ -191,6 +202,7 @@
     {
         "building": 1,
         "cube": "1032",
+        "floor": 1,
         "title": "Sr Facilities Analyst",
         "office": "Santa Clara 43-1032",
         "phone": "+1-408-753-4047",
@@ -200,6 +212,7 @@
     {
         "building": 1,
         "cube": "3010",
+        "floor": 3,
         "title": "VP, Product Management",
         "office": "Santa Clara 43-3010",
         "phone": "+1-408-753-3890",
@@ -209,6 +222,7 @@
     {
         "building": 1,
         "cube": "4036",
+        "floor": 4,
         "title": "Fellow",
         "office": "Santa Clara 43-4036",
         "phone": "+1-408-753-4051",
@@ -218,6 +232,7 @@
     {
         "building": 1,
         "cube": "2080",
+        "floor": 2,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-2080",
         "phone": "+1-408-753-4121",
@@ -227,6 +242,7 @@
     {
         "building": 1,
         "cube": "5088",
+        "floor": 5,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-5088",
         "phone": "+1-408-753-4078",
@@ -236,6 +252,7 @@
     {
         "building": 1,
         "cube": "2052",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2052",
         "phone": "+1-408-638-3236",
@@ -245,6 +262,7 @@
     {
         "building": 2,
         "cube": "6023",
+        "floor": 6,
         "title": "Sr Specialist, Credit & Collec",
         "office": "Santa Clara 44-6023",
         "phone": "+1-408-753-3758",
@@ -254,6 +272,7 @@
     {
         "building": 1,
         "cube": "4066",
+        "floor": 4,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-4066",
         "phone": "+1-408-753-4065",
@@ -263,6 +282,7 @@
     {
         "building": 2,
         "cube": "2006",
+        "floor": 2,
         "title": "Prog Mgr, Bus Applications",
         "office": "Santa Clara 44-2006",
         "phone": "+1-408-753-3815",
@@ -272,6 +292,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "SVP, Product Management",
         "office": "Santa Clara 43-332",
         "phone": "+1-408-753-3869",
@@ -281,6 +302,7 @@
     {
         "building": 2,
         "cube": "5084",
+        "floor": 5,
         "title": "Accounts Receivable Accountant",
         "office": "Santa Clara 44-5084",
         "phone": "+1-408-753-3759",
@@ -290,6 +312,7 @@
     {
         "building": 2,
         "cube": "2129",
+        "floor": 2,
         "title": "Proof of Concept Engineer",
         "office": "Santa Clara 44-2129",
         "phone": "+1-408-753-3924",
@@ -299,6 +322,7 @@
     {
         "building": 1,
         "cube": "2030",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2030",
         "phone": "+1-408-753-3918",
@@ -308,6 +332,7 @@
     {
         "building": 1,
         "cube": "5107",
+        "floor": 5,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-5107",
         "phone": "+1-408-753-4085",
@@ -317,6 +342,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Marketing Operations Specialist",
         "office": "Santa Clara TBD",
         "phone": "+1-408-753-3904",
@@ -326,6 +352,7 @@
     {
         "building": 1,
         "cube": "5058",
+        "floor": 5,
         "title": "Mgr, Mfg Engineering",
         "office": "Santa Clara 43-5058",
         "phone": "+1-408-753-3841",
@@ -335,6 +362,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Stock Administrator",
         "office": "Santa Clara",
         "phone": "+1-408-753-3764",
@@ -344,6 +372,7 @@
     {
         "building": 1,
         "cube": "3101",
+        "floor": 3,
         "title": "Sr Dir, CPE",
         "office": "Santa Clara 43-3101",
         "phone": "+1-408-753-4092",
@@ -353,6 +382,7 @@
     {
         "building": 1,
         "cube": "2058",
+        "floor": 2,
         "title": "Dir, Software QA",
         "office": "Santa Clara 43-2058",
         "phone": "+1-408-753-4127",
@@ -362,6 +392,7 @@
     {
         "building": 1,
         "cube": "2050",
+        "floor": 2,
         "title": "Dir, Software QA",
         "office": "Santa Clara 43-2050",
         "phone": "+1-408-753-4123",
@@ -371,6 +402,7 @@
     {
         "building": 2,
         "cube": "3034",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3034",
         "phone": "+1-408-216-5368",
@@ -380,6 +412,7 @@
     {
         "building": 2,
         "cube": "3005",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3005",
         "phone": "+1-408-216-5370",
@@ -389,6 +422,7 @@
     {
         "building": 2,
         "cube": "4012",
+        "floor": 4,
         "title": "SVP, Chief Marketing Officer",
         "office": "Santa Clara 44-4012",
         "phone": "+1-408-753-3870",
@@ -398,6 +432,7 @@
     {
         "building": 1,
         "cube": "5024",
+        "floor": 5,
         "title": "Sr Mgr, Trade Compl\/Logistics",
         "office": "Santa Clara 43-5024B",
         "phone": "+1-408-753-3859",
@@ -407,6 +442,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "SVP, Global Customer Engr & Support",
         "office": "Santa Clara 44-322",
         "phone": "+1-408-753-3866",
@@ -416,6 +452,7 @@
     {
         "building": 1,
         "cube": "2049",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2049",
         "phone": "+1-408-753-4114",
@@ -425,6 +462,7 @@
     {
         "building": 1,
         "cube": "5030",
+        "floor": 5,
         "title": "Mgr, Purchasing",
         "office": "Santa Clara 43-5030",
         "phone": "+1-408-753-3842",
@@ -434,6 +472,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "VP, Supply Chain Operations",
         "office": "Santa Clara 43-525",
         "phone": "+1-408-753-3837",
@@ -443,6 +482,7 @@
     {
         "building": 2,
         "cube": "2155",
+        "floor": 2,
         "title": "Systems Engineer Specialist",
         "office": "Santa Clara 44-2155",
         "phone": "+1-408-753-3933",
@@ -452,6 +492,7 @@
     {
         "building": 1,
         "cube": "3129",
+        "floor": 3,
         "title": "Mgr, APPID Content",
         "office": "Santa Clara 43-3129",
         "phone": "+1-408-753-4103",
@@ -461,6 +502,7 @@
     {
         "building": 1,
         "cube": "3127",
+        "floor": 3,
         "title": "Sr Dir, Appid",
         "office": "Santa Clara 43-3127",
         "phone": "+1-408-753-4107",
@@ -470,6 +512,7 @@
     {
         "building": 1,
         "cube": "4069",
+        "floor": 4,
         "title": "SVP, Engineering",
         "office": "Santa Clara 43-4069",
         "phone": "+1-408-753-4068",
@@ -479,6 +522,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "SVP, CTO",
         "office": "Santa Clara 43-423",
         "phone": "+1-408-753-3868",
@@ -488,6 +532,7 @@
     {
         "building": 1,
         "cube": "5122",
+        "floor": 5,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-5122",
         "phone": "+1-408-753-4084",
@@ -497,6 +542,7 @@
     {
         "building": 1,
         "cube": "2076",
+        "floor": 2,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-2076",
         "phone": "+1-408-753-4128",
@@ -506,6 +552,7 @@
     {
         "building": 1,
         "cube": "2022",
+        "floor": 2,
         "title": "Mgr, Software QA",
         "office": "Santa Clara 43-2022",
         "phone": "+1-408-753-4122",
@@ -515,6 +562,7 @@
     {
         "building": 1,
         "cube": "3075",
+        "floor": 3,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-3075",
         "phone": "+1-408-753-4102",
@@ -524,6 +572,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "VP, Sales Operations",
         "office": "Santa Clara 44-423",
         "phone": "+1-408-753-3983",
@@ -533,6 +582,7 @@
     {
         "building": 1,
         "cube": "3011",
+        "floor": 3,
         "title": "VP, Product Management",
         "office": "Santa Clara 43-3011",
         "phone": "+1-408-753-3891",
@@ -542,6 +592,7 @@
     {
         "building": 1,
         "cube": "4127",
+        "floor": 4,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-4127",
         "phone": "+1-408-753-4059",
@@ -551,6 +602,7 @@
     {
         "building": 1,
         "cube": "3088",
+        "floor": 3,
         "title": "Architect, Security Engineer",
         "office": "Santa Clara 43-3088",
         "phone": "+1-408-753-4106",
@@ -560,6 +612,7 @@
     {
         "building": 1,
         "cube": "2029",
+        "floor": 2,
         "title": "Mgr, Software QA",
         "office": "Santa Clara 43-2029",
         "phone": "+1-408-753-4124",
@@ -569,6 +622,7 @@
     {
         "building": 2,
         "cube": "2091",
+        "floor": 2,
         "title": "Lead IT Applications Engineer",
         "office": "Santa Clara 44-2091",
         "phone": "+1-408-753-3818",
@@ -578,6 +632,7 @@
     {
         "building": 2,
         "cube": "3026",
+        "floor": 3,
         "title": "Sr Technical Marketing Engineer",
         "office": "Santa Clara 44-3026",
         "phone": "+1-408-216-5394",
@@ -587,6 +642,7 @@
     {
         "building": 2,
         "cube": "3033",
+        "floor": 3,
         "title": "Mgr, Support Delivery",
         "office": "Santa Clara 44-3033",
         "phone": "+1-408-216-5366",
@@ -596,6 +652,7 @@
     {
         "building": 2,
         "cube": "3066",
+        "floor": 3,
         "title": "Mgr, CSR",
         "office": "Santa Clara 44-3066",
         "phone": "+1-408-216-5422",
@@ -605,6 +662,7 @@
     {
         "building": 2,
         "cube": "3007",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3007",
         "phone": "+1-408-216-5386",
@@ -614,6 +672,7 @@
     {
         "building": 2,
         "cube": "3032",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3032A",
         "phone": "+1-408-216-5412",
@@ -623,6 +682,7 @@
     {
         "building": 1,
         "cube": "4054",
+        "floor": 4,
         "title": "Architect Engineer Software",
         "office": "Santa Clara 43-4054",
         "phone": "+1-408-753-4091",
@@ -632,6 +692,7 @@
     {
         "building": 1,
         "cube": "4058",
+        "floor": 4,
         "title": "Sr Manager, SW Engineering",
         "office": "Santa Clara 43-4058",
         "phone": "+1-408-753-4097",
@@ -641,6 +702,7 @@
     {
         "building": 1,
         "cube": "5050",
+        "floor": 5,
         "title": "Mgr, Supply Chain Risk Management",
         "office": "Santa Clara 43-5050",
         "phone": "+1-408-753-3843",
@@ -650,6 +712,7 @@
     {
         "building": 1,
         "cube": "4072",
+        "floor": 4,
         "title": "Sr Mgr, Engineering",
         "office": "Santa Clara 43-4072",
         "phone": "+1-408-753-4063",
@@ -659,6 +722,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Systems Engineer 1",
         "office": "Santa Clara",
         "phone": "+1-408-753-4255",
@@ -668,6 +732,7 @@
     {
         "building": 1,
         "cube": "2032",
+        "floor": 2,
         "title": "Sr Technical Marketing Engineer",
         "office": "Santa Clara 43-2032",
         "phone": "+1-408-753-4117",
@@ -677,6 +742,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Regional Sales Manager",
         "office": "Santa Clara",
         "phone": "+1-408-753-4254",
@@ -686,6 +752,7 @@
     {
         "building": 2,
         "cube": "2141",
+        "floor": 2,
         "title": "Mgr, Inside Sales",
         "office": "Santa Clara 44-2141",
         "phone": "214-380-5813",
@@ -695,6 +762,7 @@
     {
         "building": 1,
         "cube": "4042",
+        "floor": 4,
         "title": "Distinguished Engineer",
         "office": "Santa Clara 43-4042",
         "phone": "+1-408-753-4050",
@@ -704,6 +772,7 @@
     {
         "building": 1,
         "cube": "4037",
+        "floor": 4,
         "title": "VP, Hardware Engineering",
         "office": "Santa Clara 43-4037",
         "phone": "+1-408-753-4053",
@@ -713,6 +782,7 @@
     {
         "building": 1,
         "cube": "4032",
+        "floor": 4,
         "title": "Distinguished Engineer",
         "office": "Santa Clara 43-4032",
         "phone": "+1-408-753-4056",
@@ -722,6 +792,7 @@
     {
         "building": 2,
         "cube": "4113",
+        "floor": 4,
         "title": "Sr Sales Commission Analyst",
         "office": "Santa Clara 44-4113",
         "phone": "+1-408-753-3985",
@@ -731,6 +802,7 @@
     {
         "building": 1,
         "cube": "5123",
+        "floor": 5,
         "title": "Fellow",
         "office": "Santa Clara 43-5123",
         "phone": "+1-408-753-4075",
@@ -740,6 +812,7 @@
     {
         "building": 1,
         "cube": "5053",
+        "floor": 5,
         "title": "Sr Prog Mgr, New Product Info",
         "office": "Santa Clara 43-5053",
         "phone": "+1-408-753-3840",
@@ -749,6 +822,7 @@
     {
         "building": 1,
         "cube": "2078",
+        "floor": 2,
         "title": "Dir, Software QA",
         "office": "Santa Clara 43-2078",
         "phone": "+1-408-753-4126",
@@ -758,6 +832,7 @@
     {
         "building": 2,
         "cube": "6073",
+        "floor": 6,
         "title": "Executive Assistant",
         "office": "Santa Clara 44-6073",
         "phone": "+1-408-753-3762",
@@ -767,6 +842,7 @@
     {
         "building": 1,
         "cube": "4047",
+        "floor": 4,
         "title": "VP, Dataplane Software",
         "office": "Santa Clara 43-4047",
         "phone": "+1-408-753-4089",
@@ -776,6 +852,7 @@
     {
         "building": 2,
         "cube": "5099",
+        "floor": 5,
         "title": "Mgr, Staffing Operations",
         "office": "Santa Clara 44-5099",
         "phone": "+1-408-753-3796",
@@ -785,6 +862,7 @@
     {
         "building": 1,
         "cube": "5109",
+        "floor": 5,
         "title": "Dir, Engineer",
         "office": "Santa Clara 43-5109",
         "phone": "+1-408-753-4087",
@@ -794,6 +872,7 @@
     {
         "building": 2,
         "cube": "4014",
+        "floor": 4,
         "title": "Business Planner Director",
         "office": "Santa Clara 44-4014",
         "phone": "+1-408-753-3753",
@@ -803,6 +882,7 @@
     {
         "building": 2,
         "cube": "2137",
+        "floor": 2,
         "title": "Regional Sales Manager",
         "office": "Santa Clara 44-2137",
         "phone": "+1 (408) 858-6654",
@@ -812,6 +892,7 @@
     {
         "building": 1,
         "cube": "3086",
+        "floor": 3,
         "title": "Manager, SW Engineering",
         "office": "Santa Clara 43-3086",
         "phone": "+1-408-753-4105",
@@ -821,6 +902,7 @@
     {
         "building": 1,
         "cube": "5110",
+        "floor": 5,
         "title": "Dir, Engineer",
         "office": "Santa Clara 43-5110",
         "phone": "+1-408-753-4086",
@@ -830,6 +912,7 @@
     {
         "building": 2,
         "cube": "3065",
+        "floor": 3,
         "title": "VP, Customer Support",
         "office": "Santa Clara 44-3065",
         "phone": "+1-408-216-5410",
@@ -839,6 +922,7 @@
     {
         "building": 1,
         "cube": "3016",
+        "floor": 3,
         "title": "Dir, Product Management",
         "office": "Santa Clara 43-3016",
         "phone": "+1-408-753-3888",
@@ -848,6 +932,7 @@
     {
         "building": 1,
         "cube": "3100",
+        "floor": 3,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-3100",
         "phone": "+1-408-753-4093",
@@ -857,6 +942,7 @@
     {
         "building": 2,
         "cube": "3067",
+        "floor": 3,
         "title": "Lead, Customer Service Rep",
         "office": "Santa Clara 44-3067",
         "phone": "+1-408-216-5423",
@@ -866,6 +952,7 @@
     {
         "building": 1,
         "cube": "5019",
+        "floor": 5,
         "title": "Lead, Order Fulfillment",
         "office": "Santa Clara 43-5019",
         "phone": "+1-408-753-3835",
@@ -875,6 +962,7 @@
     {
         "building": 1,
         "cube": "4033",
+        "floor": 4,
         "title": "Engineer",
         "office": "Santa Clara 43-4033",
         "phone": "+1-408-753-4052",
@@ -884,6 +972,7 @@
     {
         "building": 1,
         "cube": "4046",
+        "floor": 4,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-4046",
         "phone": "+1-408-753-4088",
@@ -893,6 +982,7 @@
     {
         "building": 2,
         "cube": "4090",
+        "floor": 4,
         "title": "Sr Mgr, Sales Ops",
         "office": "Santa Clara 44-4090",
         "phone": "+1-408-753-3984",
@@ -902,6 +992,7 @@
     {
         "building": 1,
         "cube": "4110",
+        "floor": 4,
         "title": "Architect, SW Engineer",
         "office": "Santa Clara 43-4110",
         "phone": "+1-408-753-4074",
@@ -911,6 +1002,7 @@
     {
         "building": 1,
         "cube": "4114",
+        "floor": 4,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-4114",
         "phone": "+1-408-753-4070",
@@ -920,6 +1012,7 @@
     {
         "building": 1,
         "cube": "4109",
+        "floor": 4,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-4109",
         "phone": "+1-408-753-4071",
@@ -929,6 +1022,7 @@
     {
         "building": 1,
         "cube": "5016",
+        "floor": 5,
         "title": "Order Fulfillment Specialist",
         "office": "Santa Clara 43-5016",
         "phone": "+1-408-753-3839",
@@ -938,6 +1032,7 @@
     {
         "building": 1,
         "cube": "4060",
+        "floor": 4,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-4060",
         "phone": "+1-408-753-4064",
@@ -947,6 +1042,7 @@
     {
         "building": 2,
         "cube": "3029",
+        "floor": 3,
         "title": "Premium Support Engineer",
         "office": "Santa Clara 44-3029",
         "phone": "+1-408-216-5390",
@@ -956,6 +1052,7 @@
     {
         "building": 2,
         "cube": "3085",
+        "floor": 3,
         "title": "Sr Mgr, Proactive Services",
         "office": "Santa Clara 44-3085",
         "phone": "+1-408-753-3906",
@@ -965,6 +1062,7 @@
     {
         "building": 1,
         "cube": "5022",
+        "floor": 5,
         "title": "Order Fulfillment Specialist",
         "office": "Santa Clara 43-5022",
         "phone": "+1-408-753-3836",
@@ -974,6 +1072,7 @@
     {
         "building": 1,
         "cube": "4122",
+        "floor": 4,
         "title": "Sr Mgr, Engineering",
         "office": "Santa Clara 43-4122",
         "phone": "+1-408-753-4060",
@@ -983,6 +1082,7 @@
     {
         "building": 2,
         "cube": "5022",
+        "floor": 5,
         "title": "Staff Accountant",
         "office": "Santa Clara 44-5022",
         "phone": "+1-408-753-3761",
@@ -992,6 +1092,7 @@
     {
         "building": 1,
         "cube": "5115",
+        "floor": 5,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-5115",
         "phone": "+1-408-753-4077",
@@ -1001,6 +1102,7 @@
     {
         "building": 1,
         "cube": "4064",
+        "floor": 4,
         "title": "Sr Mgr, SW Engineering",
         "office": "Santa Clara 43-4064",
         "phone": "+1-408-753-4095",
@@ -1010,6 +1112,7 @@
     {
         "building": 1,
         "cube": "3121",
+        "floor": 3,
         "title": "Sr Mgr, Software Engineering",
         "office": "Santa Clara 43-3121",
         "phone": "+1-408-753-4101",
@@ -1019,6 +1122,7 @@
     {
         "building": 1,
         "cube": "3026",
+        "floor": 3,
         "title": "Product Line Manager",
         "office": "Santa Clara 43-3026",
         "phone": "+1-408-753-3889",
@@ -1028,6 +1132,7 @@
     {
         "building": 1,
         "cube": "5118",
+        "floor": 5,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-5118",
         "phone": "+1-408-753-4076",
@@ -1037,6 +1142,7 @@
     {
         "building": 2,
         "cube": "5094",
+        "floor": 5,
         "title": "Sr Recruiter",
         "office": "Santa Clara 44-5094",
         "phone": "+1-408-753-3792",
@@ -1046,6 +1152,7 @@
     {
         "building": 1,
         "cube": "4067",
+        "floor": 4,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-4067",
         "phone": "+1-408-753-4066",
@@ -1055,6 +1162,7 @@
     {
         "building": 2,
         "cube": "4021",
+        "floor": 4,
         "title": "Sr Field Marketing Manager",
         "office": "Santa Clara 44-4021",
         "phone": "+1 408-753-4283",
@@ -1064,6 +1172,7 @@
     {
         "building": 2,
         "cube": "4069",
+        "floor": 4,
         "title": "Sr Dir, Technical Business Development",
         "office": "Santa Clara 44-4069",
         "phone": "+1-408-753-3992",
@@ -1073,6 +1182,7 @@
     {
         "building": 2,
         "cube": "3117",
+        "floor": 3,
         "title": "Professional Services Engineer",
         "office": "Santa Clara 44-3117",
         "phone": null,
@@ -1082,6 +1192,7 @@
     {
         "building": 1,
         "cube": "2079",
+        "floor": 2,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-2079",
         "phone": "+1-408-753-4119",
@@ -1091,6 +1202,7 @@
     {
         "building": 2,
         "cube": "3103",
+        "floor": 3,
         "title": "Sr Mgr, Education",
         "office": "Santa Clara 44-3103",
         "phone": "+1-408-638-3316",
@@ -1100,6 +1212,7 @@
     {
         "building": 1,
         "cube": "5081",
+        "floor": 5,
         "title": "Sr Mgr, Software",
         "office": "Santa Clara 43-5081",
         "phone": "+1-408-753-4079",
@@ -1109,6 +1222,7 @@
     {
         "building": 1,
         "cube": "4055",
+        "floor": 4,
         "title": "Sr Principal Software Engineer",
         "office": "Santa Clara 43-4055",
         "phone": "+1-408-753-4090",
@@ -1118,6 +1232,7 @@
     {
         "building": 1,
         "cube": "4070",
+        "floor": 4,
         "title": "Architect, Engineer",
         "office": "Santa Clara 43-4070",
         "phone": "+1-408-753-4058",
@@ -1127,6 +1242,7 @@
     {
         "building": 2,
         "cube": "2158",
+        "floor": 2,
         "title": "Systems Engineer 1",
         "office": "Santa Clara 44-2158",
         "phone": "408-753-3909",
@@ -1136,6 +1252,7 @@
     {
         "building": 1,
         "cube": "3038",
+        "floor": 3,
         "title": "Sr Product Manager",
         "office": "Santa Clara 43-3038",
         "phone": "+1-408-753-3895",
@@ -1145,6 +1262,7 @@
     {
         "building": 1,
         "cube": "4108",
+        "floor": 4,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-4108",
         "phone": "+1-408-753-4072",
@@ -1154,6 +1272,7 @@
     {
         "building": 2,
         "cube": "4067",
+        "floor": 4,
         "title": "Solutions Architect",
         "office": "Santa Clara 44-4067",
         "phone": "+1 (408) 753-4294",
@@ -1163,6 +1282,7 @@
     {
         "building": 2,
         "cube": "2131",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2131",
         "phone": "+1-408-753-4251",
@@ -1172,6 +1292,7 @@
     {
         "building": 2,
         "cube": "6057",
+        "floor": 6,
         "title": "Sr Dir, Financial Operations",
         "office": "Santa Clara 44-6057",
         "phone": "+1-408-753-3763",
@@ -1181,6 +1302,7 @@
     {
         "building": 1,
         "cube": "4120",
+        "floor": 4,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-4120",
         "phone": "+1-408-753-4073",
@@ -1190,6 +1312,7 @@
     {
         "building": 1,
         "cube": "2024",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2024",
         "phone": "+1-408-753-4115",
@@ -1199,6 +1322,7 @@
     {
         "building": 2,
         "cube": "3021",
+        "floor": 3,
         "title": "E-TAC",
         "office": "Santa Clara 44-3021",
         "phone": "(408) 753-3941",
@@ -1208,6 +1332,7 @@
     {
         "building": 2,
         "cube": "3070",
+        "floor": 3,
         "title": "Lead, RMA Processor",
         "office": "Santa Clara 44-3070",
         "phone": "+1-408-753-3846",
@@ -1217,6 +1342,7 @@
     {
         "building": 2,
         "cube": "4045",
+        "floor": 4,
         "title": "Mgr, Creative Services",
         "office": "Santa Clara 44-4045",
         "phone": "503-260-9861",
@@ -1226,6 +1352,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "SVP, General Counsel",
         "office": "Santa Clara 44-619",
         "phone": "+1-408-753-3861",
@@ -1235,6 +1362,7 @@
     {
         "building": 2,
         "cube": "5058",
+        "floor": 5,
         "title": "Sr HR Business Partner",
         "office": "Santa Clara 44-5058",
         "phone": "+1-408-753-3795",
@@ -1244,6 +1372,7 @@
     {
         "building": 2,
         "cube": "2138",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2138",
         "phone": "+1-408-753-4258",
@@ -1253,6 +1382,7 @@
     {
         "building": 2,
         "cube": "3037",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3037",
         "phone": "+1-408-216-5389",
@@ -1262,6 +1392,7 @@
     {
         "building": 2,
         "cube": "3052",
+        "floor": 3,
         "title": "Manager, Support Delivery",
         "office": "Santa Clara 44-3052",
         "phone": "+1-408-216-5375",
@@ -1271,6 +1402,7 @@
     {
         "building": 1,
         "cube": "5114",
+        "floor": 5,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-5114",
         "phone": "+1-408-753-4081",
@@ -1280,6 +1412,7 @@
     {
         "building": 1,
         "cube": "2019",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2019",
         "phone": "+1-408-753-4120",
@@ -1289,6 +1422,7 @@
     {
         "building": 2,
         "cube": "4119",
+        "floor": 4,
         "title": "Order Desk Representative",
         "office": "Santa Clara 44-4119",
         "phone": "+1-408-753-3981",
@@ -1298,6 +1432,7 @@
     {
         "building": 1,
         "cube": "3104",
+        "floor": 3,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-3104",
         "phone": "+1-408-753-4112",
@@ -1307,6 +1442,7 @@
     {
         "building": 1,
         "cube": "5082",
+        "floor": 5,
         "title": "Software Engineer Architect",
         "office": "Santa Clara 43-5082",
         "phone": "+1-408-753-4096",
@@ -1316,6 +1452,7 @@
     {
         "building": 1,
         "cube": "1030",
+        "floor": 1,
         "title": "Facilities Coordinator",
         "office": "Santa Clara 43-1030",
         "phone": "+1-408-753-4310",
@@ -1325,6 +1462,7 @@
     {
         "building": 2,
         "cube": "3077",
+        "floor": 3,
         "title": "Support Delivery Partner Mgr",
         "office": "Santa Clara 44-3077",
         "phone": "+1-408-216-5353",
@@ -1334,6 +1472,7 @@
     {
         "building": 1,
         "cube": "3024",
+        "floor": 3,
         "title": "Product Manager",
         "office": "Santa Clara 43-3024",
         "phone": "+1-408-753-3773",
@@ -1343,6 +1482,7 @@
     {
         "building": 2,
         "cube": "3112",
+        "floor": 3,
         "title": "Professional Services Engineer",
         "office": "Santa Clara 44-3112",
         "phone": "+1-408-753-3939",
@@ -1352,6 +1492,7 @@
     {
         "building": 2,
         "cube": "3054",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3054",
         "phone": "+1-408-216-5374",
@@ -1361,6 +1502,7 @@
     {
         "building": 2,
         "cube": "3118",
+        "floor": 3,
         "title": "Team Lead, Consulting Services",
         "office": "Santa Clara 44-3118",
         "phone": "415-215-4204",
@@ -1370,6 +1512,7 @@
     {
         "building": 2,
         "cube": "6071",
+        "floor": 6,
         "title": "Executive Assistant to CEO",
         "office": "Santa Clara 44-6071\/6075",
         "phone": "+1-408-753-3874",
@@ -1379,6 +1522,7 @@
     {
         "building": 2,
         "cube": "3022",
+        "floor": 3,
         "title": "E-TAC",
         "office": "Santa Clara 44-3022",
         "phone": "+1-408-753-3913",
@@ -1388,6 +1532,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Media Manager",
         "office": "Santa Clara 44-105",
         "phone": "+1-408-753-4288",
@@ -1397,6 +1542,7 @@
     {
         "building": 1,
         "cube": "3131",
+        "floor": 3,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-3131",
         "phone": "+1-408-753-4131",
@@ -1406,6 +1552,7 @@
     {
         "building": 2,
         "cube": "3035",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3035",
         "phone": "+1-408-216-5367",
@@ -1415,6 +1562,7 @@
     {
         "building": 1,
         "cube": "3102",
+        "floor": 3,
         "title": "Principal Malware Research Engineer",
         "office": "Santa Clara 43-3102",
         "phone": "+1-408-753-4135",
@@ -1424,6 +1572,7 @@
     {
         "building": 1,
         "cube": "2021",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2021",
         "phone": "+1-408-753-4130",
@@ -1433,6 +1582,7 @@
     {
         "building": 2,
         "cube": "3108",
+        "floor": 3,
         "title": "Dir, Education",
         "office": "Santa Clara 44-3108",
         "phone": "+1-408-753-3875",
@@ -1442,6 +1592,7 @@
     {
         "building": 2,
         "cube": "6021",
+        "floor": 6,
         "title": "Sr Financial Analyst",
         "office": "Santa Clara 44-6021",
         "phone": "+1-408-753-3756",
@@ -1451,6 +1602,7 @@
     {
         "building": 1,
         "cube": "5009",
+        "floor": 5,
         "title": "Trade Compliance Analyst",
         "office": "Santa Clara 43-5009",
         "phone": "+1-408-753-3845",
@@ -1460,6 +1612,7 @@
     {
         "building": 2,
         "cube": "3039",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3039",
         "phone": "+1-408-216-5373",
@@ -1469,6 +1622,7 @@
     {
         "building": 2,
         "cube": "5092",
+        "floor": 5,
         "title": "Sr Technical Recruiter",
         "office": "Santa Clara 44-5092",
         "phone": "+1-408-753-3799",
@@ -1478,6 +1632,7 @@
     {
         "building": 1,
         "cube": "5036",
+        "floor": 5,
         "title": "Hardware Test Engineer",
         "office": "Santa Clara 43-5036",
         "phone": "+1-408-753-3848",
@@ -1487,6 +1642,7 @@
     {
         "building": 2,
         "cube": "5111",
+        "floor": 5,
         "title": "Sr Mgr, Stock Administration",
         "office": "Santa Clara 44-5111",
         "phone": "+1-408-753-3768",
@@ -1496,6 +1652,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Technical Support Engineer, Tier 3 - Threat Specialist",
         "office": "Santa Clara",
         "phone": "+1-408-216-5331",
@@ -1505,6 +1662,7 @@
     {
         "building": 2,
         "cube": "2104",
+        "floor": 2,
         "title": "Desktop Support Specialist",
         "office": "Santa Clara 44-2104",
         "phone": "+1-408-753-3813",
@@ -1514,6 +1672,7 @@
     {
         "building": 2,
         "cube": "3037",
+        "floor": 3,
         "title": "Inside Systems Engineer",
         "office": "Santa Clara 44-3037",
         "phone": "+1-408-216-5369",
@@ -1523,6 +1682,7 @@
     {
         "building": 1,
         "cube": "3034",
+        "floor": 3,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-3034",
         "phone": "+1-408-638-3270",
@@ -1532,6 +1692,7 @@
     {
         "building": 1,
         "cube": "2063",
+        "floor": 2,
         "title": "VP, Quality Assurance",
         "office": "Santa Clara 43-2063",
         "phone": "+1-408-753-4137",
@@ -1541,6 +1702,7 @@
     {
         "building": 2,
         "cube": "3015",
+        "floor": 3,
         "title": "Mgr, Online Community",
         "office": "Santa Clara 44-3015",
         "phone": "+1-408-753-3952",
@@ -1550,6 +1712,7 @@
     {
         "building": 2,
         "cube": "4058",
+        "floor": 4,
         "title": "Head of Global Field Marketing",
         "office": "Santa Clara 44-4058",
         "phone": "+1-408-753-4291",
@@ -1559,6 +1722,7 @@
     {
         "building": 2,
         "cube": "2099",
+        "floor": 2,
         "title": "Desktop Systems Specialist",
         "office": "Santa Clara 44-2099",
         "phone": "+1-408-753-3822",
@@ -1568,6 +1732,7 @@
     {
         "building": 1,
         "cube": "3103",
+        "floor": 3,
         "title": "Sr Mgr, Malware Research",
         "office": "Santa Clara 43-3103",
         "phone": "+1-408-753-4139",
@@ -1577,6 +1742,7 @@
     {
         "building": 2,
         "cube": "5065",
+        "floor": 5,
         "title": "Mgr, G&A FP&A",
         "office": "Santa Clara 44-5065",
         "phone": "+1-408-753-3776",
@@ -1586,6 +1752,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "CEO",
         "office": "Santa Clara 44-625",
         "phone": "+1-408-753-3877",
@@ -1595,6 +1762,7 @@
     {
         "building": 1,
         "cube": "3058",
+        "floor": 3,
         "title": "Sr Tech Writer",
         "office": "Santa Clara 43-3058",
         "phone": "+1-408-753-3897",
@@ -1604,6 +1772,7 @@
     {
         "building": 1,
         "cube": "3036",
+        "floor": 3,
         "title": "Dir, Product Management",
         "office": "Santa Clara 43-3036",
         "phone": "+1-408-753-3898",
@@ -1613,6 +1782,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Marketing Programs Manager",
         "office": "Santa Clara",
         "phone": "+1-408-753-4292",
@@ -1622,6 +1792,7 @@
     {
         "building": 2,
         "cube": "3107",
+        "floor": 3,
         "title": "Education Coordinator",
         "office": "Santa Clara 44-3107",
         "phone": "+1-408-753-3943",
@@ -1631,6 +1802,7 @@
     {
         "building": 2,
         "cube": "5002",
+        "floor": 5,
         "title": "Travel Analyst",
         "office": "Santa Clara 44-5002",
         "phone": "+1-408-753-3779",
@@ -1640,6 +1812,7 @@
     {
         "building": 1,
         "cube": "2044",
+        "floor": 2,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-2044",
         "phone": "+1-408-753-4148",
@@ -1649,6 +1822,7 @@
     {
         "building": 1,
         "cube": "5038",
+        "floor": 5,
         "title": "Sr Manufacturing Test Development",
         "office": "Santa Clara 43-5038",
         "phone": "+1-408-753-3851",
@@ -1658,6 +1832,7 @@
     {
         "building": 2,
         "cube": "5018",
+        "floor": 5,
         "title": "Director, Accounting",
         "office": "Santa Clara 44-5018",
         "phone": "+1-408-753-3788",
@@ -1667,6 +1842,7 @@
     {
         "building": 1,
         "cube": "2047",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2047",
         "phone": "+1-408-753-4145",
@@ -1676,6 +1852,7 @@
     {
         "building": 1,
         "cube": "2061",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2061",
         "phone": "+1-408-753-4143",
@@ -1685,6 +1862,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Inventory Coordinator",
         "office": "Santa Clara 43-113",
         "phone": "+1-408-753-3850",
@@ -1694,6 +1872,7 @@
     {
         "building": 2,
         "cube": "3006",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3006",
         "phone": "+1-408-216-5387",
@@ -1703,6 +1882,7 @@
     {
         "building": 1,
         "cube": "3076",
+        "floor": 3,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-3076",
         "phone": "+1-408-753-4144",
@@ -1712,6 +1892,7 @@
     {
         "building": 1,
         "cube": "3025",
+        "floor": 3,
         "title": "Tech Marketing Engineer",
         "office": "Santa Clara 43-3025",
         "phone": "+1-408-753-3896",
@@ -1721,6 +1902,7 @@
     {
         "building": 1,
         "cube": "2037",
+        "floor": 2,
         "title": "Architect",
         "office": "Santa Clara 43-2037",
         "phone": "+1-408-753-4149",
@@ -1730,6 +1912,7 @@
     {
         "building": 2,
         "cube": "3115",
+        "floor": 3,
         "title": "Dir, Consulting Services",
         "office": "Santa Clara 44-3115",
         "phone": "+1-408-753-3955",
@@ -1739,6 +1922,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Mgr, Manufacturing Operations Finance",
         "office": "Santa Clara",
         "phone": "+1-408-753-3785",
@@ -1748,6 +1932,7 @@
     {
         "building": 2,
         "cube": "2096",
+        "floor": 2,
         "title": "Lead IT Applications Engineer",
         "office": "Santa Clara 44-2096",
         "phone": "+1-408-753-3823",
@@ -1757,6 +1942,7 @@
     {
         "building": 1,
         "cube": "3120",
+        "floor": 3,
         "title": "Principal Researcher",
         "office": "Santa Clara 43-3120",
         "phone": "+1-408-753-4141",
@@ -1766,6 +1952,7 @@
     {
         "building": 1,
         "cube": "3108",
+        "floor": 3,
         "title": "Engineering Consultant",
         "office": "Santa Clara 43-3108",
         "phone": "+1-408-753-4142",
@@ -1775,6 +1962,7 @@
     {
         "building": 2,
         "cube": "2133",
+        "floor": 2,
         "title": "Worldwide Leader- Inside Channel Sales",
         "office": "Santa Clara 44-2133 - A",
         "phone": "+1-408-753-4271",
@@ -1784,6 +1972,7 @@
     {
         "building": 2,
         "cube": "5091",
+        "floor": 5,
         "title": "Sr Technical Recruiter",
         "office": "Santa Clara 44-5091",
         "phone": "+1-408-753-3802",
@@ -1793,6 +1982,7 @@
     {
         "building": 1,
         "cube": "5035",
+        "floor": 5,
         "title": "Senior Mfg Test Development Engineer",
         "office": "Santa Clara 43-5035",
         "phone": "+1-408-753-3960",
@@ -1802,6 +1992,7 @@
     {
         "building": 2,
         "cube": "3114",
+        "floor": 3,
         "title": "Mgr, Consulting Services",
         "office": "Santa Clara 44-3114",
         "phone": "+1-408-753-3961",
@@ -1811,6 +2002,7 @@
     {
         "building": 2,
         "cube": "2002",
+        "floor": 2,
         "title": "Mgr, PMO",
         "office": "Santa Clara 44-2002",
         "phone": "+1-408-753-3826",
@@ -1820,6 +2012,7 @@
     {
         "building": 2,
         "cube": "6033",
+        "floor": 6,
         "title": "Sr Dir, Field Finance",
         "office": "Santa Clara 44-6033",
         "phone": "+1-408-753-4312",
@@ -1829,6 +2022,7 @@
     {
         "building": 1,
         "cube": "3071",
+        "floor": 3,
         "title": "Sr Principal, Software Engineer",
         "office": "Santa Clara 43-3071",
         "phone": "+1-408-753-4151",
@@ -1838,6 +2032,7 @@
     {
         "building": 1,
         "cube": "3106",
+        "floor": 3,
         "title": "Malware Research Engineer",
         "office": "Santa Clara 43-3106",
         "phone": "+1-408-753-4154",
@@ -1847,6 +2042,7 @@
     {
         "building": 2,
         "cube": "6086",
+        "floor": 6,
         "title": "VP, Legal Affairs",
         "office": "Santa Clara 44-6086",
         "phone": "+1-408-753-3862",
@@ -1856,6 +2052,7 @@
     {
         "building": 1,
         "cube": "5032",
+        "floor": 5,
         "title": "Supv, Repair, Purchase & Inv",
         "office": "Santa Clara 43-5032",
         "phone": "+1-408-753-3853",
@@ -1865,6 +2062,7 @@
     {
         "building": 2,
         "cube": "3041",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3041",
         "phone": "+1-408-216-5426",
@@ -1874,6 +2072,7 @@
     {
         "building": 1,
         "cube": "3126",
+        "floor": 3,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-3126",
         "phone": "+1-408-753-4155",
@@ -1883,6 +2082,7 @@
     {
         "building": 2,
         "cube": "2122",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2122",
         "phone": "+1-408-753-4272",
@@ -1892,6 +2092,7 @@
     {
         "building": 2,
         "cube": "6055",
+        "floor": 6,
         "title": "Assistant Facility Security Officer",
         "office": "Santa Clara 44-6055",
         "phone": "+1-408-753-3878",
@@ -1901,6 +2102,7 @@
     {
         "building": 1,
         "cube": "4044",
+        "floor": 4,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-4044",
         "phone": "+1-408-753-4156",
@@ -1910,6 +2112,7 @@
     {
         "building": 1,
         "cube": "5086",
+        "floor": 5,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-5086",
         "phone": "+1-408-753-4152",
@@ -1919,6 +2122,7 @@
     {
         "building": 2,
         "cube": "2142",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2142",
         "phone": "+1-408-753-4273",
@@ -1928,6 +2132,7 @@
     {
         "building": 1,
         "cube": "4040",
+        "floor": 4,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-4040",
         "phone": "+1-408-753-4200",
@@ -1937,6 +2142,7 @@
     {
         "building": 2,
         "cube": "6082",
+        "floor": 6,
         "title": "Paralegal\/Contracts Admin",
         "office": "Santa Clara 44-6082",
         "phone": "+1-408-753-3775",
@@ -1946,6 +2152,7 @@
     {
         "building": 1,
         "cube": "3021",
+        "floor": 3,
         "title": "Sr Technical Marketing Engineer",
         "office": "Santa Clara 43-3021",
         "phone": "+1-408-753-3900",
@@ -1955,6 +2162,7 @@
     {
         "building": 2,
         "cube": "4024",
+        "floor": 4,
         "title": "Sr Product Marketing Manager",
         "office": "Santa Clara 44-4024",
         "phone": "+1-408-753-4316",
@@ -1964,6 +2172,7 @@
     {
         "building": 2,
         "cube": "3055",
+        "floor": 3,
         "title": "Technical Marketing Engineer",
         "office": "Santa Clara 44-3055",
         "phone": "+1-408-753-3965",
@@ -1973,6 +2182,7 @@
     {
         "building": 2,
         "cube": "3094",
+        "floor": 3,
         "title": "Manager, Partner Services Programs",
         "office": "Santa Clara 44-3094",
         "phone": "+1-408-753-3957",
@@ -1982,6 +2192,7 @@
     {
         "building": 1,
         "cube": "3038",
+        "floor": 3,
         "title": "Sr Product Manager",
         "office": "Santa Clara 43-3038",
         "phone": "+1-408-753-3899",
@@ -1991,6 +2202,7 @@
     {
         "building": 2,
         "cube": "4114",
+        "floor": 4,
         "title": "Business Analyst",
         "office": "Santa Clara 44-4114",
         "phone": "+1-408-753-3988",
@@ -2000,6 +2212,7 @@
     {
         "building": 2,
         "cube": "4029",
+        "floor": 4,
         "title": "Sr Marketing Programs Manager",
         "office": "Santa Clara 44-4029",
         "phone": "+1-408-753-4321",
@@ -2009,6 +2222,7 @@
     {
         "building": 1,
         "cube": "2059",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2059",
         "phone": "+1-408-753-4161",
@@ -2018,6 +2232,7 @@
     {
         "building": 1,
         "cube": "3049",
+        "floor": 3,
         "title": "Product Line Manager",
         "office": "Santa Clara 43-3049",
         "phone": "+1-408-753-3901",
@@ -2027,6 +2242,7 @@
     {
         "building": 2,
         "cube": "3036",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3036",
         "phone": "+1-408-216-5371",
@@ -2036,6 +2252,7 @@
     {
         "building": 2,
         "cube": "4122",
+        "floor": 4,
         "title": "Sales Desk Manager",
         "office": "Santa Clara 44-4122",
         "phone": "+1-408-753-4325",
@@ -2045,6 +2262,7 @@
     {
         "building": 2,
         "cube": "5050",
+        "floor": 5,
         "title": "Sr HR Mgr & Business Partner",
         "office": "Santa Clara 44-5050",
         "phone": "+1-408-753-3804",
@@ -2054,6 +2272,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Prog Mgr, New Product Info",
         "office": "Santa Clara",
         "phone": "+1-408-753-3856",
@@ -2063,6 +2282,7 @@
     {
         "building": 1,
         "cube": "3125",
+        "floor": 3,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-3125",
         "phone": "+1-408-753-4163",
@@ -2072,6 +2292,7 @@
     {
         "building": 1,
         "cube": "3082",
+        "floor": 3,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-3082",
         "phone": "+1-408-753-4160",
@@ -2081,6 +2302,7 @@
     {
         "building": 2,
         "cube": "2011",
+        "floor": 2,
         "title": "Sr Dir, IT",
         "office": "Santa Clara 44-2011",
         "phone": "+1-408-753-3825",
@@ -2090,6 +2312,7 @@
     {
         "building": 2,
         "cube": "3078",
+        "floor": 3,
         "title": "Technical Account Manager",
         "office": "Santa Clara 44-3078",
         "phone": "+1-408-216-5397",
@@ -2099,6 +2322,7 @@
     {
         "building": 1,
         "cube": "2038",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2038",
         "phone": "+1-408-753-4164",
@@ -2108,6 +2332,7 @@
     {
         "building": 2,
         "cube": "6107",
+        "floor": 6,
         "title": "Mgr, Acctg Glbl Consolidations",
         "office": "Santa Clara 44-6107",
         "phone": "+1-408-753-4320",
@@ -2117,6 +2342,7 @@
     {
         "building": 1,
         "cube": "5029",
+        "floor": 5,
         "title": "Director, Technical Operations",
         "office": "Santa Clara 43-5029A",
         "phone": "+1-408-753-3855",
@@ -2126,6 +2352,7 @@
     {
         "building": 1,
         "cube": "5056",
+        "floor": 5,
         "title": "Manufacturing Engineer",
         "office": "Santa Clara 43-5056",
         "phone": "+1-408-753-3854",
@@ -2135,6 +2362,7 @@
     {
         "building": 2,
         "cube": "2041",
+        "floor": 2,
         "title": "Software Engineer - Salesforce",
         "office": "Santa Clara 44-2041",
         "phone": "+1-408-753-3831",
@@ -2144,6 +2372,7 @@
     {
         "building": 2,
         "cube": "3101",
+        "floor": 3,
         "title": "PAN Academy Manager",
         "office": "Santa Clara 44-3101",
         "phone": "+1-408-753-4319",
@@ -2153,6 +2382,7 @@
     {
         "building": 2,
         "cube": "4047",
+        "floor": 4,
         "title": "Sr Mgr, Marketing Operations",
         "office": "Santa Clara 44-4047",
         "phone": "+1-408-753-4323",
@@ -2162,6 +2392,7 @@
     {
         "building": 2,
         "cube": "2009",
+        "floor": 2,
         "title": "Sr Dir, IT Business Applications",
         "office": "Santa Clara 44-2009",
         "phone": "+1-408-753-4331",
@@ -2171,6 +2402,7 @@
     {
         "building": 2,
         "cube": "4123",
+        "floor": 4,
         "title": "Order Desk Lead",
         "office": "Santa Clara 44-4123",
         "phone": "+1-408-753-4338",
@@ -2180,6 +2412,7 @@
     {
         "building": 1,
         "cube": "3128",
+        "floor": 3,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-3128",
         "phone": "+1-408-753-4165",
@@ -2189,6 +2422,7 @@
     {
         "building": 2,
         "cube": "3044",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3044",
         "phone": "+1-408-216-5313",
@@ -2198,6 +2432,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "SVP, Chief Financial Officer",
         "office": "Santa Clara 44-603",
         "phone": "+1-408-753-3754",
@@ -2207,6 +2442,7 @@
     {
         "building": 2,
         "cube": "2031",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 44-2031",
         "phone": "+1-408-753-3969",
@@ -2216,6 +2452,7 @@
     {
         "building": 2,
         "cube": "2003",
+        "floor": 2,
         "title": "Dir, SAP Technology",
         "office": "Santa Clara 44-2003",
         "phone": "+1-408-753-4346",
@@ -2225,6 +2462,7 @@
     {
         "building": 2,
         "cube": "6010",
+        "floor": 6,
         "title": "Mgr, Corporate FP&A",
         "office": "Santa Clara 44-6010",
         "phone": "+1-408-753-4348",
@@ -2234,6 +2472,7 @@
     {
         "building": 1,
         "cube": "4008",
+        "floor": 4,
         "title": "Dir, ASIC Engineering",
         "office": "Santa Clara 43-4008",
         "phone": "+1-408-753-4171",
@@ -2243,6 +2482,7 @@
     {
         "building": 1,
         "cube": "4126",
+        "floor": 4,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-4126",
         "phone": "+1-408-753-4169",
@@ -2252,6 +2492,7 @@
     {
         "building": 2,
         "cube": "2018",
+        "floor": 2,
         "title": "Information Security Analyst",
         "office": "Santa Clara 44-2018",
         "phone": "+1-408-753-4243",
@@ -2261,6 +2502,7 @@
     {
         "building": 2,
         "cube": "4043",
+        "floor": 4,
         "title": "Head of Marketing Operations",
         "office": "Santa Clara 44-4043",
         "phone": "+1-408-753-4302",
@@ -2270,6 +2512,7 @@
     {
         "building": 1,
         "cube": "5117",
+        "floor": 5,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-5117",
         "phone": "+1-408-753-4237",
@@ -2279,6 +2522,7 @@
     {
         "building": 1,
         "cube": "4065",
+        "floor": 4,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-4065",
         "phone": "+1-408-753-4170",
@@ -2288,6 +2532,7 @@
     {
         "building": 2,
         "cube": "2036",
+        "floor": 2,
         "title": "Sr Business Analyst",
         "office": "Santa Clara 44-2036",
         "phone": "+1-408-753-4037",
@@ -2297,6 +2542,7 @@
     {
         "building": 2,
         "cube": "2034",
+        "floor": 2,
         "title": "Sr Bus Intelligence Analyst",
         "office": "Santa Clara 44-2034",
         "phone": "+1-408-753-4345",
@@ -2306,6 +2552,7 @@
     {
         "building": 2,
         "cube": "3044",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3044",
         "phone": "+1-408-216-5385",
@@ -2315,6 +2562,7 @@
     {
         "building": 2,
         "cube": "2007",
+        "floor": 2,
         "title": "IT Solutions Architect",
         "office": "Santa Clara 44-2007",
         "phone": "+1-408-753-4244",
@@ -2324,6 +2572,7 @@
     {
         "building": 2,
         "cube": "2029",
+        "floor": 2,
         "title": "Sr BI Developer \/ Analyst",
         "office": "Santa Clara 44-2029",
         "phone": "+1-408-753-4240",
@@ -2333,6 +2582,7 @@
     {
         "building": 1,
         "cube": "5087",
+        "floor": 5,
         "title": "VP, Management Software",
         "office": "Santa Clara 43-5087",
         "phone": "+1-408-753-4172",
@@ -2342,6 +2592,7 @@
     {
         "building": 1,
         "cube": "3124",
+        "floor": 3,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-3124",
         "phone": "+1-408-753-4157",
@@ -2351,6 +2602,7 @@
     {
         "building": 1,
         "cube": "3065",
+        "floor": 3,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-3065",
         "phone": "+1-408-753-4167",
@@ -2360,6 +2612,7 @@
     {
         "building": 1,
         "cube": "2074",
+        "floor": 2,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-2074",
         "phone": "+1-408-753-4168",
@@ -2369,6 +2622,7 @@
     {
         "building": 2,
         "cube": "3049",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3049",
         "phone": "+1-408-216-5383",
@@ -2378,6 +2632,7 @@
     {
         "building": 1,
         "cube": "5013",
+        "floor": 5,
         "title": "Logistics Coordinator",
         "office": "Santa Clara 43-5013",
         "phone": "+1-408-753-3858",
@@ -2387,6 +2642,7 @@
     {
         "building": 1,
         "cube": "3018",
+        "floor": 3,
         "title": "Sr Product Manager",
         "office": "Santa Clara 43-3018",
         "phone": "+1-408-753-3902",
@@ -2396,6 +2652,7 @@
     {
         "building": 2,
         "cube": "2027",
+        "floor": 2,
         "title": "SAP BI Lead",
         "office": "Santa Clara 44-2027",
         "phone": "+1-408-753-4174",
@@ -2405,6 +2662,7 @@
     {
         "building": 2,
         "cube": "3020",
+        "floor": 3,
         "title": "E-TAC",
         "office": "Santa Clara 44-3020",
         "phone": "+1-408-753-4239",
@@ -2414,6 +2672,7 @@
     {
         "building": 2,
         "cube": "6009",
+        "floor": 6,
         "title": "Dir, Corp FP&A",
         "office": "Santa Clara 44-6009",
         "phone": "+1-408-753-4235",
@@ -2423,6 +2682,7 @@
     {
         "building": 1,
         "cube": "4014",
+        "floor": 4,
         "title": "Architect ASIC Design",
         "office": "Santa Clara 43-4014",
         "phone": "+1-408-753-4177",
@@ -2432,6 +2692,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Remote Helpdesk Supervisor",
         "office": "Santa Clara",
         "phone": "+1-408-753-4215",
@@ -2441,6 +2702,7 @@
     {
         "building": 1,
         "cube": "5077",
+        "floor": 5,
         "title": "Mgr, Software Engineering",
         "office": "Santa Clara 43-5077",
         "phone": "+1-408-753-4178",
@@ -2450,6 +2712,7 @@
     {
         "building": 1,
         "cube": "5071",
+        "floor": 5,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-5071",
         "phone": "+1-408-753-4179",
@@ -2459,6 +2722,7 @@
     {
         "building": 2,
         "cube": "4033",
+        "floor": 4,
         "title": "Sr Events Marketing Manager",
         "office": "Santa Clara 44-4033",
         "phone": "+1-408-753-4233",
@@ -2468,6 +2732,7 @@
     {
         "building": 2,
         "cube": "2025",
+        "floor": 2,
         "title": "Sr SAP Basis \/ Systems Admin",
         "office": "Santa Clara 44-2025",
         "phone": "+1-408-753-4234",
@@ -2477,6 +2742,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Service Desk Technician",
         "office": "Santa Clara",
         "phone": "+1-408-753-4223",
@@ -2486,6 +2752,7 @@
     {
         "building": 2,
         "cube": "3019",
+        "floor": 3,
         "title": "Dir, WW Critical Issue Management",
         "office": "Santa Clara 44-3019",
         "phone": "+1-408-753-4232",
@@ -2495,6 +2762,7 @@
     {
         "building": 2,
         "cube": "5066",
+        "floor": 5,
         "title": "Sr Mgr, Technical Accounting and Policies",
         "office": "Santa Clara 44-5066",
         "phone": "+1-408-753-4231",
@@ -2504,6 +2772,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Service Desk Technician",
         "office": "Santa Clara",
         "phone": "+1-408-753-4216",
@@ -2513,6 +2782,7 @@
     {
         "building": 1,
         "cube": "5025",
+        "floor": 5,
         "title": "Manager, Order Fulfillment",
         "office": "Santa Clara 43-5025",
         "phone": "+1-408-753-3989",
@@ -2522,6 +2792,7 @@
     {
         "building": 1,
         "cube": "4013",
+        "floor": 4,
         "title": "Architect, ASIC DV",
         "office": "Santa Clara 43-4013",
         "phone": "+1-408-753-4226",
@@ -2531,6 +2802,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Service Desk Technician",
         "office": "Santa Clara",
         "phone": "+1-408-753-4220",
@@ -2540,6 +2812,7 @@
     {
         "building": 2,
         "cube": "2031",
+        "floor": 2,
         "title": "Sr SAP Business Analyst, PM",
         "office": "Santa Clara 44-2031",
         "phone": "+1-408-753-4229",
@@ -2549,6 +2822,7 @@
     {
         "building": 1,
         "cube": "4007",
+        "floor": 4,
         "title": "ASIC Engineer Architect",
         "office": "Santa Clara 43-4007",
         "phone": "+1-408-753-4175",
@@ -2558,6 +2832,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Tax Consultant",
         "office": "Santa Clara",
         "phone": null,
@@ -2567,6 +2842,7 @@
     {
         "building": 1,
         "cube": "4052",
+        "floor": 4,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-4052",
         "phone": "+1-408-753-4176",
@@ -2576,6 +2852,7 @@
     {
         "building": 1,
         "cube": "5108",
+        "floor": 5,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-5108",
         "phone": "+1-408-753-4180",
@@ -2585,6 +2862,7 @@
     {
         "building": 2,
         "cube": "2033",
+        "floor": 2,
         "title": "Mgr, IT Applications",
         "office": "Santa Clara 44-2033",
         "phone": "+1-408-753-4230",
@@ -2594,6 +2872,7 @@
     {
         "building": 2,
         "cube": "4102",
+        "floor": 4,
         "title": "Sr. Instructional Designer",
         "office": "Santa Clara 44-4102",
         "phone": "+1-408-753-4227",
@@ -2603,6 +2882,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Service Desk Technician",
         "office": "Santa Clara",
         "phone": "+1-408-753-4214",
@@ -2612,6 +2892,7 @@
     {
         "building": 2,
         "cube": "2030",
+        "floor": 2,
         "title": "Development Manager",
         "office": "Santa Clara 44-2030",
         "phone": "+1-408-753-6012",
@@ -2621,6 +2902,7 @@
     {
         "building": 1,
         "cube": "4096",
+        "floor": 4,
         "title": "Mgr, Engineering Tools",
         "office": "Santa Clara 43-4096B",
         "phone": "+1-408-753-4213",
@@ -2630,6 +2912,7 @@
     {
         "building": 2,
         "cube": "2095",
+        "floor": 2,
         "title": "Web Developer",
         "office": "Santa Clara 44-2095",
         "phone": "+1-408-753-3817",
@@ -2639,6 +2922,7 @@
     {
         "building": 1,
         "cube": "3098",
+        "floor": 3,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-3098",
         "phone": "+1-408-753-4185",
@@ -2648,6 +2932,7 @@
     {
         "building": 2,
         "cube": "4074",
+        "floor": 4,
         "title": "Sr Dir, Business Development",
         "office": "Santa Clara 44-4074",
         "phone": "+1-408-753-3794",
@@ -2657,6 +2942,7 @@
     {
         "building": 1,
         "cube": "5027",
+        "floor": 5,
         "title": "Sr Mgr, Demand Planning",
         "office": "Santa Clara 43-5027",
         "phone": "+1-408-753-4201",
@@ -2666,6 +2952,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "SVP, Bus and Corp Development",
         "office": "Santa Clara 44-416",
         "phone": "+1-408-753-3829",
@@ -2675,6 +2962,7 @@
     {
         "building": 1,
         "cube": "5059",
+        "floor": 5,
         "title": "Manager, Document Control",
         "office": "Santa Clara 43-5059",
         "phone": "+1-408-753-3844",
@@ -2684,6 +2972,7 @@
     {
         "building": 1,
         "cube": "2025",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2025",
         "phone": "+1-408-753-4187",
@@ -2693,6 +2982,7 @@
     {
         "building": 2,
         "cube": "5004",
+        "floor": 5,
         "title": "Accounts Payable Specialist",
         "office": "Santa Clara 44-5004",
         "phone": "+1-408-753-3772",
@@ -2702,6 +2992,7 @@
     {
         "building": 2,
         "cube": "4063",
+        "floor": 4,
         "title": "WW Channel Communications Manager",
         "office": "Santa Clara 44-4063",
         "phone": "+1-408-753-4209",
@@ -2711,6 +3002,7 @@
     {
         "building": 2,
         "cube": "3082",
+        "floor": 3,
         "title": "Technical Account Manager",
         "office": "Santa Clara 44-3082",
         "phone": "+1-408-216-5418",
@@ -2720,6 +3012,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "SAP SD Consultant",
         "office": "Santa Clara",
         "phone": null,
@@ -2729,6 +3022,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Order Fulfillment Specialist",
         "office": "Santa Clara",
         "phone": "+1-408-753-4342",
@@ -2738,6 +3032,7 @@
     {
         "building": 1,
         "cube": "4034",
+        "floor": 4,
         "title": "Principal Hardware Engineer",
         "office": "Santa Clara 43-4034",
         "phone": "+1-408-753-4184",
@@ -2747,6 +3042,7 @@
     {
         "building": 2,
         "cube": "5017",
+        "floor": 5,
         "title": "Accounting Supervisor",
         "office": "Santa Clara 44-5017",
         "phone": "+1-408-753-4207",
@@ -2756,6 +3052,7 @@
     {
         "building": 1,
         "cube": "5023",
+        "floor": 5,
         "title": "Sr Cost Analyst",
         "office": "Santa Clara 43-5023",
         "phone": "+1-408-753-4210",
@@ -2765,6 +3062,7 @@
     {
         "building": 2,
         "cube": "4023",
+        "floor": 4,
         "title": "Product Marketing Engineer",
         "office": "Santa Clara 44-4023",
         "phone": "+1-408-753-4208",
@@ -2774,6 +3072,7 @@
     {
         "building": 2,
         "cube": "3080",
+        "floor": 3,
         "title": "Mgr, Technical Account Mgmt",
         "office": "Santa Clara 44-3080",
         "phone": "+1-408-216-5416",
@@ -2783,6 +3082,7 @@
     {
         "building": 2,
         "cube": "3002",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3002",
         "phone": "+1-408-216-5382",
@@ -2792,6 +3092,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "SVP, WW Field Operations",
         "office": "Santa Clara 44-623",
         "phone": "+1-408-753-4314",
@@ -2801,6 +3102,7 @@
     {
         "building": 2,
         "cube": "2004",
+        "floor": 2,
         "title": "Sr Mgr, IT Applications",
         "office": "Santa Clara 44-2004",
         "phone": "+1-408-753-4313",
@@ -2810,6 +3112,7 @@
     {
         "building": 1,
         "cube": "4016",
+        "floor": 4,
         "title": "Principal Engineer, ASIC",
         "office": "Santa Clara 43-4016",
         "phone": "+1-408-753-4191",
@@ -2819,6 +3122,7 @@
     {
         "building": 1,
         "cube": "3107",
+        "floor": 3,
         "title": "Sr. Staff Engineer",
         "office": "Santa Clara 43-3107",
         "phone": "+1-408-753-4268",
@@ -2828,6 +3132,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Information Security Consultant",
         "office": "Santa Clara",
         "phone": null,
@@ -2837,6 +3142,7 @@
     {
         "building": 1,
         "cube": "5083",
+        "floor": 5,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-5083",
         "phone": "+1-408-753-4082",
@@ -2846,6 +3152,7 @@
     {
         "building": 1,
         "cube": "3123",
+        "floor": 3,
         "title": "Sr Staff Research Engineer",
         "office": "Santa Clara 43-3123",
         "phone": "+1-408-753-3977",
@@ -2855,6 +3162,7 @@
     {
         "building": 2,
         "cube": "2102",
+        "floor": 2,
         "title": "Lab Administrator",
         "office": "Santa Clara 44-2102",
         "phone": "+1-408-753-3814",
@@ -2864,6 +3172,7 @@
     {
         "building": 1,
         "cube": "3056",
+        "floor": 3,
         "title": "Dir, Technical Writing",
         "office": "Santa Clara 43-3056",
         "phone": "+1-408-753-3903",
@@ -2873,6 +3182,7 @@
     {
         "building": 1,
         "cube": "2060",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2060",
         "phone": "+1-408-753-3974",
@@ -2882,6 +3192,7 @@
     {
         "building": 2,
         "cube": "5088",
+        "floor": 5,
         "title": "Recruiter",
         "office": "Santa Clara 44-5088",
         "phone": "+1-408-753-3976",
@@ -2891,6 +3202,7 @@
     {
         "building": 2,
         "cube": "6077",
+        "floor": 6,
         "title": "Legal Consultant",
         "office": "Santa Clara 44-6077",
         "phone": "1-408-753-4194",
@@ -2900,6 +3212,7 @@
     {
         "building": 1,
         "cube": "3081",
+        "floor": 3,
         "title": "Staff Security Research Eng",
         "office": "Santa Clara 43-3081",
         "phone": "+1-408-753-3975",
@@ -2909,6 +3222,7 @@
     {
         "building": 2,
         "cube": "2128",
+        "floor": 2,
         "title": "Systems Engineer 1",
         "office": "Santa Clara 44-2128",
         "phone": "+1-408-753-3887",
@@ -2918,6 +3232,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "External Reporting Manager",
         "office": "Santa Clara 44-612",
         "phone": "+1-408-753-3978",
@@ -2927,6 +3242,7 @@
     {
         "building": 2,
         "cube": "5054",
+        "floor": 5,
         "title": "Manager, Compensation",
         "office": "Santa Clara 44-5054",
         "phone": "+1-408-753-3980",
@@ -2936,6 +3252,7 @@
     {
         "building": 2,
         "cube": "2032",
+        "floor": 2,
         "title": "Sr Developer, SAP BO\/BI",
         "office": "Santa Clara 44-2032",
         "phone": "+1-408-753-4242",
@@ -2945,6 +3262,7 @@
     {
         "building": 2,
         "cube": "5107",
+        "floor": 5,
         "title": "SVP, Human Resources",
         "office": "Santa Clara 44-5107",
         "phone": "+1-408-753-3793",
@@ -2954,6 +3272,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Business Analyst",
         "office": "Santa Clara",
         "phone": "+1-408-638-3274",
@@ -2963,6 +3282,7 @@
     {
         "building": 2,
         "cube": "2001",
+        "floor": 2,
         "title": "Dir, Information Security",
         "office": "Santa Clara 44-2001",
         "phone": "+1-408-753-4199",
@@ -2972,6 +3292,7 @@
     {
         "building": 2,
         "cube": "4120",
+        "floor": 4,
         "title": "Sales Desk Manager",
         "office": "Santa Clara 44-4120",
         "phone": "+1-408-753-4083",
@@ -2981,6 +3302,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Service Desk Technician",
         "office": "Santa Clara",
         "phone": "+1-408-753-3834",
@@ -2990,6 +3312,7 @@
     {
         "building": 2,
         "cube": "5042",
+        "floor": 5,
         "title": "Lead, HRIS Analyst",
         "office": "Santa Clara 44-5042",
         "phone": "+1-408-753-4270",
@@ -2999,6 +3322,7 @@
     {
         "building": 2,
         "cube": "5047",
+        "floor": 5,
         "title": "Compensation Analyst",
         "office": "Santa Clara 44-5047",
         "phone": "+1-408-753-4098",
@@ -3008,6 +3332,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "SAP Developer",
         "office": "Santa Clara",
         "phone": "+1-669-444-6003",
@@ -3017,6 +3342,7 @@
     {
         "building": 2,
         "cube": "3084",
+        "floor": 3,
         "title": "Sr Technical Account Manager",
         "office": "Santa Clara 44-3084",
         "phone": "+1-408-753-3757",
@@ -3026,6 +3352,7 @@
     {
         "building": 1,
         "cube": "5089",
+        "floor": 5,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-5089",
         "phone": "+1-408-753-4159",
@@ -3035,6 +3362,7 @@
     {
         "building": 2,
         "cube": "5044",
+        "floor": 5,
         "title": "Sr Manager, HR Development",
         "office": "Santa Clara 44-5044",
         "phone": "+1-408-753-3879",
@@ -3044,6 +3372,7 @@
     {
         "building": 2,
         "cube": "5056",
+        "floor": 5,
         "title": "Dir, Human Resources",
         "office": "Santa Clara 44-5056",
         "phone": "+1-408-753-3806",
@@ -3053,6 +3382,7 @@
     {
         "building": 1,
         "cube": "4017",
+        "floor": 4,
         "title": "Sr Staff Engineer, ASIC Design",
         "office": "Santa Clara 43-4017",
         "phone": "+1-408-753-4100",
@@ -3062,6 +3392,7 @@
     {
         "building": 2,
         "cube": "5064",
+        "floor": 5,
         "title": "Sr SEC Reporting Analyst",
         "office": "Santa Clara 44-5064",
         "phone": "+1-408-753-4134",
@@ -3071,6 +3402,7 @@
     {
         "building": 1,
         "cube": "5040",
+        "floor": 5,
         "title": "Manager, Test Engineer",
         "office": "Santa Clara 43-5040",
         "phone": "+1-408-753-4129",
@@ -3080,6 +3412,7 @@
     {
         "building": 1,
         "cube": "2034",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2034",
         "phone": "+1-408-753-3997",
@@ -3089,6 +3422,7 @@
     {
         "building": 1,
         "cube": "3074",
+        "floor": 3,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-3074",
         "phone": "+1-408-753-4147",
@@ -3098,6 +3432,7 @@
     {
         "building": 1,
         "cube": "4010",
+        "floor": 4,
         "title": "Principal ASIC Engineer",
         "office": "Santa Clara 43-4010",
         "phone": "+1-408-753-4336",
@@ -3107,6 +3442,7 @@
     {
         "building": 1,
         "cube": "2071",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2071",
         "phone": "+1-408-753-4182",
@@ -3116,6 +3452,7 @@
     {
         "building": 2,
         "cube": "3119",
+        "floor": 3,
         "title": "Professional Services Operations Analyst",
         "office": "Santa Clara 44-3119",
         "phone": "+1-408-753-3803",
@@ -3125,6 +3462,7 @@
     {
         "building": 1,
         "cube": "5001",
+        "floor": 5,
         "title": "Mgr, Service Logistics",
         "office": "Santa Clara 43-5001",
         "phone": "+1-408-753-3849",
@@ -3134,6 +3472,7 @@
     {
         "building": 1,
         "cube": "3057",
+        "floor": 3,
         "title": "Mgr, Technical Writing",
         "office": "Santa Clara 43-3057",
         "phone": "+1-408-753-3863",
@@ -3143,6 +3482,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "PwC Manager",
         "office": "Santa Clara",
         "phone": null,
@@ -3152,6 +3492,7 @@
     {
         "building": 2,
         "cube": "3105",
+        "floor": 3,
         "title": "Course Developer",
         "office": "Santa Clara 44-3105",
         "phone": "+1-408-753-3880",
@@ -3161,6 +3502,7 @@
     {
         "building": 1,
         "cube": "2028",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2028",
         "phone": "+1-408-753-3884",
@@ -3170,6 +3512,7 @@
     {
         "building": 2,
         "cube": "2133",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2133",
         "phone": "+1-408-753-4252",
@@ -3179,6 +3522,7 @@
     {
         "building": 1,
         "cube": "4012",
+        "floor": 4,
         "title": "Sr Staff Engineer, ASIC Design",
         "office": "Santa Clara 43-4012",
         "phone": "+1-408-753-3883",
@@ -3188,6 +3532,7 @@
     {
         "building": 2,
         "cube": "2160",
+        "floor": 2,
         "title": "Dir, Systems Engineering",
         "office": "Santa Clara 44-2160",
         "phone": "+1-408-202-4542",
@@ -3197,6 +3542,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Team Lead, Technical Trainer",
         "office": "Santa Clara",
         "phone": "+1-602-793-6154",
@@ -3206,6 +3552,7 @@
     {
         "building": 1,
         "cube": "3032",
+        "floor": 3,
         "title": "Product Manager",
         "office": "Santa Clara 43-3032",
         "phone": "+1-408-594-6957",
@@ -3215,6 +3562,7 @@
     {
         "building": 1,
         "cube": "5029",
+        "floor": 5,
         "title": "Operations Specialist",
         "office": "Santa Clara 43-5029",
         "phone": "+1-408-753-3805",
@@ -3224,6 +3572,7 @@
     {
         "building": 1,
         "cube": "2043",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2043",
         "phone": "+1-408-753-4205",
@@ -3233,6 +3582,7 @@
     {
         "building": 1,
         "cube": "5045",
+        "floor": 5,
         "title": "Senior Staff Product Engineer",
         "office": "Santa Clara 43-5045",
         "phone": "+1-408-753-3808",
@@ -3242,6 +3592,7 @@
     {
         "building": 2,
         "cube": "2143",
+        "floor": 2,
         "title": "Inside Sales Project Specialist",
         "office": "Santa Clara 44-2143",
         "phone": "+1-408-753-4289",
@@ -3251,6 +3602,7 @@
     {
         "building": 1,
         "cube": "1034",
+        "floor": 1,
         "title": "Dir, Facilities",
         "office": "Santa Clara 43-1034",
         "phone": "+1-408-753-3809",
@@ -3260,6 +3612,7 @@
     {
         "building": 1,
         "cube": "4009",
+        "floor": 4,
         "title": "Architect ASIC Physical Design",
         "office": "Santa Clara 43-4009",
         "phone": "+1-408-753-3864",
@@ -3269,6 +3622,7 @@
     {
         "building": 2,
         "cube": "5039",
+        "floor": 5,
         "title": "Dir, HRIS",
         "office": "Santa Clara 44-5039",
         "phone": "+1-408-753-3750",
@@ -3278,6 +3632,7 @@
     {
         "building": 1,
         "cube": "2023",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2023",
         "phone": "+1-408-753-4183",
@@ -3287,6 +3642,7 @@
     {
         "building": 2,
         "cube": "6002",
+        "floor": 6,
         "title": "Financial Analyst",
         "office": "Santa Clara 44-6002",
         "phone": "+1-408-753-3791",
@@ -3296,6 +3652,7 @@
     {
         "building": 1,
         "cube": "3002",
+        "floor": 3,
         "title": "Sr Systems Administrator",
         "office": "Santa Clara 43-3002A",
         "phone": "+1-408-753-4021",
@@ -3305,6 +3662,7 @@
     {
         "building": 2,
         "cube": "4061",
+        "floor": 4,
         "title": "Head, Channels Mktg & Programs",
         "office": "Santa Clara 44-4061",
         "phone": "+1-408-753-4276",
@@ -3314,6 +3672,7 @@
     {
         "building": 1,
         "cube": "4068",
+        "floor": 4,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-4068",
         "phone": "+1-408-753-4328",
@@ -3323,6 +3682,7 @@
     {
         "building": 2,
         "cube": "3005",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3005",
         "phone": "+1-408-216-5380",
@@ -3332,6 +3692,7 @@
     {
         "building": 1,
         "cube": "2020",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2020",
         "phone": "+1-408-753-4188",
@@ -3341,6 +3702,7 @@
     {
         "building": 1,
         "cube": "3067",
+        "floor": 3,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-3067",
         "phone": "+1-408-753-4192",
@@ -3350,6 +3712,7 @@
     {
         "building": 2,
         "cube": "3119",
+        "floor": 3,
         "title": "Mgr, Consulting Services",
         "office": "Santa Clara 44-3119",
         "phone": null,
@@ -3359,6 +3722,7 @@
     {
         "building": 2,
         "cube": "6078",
+        "floor": 6,
         "title": "Sr Contracts Manager",
         "office": "Santa Clara 44-6078",
         "phone": "+1-408-753-3781",
@@ -3368,6 +3732,7 @@
     {
         "building": 2,
         "cube": "2117",
+        "floor": 2,
         "title": "Sr Telecom Administrator",
         "office": "Santa Clara 44-2117",
         "phone": "+1-669-444-6089",
@@ -3377,6 +3742,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Accounting Consultant",
         "office": "Santa Clara",
         "phone": "+1-408-753-4193",
@@ -3386,6 +3752,7 @@
     {
         "building": 2,
         "cube": "4060",
+        "floor": 4,
         "title": "Channel Enablement Program Manager",
         "office": "Santa Clara 44-4060",
         "phone": "+1-408-753-3873",
@@ -3395,6 +3762,7 @@
     {
         "building": 1,
         "cube": "5072",
+        "floor": 5,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-5072",
         "phone": "+1 (408) 753-3810",
@@ -3404,6 +3772,7 @@
     {
         "building": 2,
         "cube": "3083",
+        "floor": 3,
         "title": "Technical Account Manager",
         "office": "Santa Clara 44-3083",
         "phone": "+1-408-216-5414",
@@ -3413,6 +3782,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Security Office - GAP Lobby",
         "office": "Santa Clara",
         "phone": null,
@@ -3422,6 +3792,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Security President",
         "office": "Santa Clara",
         "phone": "669-444-6000",
@@ -3431,6 +3802,7 @@
     {
         "building": 1,
         "cube": "2042",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2042",
         "phone": "+1-408-638-3284",
@@ -3440,6 +3812,7 @@
     {
         "building": 2,
         "cube": "6029",
+        "floor": 6,
         "title": "Sr Mgr, Field Finance",
         "office": "Santa Clara 44-6029",
         "phone": "+1-408-753-3946",
@@ -3449,6 +3822,7 @@
     {
         "building": 2,
         "cube": "6083",
+        "floor": 6,
         "title": "Sr Dir, IP Strategy",
         "office": "Santa Clara 44-6083",
         "phone": "+1-408-753-3956",
@@ -3458,6 +3832,7 @@
     {
         "building": 2,
         "cube": "4016",
+        "floor": 4,
         "title": "Industry Marketing Director",
         "office": "Santa Clara 44-4016",
         "phone": "+1-408-753-3951",
@@ -3467,6 +3842,7 @@
     {
         "building": 2,
         "cube": "2108",
+        "floor": 2,
         "title": "Senior Systems Administrator",
         "office": "Santa Clara 44-2108",
         "phone": "+1-408-753-4245",
@@ -3476,6 +3852,7 @@
     {
         "building": 2,
         "cube": "6085",
+        "floor": 6,
         "title": "Dir, Legal Affairs, Employment & Compliance",
         "office": "Santa Clara 44-6085",
         "phone": "+1-408-753-3948",
@@ -3485,6 +3862,7 @@
     {
         "building": 1,
         "cube": "4019",
+        "floor": 4,
         "title": "Sr. Staff Engineer, ASIC DV",
         "office": "Santa Clara 43-4019",
         "phone": "+1-408-753-3787",
@@ -3494,6 +3872,7 @@
     {
         "building": 1,
         "cube": "4115",
+        "floor": 4,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-4115",
         "phone": "+1-408-753-3963",
@@ -3503,6 +3882,7 @@
     {
         "building": 2,
         "cube": "3106",
+        "floor": 3,
         "title": "Education Systems Specialist",
         "office": "Santa Clara 44-3106",
         "phone": "+1-408-753-3962",
@@ -3512,6 +3892,7 @@
     {
         "building": 1,
         "cube": "3007",
+        "floor": 3,
         "title": "Mgr, IT Ops Unix\/Linux",
         "office": "Santa Clara 43-3007",
         "phone": "+1-408-753-3964",
@@ -3521,6 +3902,7 @@
     {
         "building": 1,
         "cube": "4015",
+        "floor": 4,
         "title": "Sr. Staff Engineer, ASIC DV",
         "office": "Santa Clara 43-4015",
         "phone": "+1-408-753-4285",
@@ -3530,6 +3912,7 @@
     {
         "building": 2,
         "cube": "2133",
+        "floor": 2,
         "title": "Inside Channel Business Manager",
         "office": "Santa Clara 44-2133 - B",
         "phone": "+1-408-753-4261",
@@ -3539,6 +3922,7 @@
     {
         "building": 2,
         "cube": "3113",
+        "floor": 3,
         "title": "Inside Prof Service Engineer",
         "office": "Santa Clara 44-3113",
         "phone": "+1-408-753-4317",
@@ -3548,6 +3932,7 @@
     {
         "building": 2,
         "cube": "5100",
+        "floor": 5,
         "title": "Immigration Programs Specialist",
         "office": "Santa Clara 44-5100",
         "phone": "+1-669-444-6021",
@@ -3557,6 +3942,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "VP, Acctg & Corp Controller",
         "office": "Santa Clara 44-532",
         "phone": "+1-408-753-3958",
@@ -3566,6 +3952,7 @@
     {
         "building": 2,
         "cube": "3013",
+        "floor": 3,
         "title": "Knowledge Engineer",
         "office": "Santa Clara 44-3013",
         "phone": "+1-408-753-4269",
@@ -3575,6 +3962,7 @@
     {
         "building": 2,
         "cube": "2005",
+        "floor": 2,
         "title": "Sr Mgr, IT Applications",
         "office": "Santa Clara 44-2005",
         "phone": "+1-669-444-6014",
@@ -3584,6 +3972,7 @@
     {
         "building": 1,
         "cube": "5021",
+        "floor": 5,
         "title": "Order Fulfillment Specialist",
         "office": "Santa Clara 43-5021",
         "phone": "+1-408-753-3959",
@@ -3593,6 +3982,7 @@
     {
         "building": 2,
         "cube": "3040",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3040",
         "phone": "+1-408-216-5379",
@@ -3602,6 +3992,7 @@
     {
         "building": 2,
         "cube": "3079",
+        "floor": 3,
         "title": "Technical Account Manager",
         "office": "Santa Clara 44-3079",
         "phone": "+1-408-753-4198",
@@ -3611,6 +4002,7 @@
     {
         "building": 2,
         "cube": "6043",
+        "floor": 6,
         "title": "Tax Manager",
         "office": "Santa Clara 44-6043",
         "phone": "+1-408-753-3970",
@@ -3620,6 +4012,7 @@
     {
         "building": 1,
         "cube": "3083",
+        "floor": 3,
         "title": "Security Research Engineer",
         "office": "Santa Clara 43-3083",
         "phone": "+1-408-753-3811",
@@ -3629,6 +4022,7 @@
     {
         "building": 1,
         "cube": "3030",
+        "floor": 3,
         "title": "Sr. Product Manager",
         "office": "Santa Clara 43-3030",
         "phone": "+1-669-444-6073",
@@ -3638,6 +4032,7 @@
     {
         "building": 2,
         "cube": "6071",
+        "floor": 6,
         "title": "Temp Executive Administrator",
         "office": "Santa Clara 44-6071",
         "phone": "408 753-3874",
@@ -3647,6 +4042,7 @@
     {
         "building": 2,
         "cube": "3001",
+        "floor": 3,
         "title": "Dir Customer Support & Del",
         "office": "Santa Clara 44-3001",
         "phone": "+1-408-216-5444",
@@ -3656,6 +4052,7 @@
     {
         "building": 1,
         "cube": "3135",
+        "floor": 3,
         "title": "Sr Staff Tools Engineer",
         "office": "Santa Clara 43-3135",
         "phone": "+1-408-753-4265",
@@ -3665,6 +4062,7 @@
     {
         "building": 1,
         "cube": "2048",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2048",
         "phone": "+1-408-638-3220",
@@ -3674,6 +4072,7 @@
     {
         "building": 2,
         "cube": "5049",
+        "floor": 5,
         "title": "Mgr, Benefit Programs",
         "office": "Santa Clara 44-5049",
         "phone": "+1-669-444-6908",
@@ -3683,6 +4082,7 @@
     {
         "building": 2,
         "cube": "3081",
+        "floor": 3,
         "title": "Executive Administrator",
         "office": "Santa Clara 44-3081",
         "phone": "+1-408-753-3982",
@@ -3692,6 +4092,7 @@
     {
         "building": 1,
         "cube": "2072",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2072",
         "phone": "+1-408-753-3212",
@@ -3701,6 +4102,7 @@
     {
         "building": 1,
         "cube": "5043",
+        "floor": 5,
         "title": "Sr Staff Quality Engineer",
         "office": "Santa Clara 43-5043",
         "phone": "+1-408-638-3211",
@@ -3710,6 +4112,7 @@
     {
         "building": 1,
         "cube": "5044",
+        "floor": 5,
         "title": "Sr Component Engineer",
         "office": "Santa Clara 43-5044",
         "phone": "+1-408-638-3202",
@@ -3719,6 +4122,7 @@
     {
         "building": 1,
         "cube": "3028",
+        "floor": 3,
         "title": "Sr Product Manager",
         "office": "Santa Clara 43-3028",
         "phone": "+1-408-753-3910",
@@ -3728,6 +4132,7 @@
     {
         "building": 2,
         "cube": "2090",
+        "floor": 2,
         "title": "Sr IT Software Engineer",
         "office": "Santa Clara 44-2090",
         "phone": "+1-408-638-3378",
@@ -3737,6 +4142,7 @@
     {
         "building": 2,
         "cube": "2132",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2132",
         "phone": "+1-669-444-6023",
@@ -3746,6 +4152,7 @@
     {
         "building": 2,
         "cube": "2120",
+        "floor": 2,
         "title": "Sr Network Systems Admin",
         "office": "Santa Clara 44-2120",
         "phone": "+1-669-444-7000",
@@ -3755,6 +4162,7 @@
     {
         "building": 2,
         "cube": "4116",
+        "floor": 4,
         "title": "Customer Account Coordinator",
         "office": "Santa Clara 44-4116",
         "phone": "+1-408-753-3765",
@@ -3764,6 +4172,7 @@
     {
         "building": 1,
         "cube": "5015",
+        "floor": 5,
         "title": "Order Fulfillment Specialist",
         "office": "Santa Clara 43-5015",
         "phone": "+1-408-638-3230",
@@ -3773,6 +4182,7 @@
     {
         "building": 2,
         "cube": "4015",
+        "floor": 4,
         "title": "Customer Reference Manager",
         "office": "Santa Clara 44-4015",
         "phone": "+1-408-638-3225",
@@ -3782,6 +4192,7 @@
     {
         "building": 2,
         "cube": "3053",
+        "floor": 3,
         "title": "Technical Support Engineer, Tier 3",
         "office": "Santa Clara 44-3053",
         "phone": "+1-408-216-5378",
@@ -3791,6 +4202,7 @@
     {
         "building": 1,
         "cube": "5012",
+        "floor": 5,
         "title": "Logistics Coordinator",
         "office": "Santa Clara 43-5012",
         "phone": "+1-408-638-3203",
@@ -3800,6 +4212,7 @@
     {
         "building": 2,
         "cube": "2110",
+        "floor": 2,
         "title": "Systems Administrator",
         "office": "Santa Clara 44-2110",
         "phone": "6694446001",
@@ -3809,6 +4222,7 @@
     {
         "building": 2,
         "cube": "4093",
+        "floor": 4,
         "title": "Dir, Sales Operations",
         "office": "Santa Clara 44-4093",
         "phone": "+1-408-638-3205",
@@ -3818,6 +4232,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Recruiter",
         "office": "Santa Clara",
         "phone": "+1-408-638-3222",
@@ -3827,6 +4242,7 @@
     {
         "building": 2,
         "cube": "5089",
+        "floor": 5,
         "title": "Recruiter, Engineering",
         "office": "Santa Clara 44-5089",
         "phone": "+1-408-638-3226",
@@ -3836,6 +4252,7 @@
     {
         "building": 1,
         "cube": "4041",
+        "floor": 4,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-4041",
         "phone": "+1-408-638-3214",
@@ -3845,6 +4262,7 @@
     {
         "building": 1,
         "cube": "4018",
+        "floor": 4,
         "title": "Principal Engineer, ASIC DV",
         "office": "Santa Clara 43-4018",
         "phone": "+1-408-638-3215",
@@ -3854,6 +4272,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "VP, WW Inside Sales",
         "office": "Santa Clara",
         "phone": null,
@@ -3863,6 +4282,7 @@
     {
         "building": 2,
         "cube": "2140",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2140",
         "phone": "+1-669-444-6005",
@@ -3872,6 +4292,7 @@
     {
         "building": 1,
         "cube": "4053",
+        "floor": 4,
         "title": "Principal Software Engineer",
         "office": "Santa Clara 43-4053",
         "phone": "+1-408-638-3224",
@@ -3881,6 +4302,7 @@
     {
         "building": 1,
         "cube": "2039",
+        "floor": 2,
         "title": "Sr Mgr, Software QA Engineering",
         "office": "Santa Clara 43-2039",
         "phone": "+1-408-638-3217",
@@ -3890,6 +4312,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Senior Accounts Manager",
         "office": "Santa Clara",
         "phone": "+1-408-638-3229",
@@ -3899,6 +4322,7 @@
     {
         "building": 1,
         "cube": "5111",
+        "floor": 5,
         "title": "Sr Staff Software Engineer",
         "office": "Santa Clara 43-5111",
         "phone": "+1-408-638-3233",
@@ -3908,6 +4332,7 @@
     {
         "building": 1,
         "cube": "3070",
+        "floor": 3,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-3070",
         "phone": "+1-408-638-3231",
@@ -3917,6 +4342,7 @@
     {
         "building": 1,
         "cube": "3080",
+        "floor": 3,
         "title": "Principal Malware Research Engineer",
         "office": "Santa Clara 43-3080",
         "phone": "+1-408-753-4108",
@@ -3926,6 +4352,7 @@
     {
         "building": 2,
         "cube": "3051",
+        "floor": 3,
         "title": "Premium Support Engineer",
         "office": "Santa Clara 44-3051",
         "phone": "+1-408-216-5377",
@@ -3935,6 +4362,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "IT Consultant",
         "office": "Santa Clara",
         "phone": null,
@@ -3944,6 +4372,7 @@
     {
         "building": 2,
         "cube": "4073",
+        "floor": 4,
         "title": "Solutions Architect",
         "office": "Santa Clara 44-4073",
         "phone": "+1-408-638-3232",
@@ -3953,6 +4382,7 @@
     {
         "building": 2,
         "cube": "6044",
+        "floor": 6,
         "title": "Treasurer",
         "office": "Santa Clara 44-6044",
         "phone": "+1-408-638-3240",
@@ -3962,6 +4392,7 @@
     {
         "building": 1,
         "cube": "2075",
+        "floor": 2,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-2075",
         "phone": "+1-408-638-3219",
@@ -3971,6 +4402,7 @@
     {
         "building": 2,
         "cube": "5010",
+        "floor": 5,
         "title": "Staff Accountant",
         "office": "Santa Clara 44-5010",
         "phone": "+1-408-753-4150",
@@ -3980,6 +4412,7 @@
     {
         "building": 2,
         "cube": "4046",
+        "floor": 4,
         "title": "Online Marketing Manager",
         "office": "Santa Clara 44-4046",
         "phone": "+1-408-638-3246",
@@ -3989,6 +4422,7 @@
     {
         "building": 1,
         "cube": "2033",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2033",
         "phone": "+1-408-638-3242",
@@ -3998,6 +4432,7 @@
     {
         "building": 1,
         "cube": "4071",
+        "floor": 4,
         "title": "Sr Program Manager",
         "office": "Santa Clara 43-4071",
         "phone": "+1-408-638-3241",
@@ -4007,6 +4442,7 @@
     {
         "building": 2,
         "cube": "2123",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2123",
         "phone": "+1-669-444-6010",
@@ -4016,6 +4452,7 @@
     {
         "building": 2,
         "cube": "2092",
+        "floor": 2,
         "title": "Sr IT Software Engineer",
         "office": "Santa Clara 44-2092",
         "phone": "(669) 444-6025",
@@ -4025,6 +4462,7 @@
     {
         "building": 1,
         "cube": "4038",
+        "floor": 4,
         "title": "Sr Staff Mechanical Engineer",
         "office": "Santa Clara 43-4038",
         "phone": "+1-408-638-3237",
@@ -4034,6 +4472,7 @@
     {
         "building": 1,
         "cube": "5079",
+        "floor": 5,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-5079",
         "phone": "+1-408-638-3254",
@@ -4043,6 +4482,7 @@
     {
         "building": 1,
         "cube": "5121",
+        "floor": 5,
         "title": "Software Engineer",
         "office": "Santa Clara 43-5121",
         "phone": "+1-408-753-4264",
@@ -4052,6 +4492,7 @@
     {
         "building": 2,
         "cube": "2098",
+        "floor": 2,
         "title": "Sr IT Software Engineer",
         "office": "Santa Clara 44-2098",
         "phone": "+1-669-444-6009",
@@ -4061,6 +4502,7 @@
     {
         "building": 2,
         "cube": "4053",
+        "floor": 4,
         "title": "Production Artist",
         "office": "Santa Clara 44-4053",
         "phone": "+1-408-753-4311",
@@ -4070,6 +4512,7 @@
     {
         "building": 1,
         "cube": "5070",
+        "floor": 5,
         "title": "Software Engineer",
         "office": "Santa Clara 43-5070",
         "phone": "+1-408-638-3255",
@@ -4079,6 +4522,7 @@
     {
         "building": 2,
         "cube": "5057",
+        "floor": 5,
         "title": "Sr Dir, Talent Acquisition",
         "office": "Santa Clara 44-5057",
         "phone": "+1-408-638-3206",
@@ -4088,6 +4532,7 @@
     {
         "building": 2,
         "cube": "2134",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2134",
         "phone": "+1-669-444-6017",
@@ -4097,6 +4542,7 @@
     {
         "building": 2,
         "cube": "4018",
+        "floor": 4,
         "title": "Sr Product Marketing Manager",
         "office": "Santa Clara 44-4018",
         "phone": "+1-408-638-3238",
@@ -4106,6 +4552,7 @@
     {
         "building": 1,
         "cube": "5073",
+        "floor": 5,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-5073",
         "phone": "+1-408-638-3209",
@@ -4115,6 +4562,7 @@
     {
         "building": 2,
         "cube": "2047",
+        "floor": 2,
         "title": "Team Lead, Desktop Support",
         "office": "Santa Clara 44-2047",
         "phone": "+1-669-444-6037",
@@ -4124,6 +4572,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "HR Assistant",
         "office": "Santa Clara",
         "phone": "+1-669-444-6024",
@@ -4133,6 +4582,7 @@
     {
         "building": 2,
         "cube": "5046",
+        "floor": 5,
         "title": "Mgr, HR Operations",
         "office": "Santa Clara 44-5046",
         "phone": "+1-408-753-3798",
@@ -4142,6 +4592,7 @@
     {
         "building": 1,
         "cube": "3130",
+        "floor": 3,
         "title": "Staff Software Engineer",
         "office": "Santa Clara 43-3130",
         "phone": "(408)638-3266",
@@ -4151,6 +4602,7 @@
     {
         "building": 2,
         "cube": "4017",
+        "floor": 4,
         "title": "Head, Corporate Communication",
         "office": "Santa Clara 44-4017",
         "phone": "+1-408-638-3280",
@@ -4160,6 +4612,7 @@
     {
         "building": 2,
         "cube": "2119",
+        "floor": 2,
         "title": "Network Systems Administrator",
         "office": "Santa Clara 44-2119",
         "phone": "+1-669-444-6039",
@@ -4169,6 +4622,7 @@
     {
         "building": 2,
         "cube": "3043",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3043",
         "phone": "+1-408-216-5398",
@@ -4178,6 +4632,7 @@
     {
         "building": 2,
         "cube": "4115",
+        "floor": 4,
         "title": "Sr Sales Commission Analyst",
         "office": "Santa Clara 44-4115",
         "phone": "+1-408-638-3256",
@@ -4187,6 +4642,7 @@
     {
         "building": 2,
         "cube": "5101",
+        "floor": 5,
         "title": "College Recruiter",
         "office": "Santa Clara 44-5101",
         "phone": "+1-408-753-3999",
@@ -4196,6 +4652,7 @@
     {
         "building": 2,
         "cube": "5009",
+        "floor": 5,
         "title": "International Accounting Supervisor",
         "office": "Santa Clara 44-5009",
         "phone": "+1-408-638-3252",
@@ -4205,6 +4662,7 @@
     {
         "building": 2,
         "cube": "4121",
+        "floor": 4,
         "title": "Order Desk Representative",
         "office": "Santa Clara 44-4121",
         "phone": "+1-408-638-3259",
@@ -4214,6 +4672,7 @@
     {
         "building": 1,
         "cube": "5039",
+        "floor": 5,
         "title": "Supply Base Manager",
         "office": "Santa Clara 43-5039",
         "phone": "+1-408-638-3257",
@@ -4223,6 +4682,7 @@
     {
         "building": 2,
         "cube": "2052",
+        "floor": 2,
         "title": "Mgr, Global Client Services",
         "office": "Santa Clara 44-2052",
         "phone": "+1-669-444-6018",
@@ -4232,6 +4692,7 @@
     {
         "building": 1,
         "cube": "3132",
+        "floor": 3,
         "title": "Sr Staff Software Engineer",
         "office": "Santa Clara 43-3132",
         "phone": "+1-408-753-4110",
@@ -4241,6 +4702,7 @@
     {
         "building": 2,
         "cube": "6056",
+        "floor": 6,
         "title": "Financial Analyst",
         "office": "Santa Clara 44-6056",
         "phone": "+1-408-638-3271",
@@ -4250,6 +4712,7 @@
     {
         "building": 2,
         "cube": "4044",
+        "floor": 4,
         "title": "Manager, Web Marketing",
         "office": "Santa Clara 44-4044",
         "phone": "+1-408-638-3269",
@@ -4259,6 +4722,7 @@
     {
         "building": 1,
         "cube": "2057",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2057",
         "phone": "+1-408-753-3881",
@@ -4268,6 +4732,7 @@
     {
         "building": 1,
         "cube": "4062",
+        "floor": 4,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-4062",
         "phone": "+1-408-638-3261",
@@ -4277,6 +4742,7 @@
     {
         "building": 1,
         "cube": "4039",
+        "floor": 4,
         "title": "Architect, Hardware Engineer",
         "office": "Santa Clara 43-4039",
         "phone": "+1-408-753-4030",
@@ -4286,6 +4752,7 @@
     {
         "building": 2,
         "cube": "4092",
+        "floor": 4,
         "title": "Executive Assistant, VP Sales",
         "office": "Santa Clara 44-4092",
         "phone": "+1-408-638-3272",
@@ -4295,6 +4762,7 @@
     {
         "building": 2,
         "cube": "2126",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2126",
         "phone": "+1-669-444-6031",
@@ -4304,6 +4772,7 @@
     {
         "building": 1,
         "cube": "4045",
+        "floor": 4,
         "title": "Software Engineer",
         "office": "Santa Clara 43-4045",
         "phone": "+1-408-638-3262",
@@ -4313,6 +4782,7 @@
     {
         "building": 2,
         "cube": "4052",
+        "floor": 4,
         "title": "Marketing Events Specialist",
         "office": "Santa Clara 44-4052",
         "phone": "+1-408-753-4247",
@@ -4322,6 +4792,7 @@
     {
         "building": 1,
         "cube": "5054",
+        "floor": 5,
         "title": "Supply Chain Product Manager",
         "office": "Santa Clara 43-5054",
         "phone": "+1-408-638-3207",
@@ -4331,6 +4802,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "PS Engineer EXT",
         "office": "Santa Clara",
         "phone": "+1-913-244-5497",
@@ -4340,6 +4812,7 @@
     {
         "building": 1,
         "cube": "3012",
+        "floor": 3,
         "title": "VP, Product Management",
         "office": "Santa Clara 43-3012",
         "phone": "+1-408-753-4318",
@@ -4349,6 +4822,7 @@
     {
         "building": 1,
         "cube": "4021",
+        "floor": 4,
         "title": "Principal Engineer, ASIC",
         "office": "Santa Clara 43-4021",
         "phone": "+1-408-753-3979",
@@ -4358,6 +4832,7 @@
     {
         "building": 2,
         "cube": "4089",
+        "floor": 4,
         "title": "Dir, Sales Enablmnt & Training",
         "office": "Santa Clara 44-4089",
         "phone": "+1-408-638-3273",
@@ -4367,6 +4842,7 @@
     {
         "building": 2,
         "cube": "6042",
+        "floor": 6,
         "title": "Treasury Analyst",
         "office": "Santa Clara 44-6042",
         "phone": "+1-408-638-3239",
@@ -4376,6 +4852,7 @@
     {
         "building": 2,
         "cube": "5005",
+        "floor": 5,
         "title": "Sr Accounting Ops Manager",
         "office": "Santa Clara 44-5005",
         "phone": "+1-408-753-3783",
@@ -4385,6 +4862,7 @@
     {
         "building": 2,
         "cube": "3093",
+        "floor": 3,
         "title": "Technical Account Manager",
         "office": "Santa Clara 44-3093",
         "phone": "408-216-5439",
@@ -4394,6 +4872,7 @@
     {
         "building": 2,
         "cube": "5026",
+        "floor": 5,
         "title": "Sr Dir, Internal Audit",
         "office": "Santa Clara 44-5026",
         "phone": "+1-408-638-3278",
@@ -4403,6 +4882,7 @@
     {
         "building": 1,
         "cube": "3052",
+        "floor": 3,
         "title": "Sr Technical Writer",
         "office": "Santa Clara 43-3052",
         "phone": "+1-408-638-3253",
@@ -4412,6 +4892,7 @@
     {
         "building": 1,
         "cube": "4011",
+        "floor": 4,
         "title": "Consulting Engineer",
         "office": "Santa Clara 43-4011",
         "phone": "+1-408-753-3264",
@@ -4421,6 +4902,7 @@
     {
         "building": 2,
         "cube": "3007",
+        "floor": 3,
         "title": "Sr Mgr, WW Lab Infrastructure",
         "office": "Santa Clara 44-3007",
         "phone": "+1-408-638-3281",
@@ -4430,6 +4912,7 @@
     {
         "building": 2,
         "cube": "3100",
+        "floor": 3,
         "title": "Education Onsite Coordinator",
         "office": "Santa Clara 44-3100",
         "phone": "+1-408-753-4349",
@@ -4439,6 +4922,7 @@
     {
         "building": 2,
         "cube": "2039",
+        "floor": 2,
         "title": "Salesforce.com System Administrator",
         "office": "Santa Clara 44-2039",
         "phone": "+1-669-444-6032",
@@ -4448,6 +4932,7 @@
     {
         "building": 2,
         "cube": "5064",
+        "floor": 5,
         "title": "Technical Accounting Manager",
         "office": "Santa Clara 44-5064",
         "phone": "+1-408-753-3911",
@@ -4457,6 +4942,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "test",
         "office": "Santa Clara",
         "phone": "+1-408-753-3813",
@@ -4466,6 +4952,7 @@
     {
         "building": 2,
         "cube": "2162",
+        "floor": 2,
         "title": "Consulting Systems Engineer",
         "office": "Santa Clara 44-2162",
         "phone": "+1-408-582-3163",
@@ -4475,6 +4962,7 @@
     {
         "building": 1,
         "cube": "1035",
+        "floor": 1,
         "title": "Global Head of Corporate Real Estate",
         "office": "Santa Clara 43-1035",
         "phone": "(669) 444-6115",
@@ -4484,6 +4972,7 @@
     {
         "building": 2,
         "cube": "3092",
+        "floor": 3,
         "title": "Support Account Manager",
         "office": "Santa Clara 44-3092",
         "phone": "+1-408-638-3294",
@@ -4493,6 +4982,7 @@
     {
         "building": 1,
         "cube": "5028",
+        "floor": 5,
         "title": "Operations Planning Analyst",
         "office": "Santa Clara 43-5028",
         "phone": "+1-408-638-3286",
@@ -4502,6 +4992,7 @@
     {
         "building": 2,
         "cube": "4091",
+        "floor": 4,
         "title": "Marketing Events Manager",
         "office": "Santa Clara 44-4091",
         "phone": "+1-408-638-3303",
@@ -4511,6 +5002,7 @@
     {
         "building": 2,
         "cube": "4097",
+        "floor": 4,
         "title": "Major Account Manager",
         "office": "Santa Clara 44-4097",
         "phone": "+1-669-444-6081",
@@ -4520,6 +5012,7 @@
     {
         "building": 2,
         "cube": "2100",
+        "floor": 2,
         "title": "Jr DBA Developer",
         "office": "Santa Clara 44-2100",
         "phone": "+1-408-753-3830",
@@ -4529,6 +5022,7 @@
     {
         "building": 2,
         "cube": "6050",
+        "floor": 6,
         "title": "Revenue Process Manager",
         "office": "Santa Clara 44-6050.B",
         "phone": "+1-408-638-3288",
@@ -4538,6 +5032,7 @@
     {
         "building": 2,
         "cube": "3089",
+        "floor": 3,
         "title": "Technical Account Manager",
         "office": "Santa Clara 44-3089",
         "phone": "+1-408-638-3296",
@@ -4547,6 +5042,7 @@
     {
         "building": 2,
         "cube": "3104",
+        "floor": 3,
         "title": "Course Developer",
         "office": "Santa Clara 44-3104",
         "phone": "+1-408-638-3304",
@@ -4556,6 +5052,7 @@
     {
         "building": 2,
         "cube": "3074",
+        "floor": 3,
         "title": "Sr Supprt Business Process Mgr",
         "office": "Santa Clara 44-3074",
         "phone": "+1-408-216-5452",
@@ -4565,6 +5062,7 @@
     {
         "building": 2,
         "cube": "3076",
+        "floor": 3,
         "title": "Support Readiness Prgm Speclst",
         "office": "Santa Clara 44-3076",
         "phone": "+1-408-216-5451",
@@ -4574,6 +5072,7 @@
     {
         "building": 2,
         "cube": "3011",
+        "floor": 3,
         "title": "Technical Support Engineer, Endpoint Security",
         "office": "Santa Clara 44-3011",
         "phone": "+1-408-216-5425",
@@ -4583,6 +5082,7 @@
     {
         "building": 2,
         "cube": "2101",
+        "floor": 2,
         "title": "Technical Account Manager",
         "office": "Santa Clara 44-2101",
         "phone": "+1-669-444-6051",
@@ -4592,6 +5092,7 @@
     {
         "building": 2,
         "cube": "6054",
+        "floor": 6,
         "title": "Mgr Sourcing and Spending",
         "office": "Santa Clara 44-6054",
         "phone": "+1-669-444-6049",
@@ -4601,6 +5102,7 @@
     {
         "building": 2,
         "cube": "4108",
+        "floor": 4,
         "title": "Sales Operations Analyst",
         "office": "Santa Clara 44-4108",
         "phone": "+1-408-638-3311",
@@ -4610,6 +5112,7 @@
     {
         "building": 1,
         "cube": "2046",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2046",
         "phone": "+1-408-753-4189",
@@ -4619,6 +5122,7 @@
     {
         "building": 2,
         "cube": "4099",
+        "floor": 4,
         "title": "Manager, Channel Sales",
         "office": "Santa Clara 44-4099",
         "phone": "+1-408-638-3307",
@@ -4628,6 +5132,7 @@
     {
         "building": 2,
         "cube": "2106",
+        "floor": 2,
         "title": "Desktop Support Specialist",
         "office": "Santa Clara 44-2106",
         "phone": "+1-669-444-6052",
@@ -4637,6 +5142,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Technical Support Engineer",
         "office": "Santa Clara",
         "phone": "+1-408-216-5391",
@@ -4646,6 +5152,7 @@
     {
         "building": 2,
         "cube": "4107",
+        "floor": 4,
         "title": "Sales Compensation Manager",
         "office": "Santa Clara 44-4107",
         "phone": "+1-408-638-3201",
@@ -4655,6 +5162,7 @@
     {
         "building": 2,
         "cube": "4101",
+        "floor": 4,
         "title": "Sales Operations Manager",
         "office": "Santa Clara 44-4101",
         "phone": "+1-408-638-3305",
@@ -4664,6 +5172,7 @@
     {
         "building": 1,
         "cube": "3048",
+        "floor": 3,
         "title": "Product Manager, Certification",
         "office": "Santa Clara 43-3048",
         "phone": "+1-408-753-4061",
@@ -4673,6 +5182,7 @@
     {
         "building": 2,
         "cube": "2044",
+        "floor": 2,
         "title": "Senior Salesforce Developer",
         "office": "Santa Clara 44-2044",
         "phone": "+1-408-753-4212",
@@ -4682,6 +5192,7 @@
     {
         "building": 1,
         "cube": "4063",
+        "floor": 4,
         "title": "Software Engineer",
         "office": "Santa Clara 43-4063",
         "phone": "+1-408-638-3248",
@@ -4691,6 +5202,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "HRIS Contractor",
         "office": "Santa Clara",
         "phone": null,
@@ -4700,6 +5212,7 @@
     {
         "building": 2,
         "cube": "3046",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3046",
         "phone": "+1-408-216-5438",
@@ -4709,6 +5222,7 @@
     {
         "building": 1,
         "cube": "3005",
+        "floor": 3,
         "title": "Senior System Administrator",
         "office": "Santa Clara 43-3005",
         "phone": "+1-669-444-6006",
@@ -4718,6 +5232,7 @@
     {
         "building": 2,
         "cube": "5006",
+        "floor": 5,
         "title": "Sr Accounts Payable Specialist",
         "office": "Santa Clara 44-5006",
         "phone": "+1-669-444-6033",
@@ -4727,6 +5242,7 @@
     {
         "building": 2,
         "cube": "3057",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3057",
         "phone": "+1-408-216-5437",
@@ -4736,6 +5252,7 @@
     {
         "building": 1,
         "cube": "2068",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2068",
         "phone": "408",
@@ -4745,6 +5262,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Digital News Producer",
         "office": "Santa Clara 44-105",
         "phone": "+1-503-970-0406",
@@ -4754,6 +5272,7 @@
     {
         "building": 2,
         "cube": "5019",
+        "floor": 5,
         "title": "Sr Mgr, Accounting",
         "office": "Santa Clara 44-5019",
         "phone": "+1-669-444-6057",
@@ -4763,6 +5282,7 @@
     {
         "building": 2,
         "cube": "5093",
+        "floor": 5,
         "title": "Dir, Recruiting, Sales & Engineering",
         "office": "Santa Clara 44-5093",
         "phone": "+1-408-638-3315",
@@ -4772,6 +5292,7 @@
     {
         "building": 2,
         "cube": "5048",
+        "floor": 5,
         "title": "Human Resources Generalist",
         "office": "Santa Clara 44-5048",
         "phone": "+1-408-753-3797",
@@ -4781,6 +5302,7 @@
     {
         "building": 1,
         "cube": "3037",
+        "floor": 3,
         "title": "Sr Product Manager",
         "office": "Santa Clara 43-3037",
         "phone": "+1-408-638-3314",
@@ -4790,6 +5312,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Project Manager",
         "office": "Santa Clara",
         "phone": null,
@@ -4799,6 +5322,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Architect",
         "office": "Santa Clara",
         "phone": null,
@@ -4808,6 +5332,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "International Accountant",
         "office": "Santa Clara",
         "phone": "+1-669-444-6065",
@@ -4817,6 +5342,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara",
         "phone": "+1-408-753-4138",
@@ -4826,6 +5352,7 @@
     {
         "building": 2,
         "cube": "2116",
+        "floor": 2,
         "title": "Sr Telecommunications Admin",
         "office": "Santa Clara 44-2116",
         "phone": "+1-669-444-6008",
@@ -4835,6 +5362,7 @@
     {
         "building": 2,
         "cube": "4095",
+        "floor": 4,
         "title": "VP, WW Channels",
         "office": "Santa Clara 44-4095",
         "phone": "+1-408-638-3299",
@@ -4844,6 +5372,7 @@
     {
         "building": 2,
         "cube": "6080",
+        "floor": 6,
         "title": "Contracts Coordinator",
         "office": "Santa Clara 44-6080",
         "phone": null,
@@ -4853,6 +5382,7 @@
     {
         "building": 2,
         "cube": "4041",
+        "floor": 4,
         "title": "Sales Compensation Intern",
         "office": "Santa Clara 44-4041",
         "phone": "+1-669-444-6058",
@@ -4862,6 +5392,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Staff Research Engineer",
         "office": "Santa Clara",
         "phone": null,
@@ -4871,6 +5402,7 @@
     {
         "building": 1,
         "cube": "3079",
+        "floor": 3,
         "title": "Sr Staff Engineer, Security",
         "office": "Santa Clara 43-3079",
         "phone": null,
@@ -4880,6 +5412,7 @@
     {
         "building": 2,
         "cube": "3073",
+        "floor": 3,
         "title": "Business Intelligence Analyst",
         "office": "Santa Clara 44-3073",
         "phone": "+1-408-216-5453",
@@ -4889,6 +5422,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Accounts Payable Specialist",
         "office": "Santa Clara",
         "phone": "+1-408-753-3780",
@@ -4898,6 +5432,7 @@
     {
         "building": 1,
         "cube": "3108",
+        "floor": 3,
         "title": "Editorial Staff",
         "office": "Santa Clara 43-3108",
         "phone": null,
@@ -4907,6 +5442,7 @@
     {
         "building": 2,
         "cube": "5097",
+        "floor": 5,
         "title": "Sr Recruiter, Engineering",
         "office": "Santa Clara 44-5097",
         "phone": "408-753-3800",
@@ -4916,6 +5452,7 @@
     {
         "building": 2,
         "cube": "3020",
+        "floor": 3,
         "title": "Professional Srvcs Ops Analyst",
         "office": "Santa Clara 44-3020",
         "phone": "+1-669-444-6059",
@@ -4925,6 +5462,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Executive Assistant",
         "office": "Santa Clara",
         "phone": "+1-408-753-3912",
@@ -4934,6 +5472,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Travel Analyst",
         "office": "Santa Clara",
         "phone": "+1-408-638-3200",
@@ -4943,6 +5482,7 @@
     {
         "building": 1,
         "cube": "2069",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2069",
         "phone": "+1 (408) 638-3243",
@@ -4952,6 +5492,7 @@
     {
         "building": 1,
         "cube": "5069",
+        "floor": 5,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-5069",
         "phone": "+1 -408- 753-4341",
@@ -4961,6 +5502,7 @@
     {
         "building": 1,
         "cube": "5067",
+        "floor": 5,
         "title": "Principal Engineer- Client\/Server Infrastructure",
         "office": "Santa Clara 43-5067",
         "phone": "+1-408-638-3332",
@@ -4970,6 +5512,7 @@
     {
         "building": 2,
         "cube": "4025",
+        "floor": 4,
         "title": "Head of Product Marketing and Programs",
         "office": "Santa Clara 44-4025",
         "phone": "+1-650-388-6022",
@@ -4979,6 +5522,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Staff Accountant",
         "office": "Santa Clara",
         "phone": null,
@@ -4988,6 +5532,7 @@
     {
         "building": 1,
         "cube": "4125",
+        "floor": 4,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-4125",
         "phone": "+1 (669) 444-7090",
@@ -4997,6 +5542,7 @@
     {
         "building": 2,
         "cube": "4059",
+        "floor": 4,
         "title": "Channel Marketing Program Manager",
         "office": "Santa Clara 44-4059",
         "phone": "408-638-3221",
@@ -5006,6 +5552,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Onsite Program Manager",
         "office": "Santa Clara",
         "phone": "+1 (408) 638-3204",
@@ -5015,6 +5562,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Recruiter",
         "office": "Santa Clara",
         "phone": "+1 (669) 444-6070",
@@ -5024,6 +5572,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Marketing Programs Manager",
         "office": "Santa Clara",
         "phone": "+1-408-753-4278",
@@ -5033,6 +5582,7 @@
     {
         "building": 2,
         "cube": "5012",
+        "floor": 5,
         "title": "Sr Mgr, International Accounting",
         "office": "Santa Clara 44-5012",
         "phone": "1-669-444-6038",
@@ -5042,6 +5592,7 @@
     {
         "building": 1,
         "cube": "3084",
+        "floor": 3,
         "title": "Vulnerability Research Engineer",
         "office": "Santa Clara 43-3084",
         "phone": null,
@@ -5051,6 +5602,7 @@
     {
         "building": 1,
         "cube": "1031",
+        "floor": 1,
         "title": "Supervisor, Worldwide Facilities",
         "office": "Santa Clara 43-1031",
         "phone": null,
@@ -5060,6 +5612,7 @@
     {
         "building": 2,
         "cube": "3072",
+        "floor": 3,
         "title": "Call Center Systems Specialist",
         "office": "Santa Clara 44-3072",
         "phone": "+1-408-216-5454",
@@ -5069,6 +5622,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Revenue Contractor",
         "office": "Santa Clara",
         "phone": null,
@@ -5078,6 +5632,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Corporate Receptionist",
         "office": "Santa Clara 4401 Lobby",
         "phone": null,
@@ -5087,6 +5642,7 @@
     {
         "building": 2,
         "cube": "4104",
+        "floor": 4,
         "title": "Sales Trainer",
         "office": "Santa Clara 44-4104",
         "phone": "+1-669-444-6072",
@@ -5096,6 +5652,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "SAP ABAP Developer",
         "office": "Santa Clara",
         "phone": null,
@@ -5105,6 +5662,7 @@
     {
         "building": 2,
         "cube": "6074",
+        "floor": 6,
         "title": "Vice President, Investor Relations",
         "office": "Santa Clara 44-6074",
         "phone": "+1-408-753-3872",
@@ -5114,6 +5672,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "HR Assistant",
         "office": "Santa Clara",
         "phone": null,
@@ -5123,6 +5682,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara",
         "phone": "+1-669-444-6074",
@@ -5132,6 +5692,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Dir, Comp & Benefits Operations",
         "office": "Santa Clara",
         "phone": "+1-669-444-6075",
@@ -5141,6 +5702,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Executive Assistant",
         "office": "Santa Clara",
         "phone": "+1-408-753-3882",
@@ -5150,6 +5712,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Security Guard",
         "office": "Santa Clara",
         "phone": null,
@@ -5159,6 +5722,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Security Guard",
         "office": "Santa Clara",
         "phone": null,
@@ -5168,6 +5732,7 @@
     {
         "building": 2,
         "cube": "4111",
+        "floor": 4,
         "title": "Sales Compensation and Design Analyst",
         "office": "Santa Clara 44-4111",
         "phone": "+1-669-444-6093",
@@ -5177,6 +5742,7 @@
     {
         "building": 2,
         "cube": "3038",
+        "floor": 3,
         "title": "Commissions Verification Specialist",
         "office": "Santa Clara 44-3038",
         "phone": "+1-408-638-3370",
@@ -5186,6 +5752,7 @@
     {
         "building": 1,
         "cube": "2056",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2056",
         "phone": "+1 (408) 638-3297",
@@ -5195,6 +5762,7 @@
     {
         "building": 2,
         "cube": "3114",
+        "floor": 3,
         "title": "Sr Mgr, Post Sales Services",
         "office": "Santa Clara 44-3114",
         "phone": "+1-408-216-5440",
@@ -5204,6 +5772,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Product Manager, Services",
         "office": "Santa Clara",
         "phone": "+1-669-444-6076",
@@ -5213,6 +5782,7 @@
     {
         "building": 1,
         "cube": "5003",
+        "floor": 5,
         "title": "RMA Specialist",
         "office": "Santa Clara 43-5003",
         "phone": "+1 (669) 444-6053",
@@ -5222,6 +5792,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "VP, Regional Sales",
         "office": "Santa Clara",
         "phone": "+1-650-868-2618",
@@ -5231,6 +5802,7 @@
     {
         "building": 2,
         "cube": "2021",
+        "floor": 2,
         "title": "SAP Developer",
         "office": "Santa Clara 44-2021",
         "phone": null,
@@ -5240,6 +5812,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Malware Research Engineer",
         "office": "Santa Clara",
         "phone": null,
@@ -5249,6 +5822,7 @@
     {
         "building": 2,
         "cube": "4000",
+        "floor": 4,
         "title": "Sr Product Marketing Manager",
         "office": "Santa Clara 44-4000",
         "phone": "+1 -669- 444-6083",
@@ -5258,6 +5832,7 @@
     {
         "building": 2,
         "cube": "4030",
+        "floor": 4,
         "title": "Sr Marketing Programs Manager",
         "office": "Santa Clara 44-4030",
         "phone": null,
@@ -5267,6 +5842,7 @@
     {
         "building": 2,
         "cube": "2037",
+        "floor": 2,
         "title": "Sales and Marketing Business Systems Analyst",
         "office": "Santa Clara 44-2037",
         "phone": "+1 669-444-6082",
@@ -5276,6 +5852,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr IT Application Engineer",
         "office": "Santa Clara",
         "phone": null,
@@ -5285,6 +5862,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Staff Hardware Engineer",
         "office": "Santa Clara",
         "phone": "+1-669-444-6084",
@@ -5294,6 +5872,7 @@
     {
         "building": 2,
         "cube": "5052",
+        "floor": 5,
         "title": "Compensation Analyst",
         "office": "Santa Clara 44-5052",
         "phone": "+1-669-444-6007",
@@ -5303,6 +5882,7 @@
     {
         "building": 2,
         "cube": "3010",
+        "floor": 3,
         "title": "Lab Administrator",
         "office": "Santa Clara 44-3010",
         "phone": "1-408-669-6085",
@@ -5312,6 +5892,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sales Compensation Design Manager",
         "office": "Santa Clara",
         "phone": "+1(669)444-7975",
@@ -5321,6 +5902,7 @@
     {
         "building": 1,
         "cube": "5005",
+        "floor": 5,
         "title": "Mgr, Global Logistics",
         "office": "Santa Clara 43-5005",
         "phone": null,
@@ -5330,6 +5912,7 @@
     {
         "building": 1,
         "cube": "4048",
+        "floor": 4,
         "title": "Mgr, SW Engineering",
         "office": "Santa Clara 43-4048",
         "phone": "408-638-3277",
@@ -5339,6 +5922,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Senior Financial Analyst",
         "office": "Santa Clara",
         "phone": "+1-669-444-6095",
@@ -5348,6 +5932,7 @@
     {
         "building": 2,
         "cube": "3102",
+        "floor": 3,
         "title": "Sr Instructional Designer",
         "office": "Santa Clara 44-3102",
         "phone": null,
@@ -5357,6 +5942,7 @@
     {
         "building": 2,
         "cube": "2010",
+        "floor": 2,
         "title": "VP, Chief Information Officer",
         "office": "Santa Clara 44-2010",
         "phone": "+1-408-638-3380",
@@ -5366,6 +5952,7 @@
     {
         "building": 1,
         "cube": "5120",
+        "floor": 5,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-5120",
         "phone": "+1-669- 444-6047",
@@ -5375,6 +5962,7 @@
     {
         "building": 2,
         "cube": "2088",
+        "floor": 2,
         "title": "SAP Consultant",
         "office": "Santa Clara 44-2088",
         "phone": "+1-408-638-3250",
@@ -5384,6 +5972,7 @@
     {
         "building": 1,
         "cube": "4020",
+        "floor": 4,
         "title": "Sr Staff Hardware Engineer",
         "office": "Santa Clara 43-4020",
         "phone": "+1-408- 753-4263",
@@ -5393,6 +5982,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Marketing Specialist",
         "office": "Santa Clara",
         "phone": "+1-669-444-6087",
@@ -5402,6 +5992,7 @@
     {
         "building": 2,
         "cube": "3047",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3047",
         "phone": "+1-408-216-5441",
@@ -5411,6 +6002,7 @@
     {
         "building": 2,
         "cube": "2125",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2125",
         "phone": "408-753-4257",
@@ -5420,6 +6012,7 @@
     {
         "building": 2,
         "cube": "4510",
+        "floor": 4,
         "title": "Stock Administration Consultant",
         "office": "Santa Clara 44-4510",
         "phone": "+1-(408)-638-3213",
@@ -5429,6 +6022,7 @@
     {
         "building": 2,
         "cube": "4094",
+        "floor": 4,
         "title": "Sales Executive Coordinator",
         "office": "Santa Clara - 44-4094",
         "phone": "+1-669- 444-6090",
@@ -5438,6 +6032,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Intern - Operations",
         "office": "Santa Clara",
         "phone": null,
@@ -5447,6 +6042,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Sourcing Analyst",
         "office": "Santa Clara",
         "phone": "+1 (408) 753-3782",
@@ -5456,6 +6052,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Security Guard",
         "office": "Santa Clara",
         "phone": null,
@@ -5465,6 +6062,7 @@
     {
         "building": 1,
         "cube": "3117",
+        "floor": 3,
         "title": "Distinguished Engineer",
         "office": "Santa Clara 43-3117",
         "phone": "+-1-669-444-6112",
@@ -5474,6 +6072,7 @@
     {
         "building": 1,
         "cube": "3113",
+        "floor": 3,
         "title": "Architect",
         "office": "Santa Clara 43-3113",
         "phone": "+1-669-444-6110",
@@ -5483,6 +6082,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Dir, Industry Marketing",
         "office": "Santa Clara",
         "phone": null,
@@ -5492,6 +6092,7 @@
     {
         "building": 2,
         "cube": "5028",
+        "floor": 5,
         "title": "Sr Internal Auditor",
         "office": "Santa Clara 44-5028",
         "phone": "+1-669-444-6061",
@@ -5501,6 +6102,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Senior Product Manager",
         "office": "Santa Clara",
         "phone": "+1-669-444-6096",
@@ -5510,6 +6112,7 @@
     {
         "building": 1,
         "cube": "3112",
+        "floor": 3,
         "title": "Editorial Staff",
         "office": "Santa Clara 43-3112",
         "phone": "+1-408-753-3824",
@@ -5519,6 +6122,7 @@
     {
         "building": 2,
         "cube": "4070",
+        "floor": 4,
         "title": "Telemarketing Associate",
         "office": "Santa Clara 44-4070",
         "phone": "+1-408-638-3371",
@@ -5528,6 +6132,7 @@
     {
         "building": 1,
         "cube": "4006",
+        "floor": 4,
         "title": "Staff Engineer Hardware",
         "office": "Santa Clara 43-4006",
         "phone": "+1-669-444-6097",
@@ -5537,6 +6142,7 @@
     {
         "building": 2,
         "cube": "3121",
+        "floor": 3,
         "title": "Sr Professional Services Program Manager",
         "office": "Santa Clara 44-3121",
         "phone": "+1-669-444-6036",
@@ -5546,6 +6152,7 @@
     {
         "building": 1,
         "cube": "3063",
+        "floor": 3,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-3063",
         "phone": "+1-669-444-6104",
@@ -5555,6 +6162,7 @@
     {
         "building": 2,
         "cube": "5080",
+        "floor": 5,
         "title": "Dir, Revenue",
         "office": "Santa Clara - 44-5080",
         "phone": "+1-408-638-3228",
@@ -5564,6 +6172,7 @@
     {
         "building": 1,
         "cube": "3073",
+        "floor": 3,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-3073",
         "phone": null,
@@ -5573,6 +6182,7 @@
     {
         "building": 1,
         "cube": "3107",
+        "floor": 3,
         "title": "Malware Research Engineer",
         "office": "Santa Clara 43-3107A",
         "phone": null,
@@ -5582,6 +6192,7 @@
     {
         "building": 1,
         "cube": "4123",
+        "floor": 4,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-4123",
         "phone": "+1-408-753-3876",
@@ -5591,6 +6202,7 @@
     {
         "building": 1,
         "cube": "3023",
+        "floor": 3,
         "title": "Product Line Manager",
         "office": "Santa Clara 43-3023",
         "phone": "+1-669-444-6105",
@@ -5600,6 +6212,7 @@
     {
         "building": 1,
         "cube": "2051",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2051",
         "phone": "+1-408-638-3285",
@@ -5609,6 +6222,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Business Analyst",
         "office": "Santa Clara",
         "phone": "+1-669-444-6144",
@@ -5618,6 +6232,7 @@
     {
         "building": 2,
         "cube": "6041",
+        "floor": 6,
         "title": "Sales and Use Tax Consultant",
         "office": "Santa Clara 44-6041",
         "phone": "+1 (408) 753-3751",
@@ -5627,6 +6242,7 @@
     {
         "building": 1,
         "cube": "1001",
+        "floor": 1,
         "title": "Sous Chef",
         "office": "Santa Clara 43-1001",
         "phone": null,
@@ -5636,6 +6252,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Channel Operations Specialist",
         "office": "Santa Clara, CA",
         "phone": "+1-669-444-6106",
@@ -5645,6 +6262,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Service Logistics Program Manager",
         "office": "Santa Clara",
         "phone": "+1-408-753-3950",
@@ -5654,6 +6272,7 @@
     {
         "building": 1,
         "cube": "5031",
+        "floor": 5,
         "title": "Mfg Test Development Engineer",
         "office": "Santa Clara 43-5031",
         "phone": null,
@@ -5663,6 +6282,7 @@
     {
         "building": 1,
         "cube": "3136",
+        "floor": 3,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-3136",
         "phone": "+1-408-753-3766",
@@ -5672,6 +6292,7 @@
     {
         "building": 1,
         "cube": "4064",
+        "floor": 4,
         "title": "Software Engineer",
         "office": "Santa Clara 43-4064",
         "phone": null,
@@ -5681,6 +6302,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Inventory Control Specialist",
         "office": "Santa Clara",
         "phone": "1-408-753-3838",
@@ -5690,6 +6312,7 @@
     {
         "building": 2,
         "cube": "5105",
+        "floor": 5,
         "title": "Sr Recruiter",
         "office": "Santa Clara 44-5105",
         "phone": "+1-669-444-7117",
@@ -5699,6 +6322,7 @@
     {
         "building": 1,
         "cube": "3039",
+        "floor": 3,
         "title": "Sr Product Manager",
         "office": "Santa Clara 43-3039",
         "phone": "+1-408-753-4062",
@@ -5708,6 +6332,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Technical Trainer",
         "office": "Santa Clara",
         "phone": "+1-408-242-1781",
@@ -5717,6 +6342,7 @@
     {
         "building": 2,
         "cube": "6007",
+        "floor": 6,
         "title": "Senior Financial Analyst",
         "office": "Santa Clara 44-6007",
         "phone": "+1 (408) 753-3857",
@@ -5726,6 +6352,7 @@
     {
         "building": 1,
         "cube": "5051",
+        "floor": 5,
         "title": "Supply Chain Product Manager",
         "office": "Santa Clara 43-5051",
         "phone": "+1-408-638-3351",
@@ -5735,6 +6362,7 @@
     {
         "building": 1,
         "cube": "2020",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2020",
         "phone": "+1-408-638-3287",
@@ -5744,6 +6372,7 @@
     {
         "building": 1,
         "cube": "5024",
+        "floor": 5,
         "title": "Sr Dir, Supply Chain Management",
         "office": "Santa Clara 43-5024A",
         "phone": "+1-669-444-7091",
@@ -5753,6 +6382,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Dir, Bus Development",
         "office": "Santa Clara",
         "phone": "+1-408-753-3995",
@@ -5762,6 +6392,7 @@
     {
         "building": 2,
         "cube": "5074",
+        "floor": 5,
         "title": "Senior Revenue Accounting Manager",
         "office": "Santa Clara 44-5074",
         "phone": "+1-669-444-6092",
@@ -5771,6 +6402,7 @@
     {
         "building": 2,
         "cube": "2141",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2141",
         "phone": "+1 (408) 753-3885",
@@ -5780,6 +6412,7 @@
     {
         "building": 2,
         "cube": "3031",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3031",
         "phone": "408-216-5428",
@@ -5789,6 +6422,7 @@
     {
         "building": 1,
         "cube": "3116",
+        "floor": 3,
         "title": "Software Engineer",
         "office": "Santa Clara 43-3116",
         "phone": null,
@@ -5798,6 +6432,7 @@
     {
         "building": 2,
         "cube": "4109",
+        "floor": 4,
         "title": "Sales Commission and Compensation Plans Analyst",
         "office": "Santa Clara 44-4109",
         "phone": "+-1 (669) 444-6108",
@@ -5807,6 +6442,7 @@
     {
         "building": 2,
         "cube": "5020",
+        "floor": 5,
         "title": "Sr US Payroll Accountant",
         "office": "Santa Clara 44-5020",
         "phone": "+1-408-638-3352",
@@ -5816,6 +6452,7 @@
     {
         "building": 2,
         "cube": "3117",
+        "floor": 3,
         "title": "Professional Services Engineer",
         "office": "Santa Clara - 44-3117",
         "phone": "+1-408-594-6957",
@@ -5825,6 +6462,7 @@
     {
         "building": 2,
         "cube": "3028",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3028",
         "phone": "+1408-638-3290",
@@ -5834,6 +6472,7 @@
     {
         "building": 2,
         "cube": "6010",
+        "floor": 6,
         "title": "Finance Manager",
         "office": "Santa Clara 44-6010",
         "phone": "+1 (408) 638-3364",
@@ -5843,6 +6482,7 @@
     {
         "building": 1,
         "cube": "2055",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2055",
         "phone": "+1-669-444-6109",
@@ -5852,6 +6492,7 @@
     {
         "building": 2,
         "cube": "5071",
+        "floor": 5,
         "title": "Associate Revenue Accountant",
         "office": "Santa Clara - 44-5071",
         "phone": "+1-669-444-6117",
@@ -5861,6 +6502,7 @@
     {
         "building": 1,
         "cube": "3111",
+        "floor": 3,
         "title": "Editorial Staff",
         "office": "Santa Clara 43-3111",
         "phone": "+1 (408) 638-3291",
@@ -5870,6 +6512,7 @@
     {
         "building": 1,
         "cube": "5057",
+        "floor": 5,
         "title": "Manufacturing Engineer",
         "office": "Santa Clara 43-5057",
         "phone": "+1 (408) 753-4344",
@@ -5879,6 +6522,7 @@
     {
         "building": 2,
         "cube": "6049",
+        "floor": 6,
         "title": "Sr Tax Analyst",
         "office": "Santa Clara 44-6049",
         "phone": "+1 (408) 753-4347",
@@ -5888,6 +6532,7 @@
     {
         "building": 2,
         "cube": "4103",
+        "floor": 4,
         "title": "Mgr, Sales Planning and Analytics",
         "office": "Santa Clara 44-4103",
         "phone": "+1 (408) 753-4259",
@@ -5897,6 +6542,7 @@
     {
         "building": 2,
         "cube": "5053",
+        "floor": 5,
         "title": "Sr HR Mgr & Business Partner",
         "office": "Santa Clara 44-5053",
         "phone": "+1 (408) 638-3249",
@@ -5906,6 +6552,7 @@
     {
         "building": 1,
         "cube": "3114",
+        "floor": 3,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-3114",
         "phone": null,
@@ -5915,6 +6562,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Technical Support Engineer",
         "office": "Santa Clara",
         "phone": "408-216-5311",
@@ -5924,6 +6572,7 @@
     {
         "building": 2,
         "cube": "3099",
+        "floor": 3,
         "title": "Course Developer",
         "office": "Santa Clara 44-3099",
         "phone": "+1 (408) 753-3990",
@@ -5933,6 +6582,7 @@
     {
         "building": 2,
         "cube": "2013",
+        "floor": 2,
         "title": "Contractor - IT Security",
         "office": "Santa Clara 44-2013",
         "phone": "+1 (669) 444-6170",
@@ -5942,6 +6592,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Staff Engineer",
         "office": "Santa Clara",
         "phone": null,
@@ -5951,6 +6602,7 @@
     {
         "building": 1,
         "cube": "4096",
+        "floor": 4,
         "title": "Staff Engineer, Configuration Mgmt",
         "office": "Santa Clara 43-4096A",
         "phone": "+1 (408) 753-4260",
@@ -5960,6 +6612,7 @@
     {
         "building": 1,
         "cube": "4098",
+        "floor": 4,
         "title": "Executive Administrator",
         "office": "Santa Clara 43-4098",
         "phone": "+1-669-444-6120",
@@ -5969,6 +6622,7 @@
     {
         "building": 1,
         "cube": "2035",
+        "floor": 2,
         "title": "Engineer",
         "office": "Santa Clara 43-2035",
         "phone": "+1-408-638-3268",
@@ -5978,6 +6632,7 @@
     {
         "building": 2,
         "cube": "4099",
+        "floor": 4,
         "title": "SLED Program Manager",
         "office": "Santa Clara 44-4099",
         "phone": null,
@@ -5987,6 +6642,7 @@
     {
         "building": 1,
         "cube": "5020",
+        "floor": 5,
         "title": "Operations Planning Analyst",
         "office": "Santa Clara 43-5020",
         "phone": "1-408-753-3763",
@@ -5996,6 +6652,7 @@
     {
         "building": 2,
         "cube": "4070",
+        "floor": 4,
         "title": "Product Marketing Manager",
         "office": "Santa Clara 44-4070",
         "phone": null,
@@ -6005,6 +6662,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Payroll Specialist",
         "office": "Santa Clara 44-531-D",
         "phone": "+1 408-638-3363",
@@ -6014,6 +6672,7 @@
     {
         "building": 2,
         "cube": "5079",
+        "floor": 5,
         "title": "Sr Technical Revenue Manager",
         "office": "Santa Clara 44-5079",
         "phone": null,
@@ -6023,6 +6682,7 @@
     {
         "building": 1,
         "cube": "3059",
+        "floor": 3,
         "title": "Sr Technical Writer",
         "office": "Santa Clara 43-3059",
         "phone": "+1 (408) 638-3348",
@@ -6032,6 +6692,7 @@
     {
         "building": 2,
         "cube": "5024",
+        "floor": 5,
         "title": "Payroll Consultant",
         "office": "Santa Clara 44-5024",
         "phone": "+1 408 753-3789",
@@ -6041,6 +6702,7 @@
     {
         "building": 2,
         "cube": "3116",
+        "floor": 3,
         "title": "Professional Services Engineer",
         "office": "Santa Clara 44-3116",
         "phone": "+1408 753-3923",
@@ -6050,6 +6712,7 @@
     {
         "building": 1,
         "cube": "5084",
+        "floor": 5,
         "title": "Staff Software Engineer",
         "office": "Santa Clara 43-5084",
         "phone": null,
@@ -6059,6 +6722,7 @@
     {
         "building": 1,
         "cube": "4121",
+        "floor": 4,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-4121",
         "phone": null,
@@ -6068,6 +6732,7 @@
     {
         "building": 1,
         "cube": "4061",
+        "floor": 4,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-4061",
         "phone": "(669) 444-7094",
@@ -6077,6 +6742,7 @@
     {
         "building": 1,
         "cube": "3113",
+        "floor": 3,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara - 43-3113",
         "phone": "+1-669-444-7907",
@@ -6086,6 +6752,7 @@
     {
         "building": 2,
         "cube": "4059",
+        "floor": 4,
         "title": "Marketing Assistant",
         "office": "Santa Clara 44-4059",
         "phone": "+1 (408) 753-3998",
@@ -6095,6 +6762,7 @@
     {
         "building": 2,
         "cube": "5068",
+        "floor": 5,
         "title": "Sr Revenue Accountant",
         "office": "Santa Clara 44-5068",
         "phone": "+1669-444-6113",
@@ -6104,6 +6772,7 @@
     {
         "building": 2,
         "cube": "3050",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara - 44-3050",
         "phone": null,
@@ -6113,6 +6782,7 @@
     {
         "building": 2,
         "cube": "5038",
+        "floor": 5,
         "title": "Sr HRIS Analyst",
         "office": "Santa Clara 44-5038",
         "phone": "+1 (669) 444-6035",
@@ -6122,6 +6792,7 @@
     {
         "building": 1,
         "cube": "3055",
+        "floor": 3,
         "title": "Sr. Technical Writer",
         "office": "Santa Clara 43-3055",
         "phone": "+1-669-444-7092",
@@ -6131,6 +6802,7 @@
     {
         "building": 2,
         "cube": "6088",
+        "floor": 6,
         "title": "Sr Financial Systems Analyst",
         "office": "Santa Clara 44-6088",
         "phone": null,
@@ -6140,6 +6812,7 @@
     {
         "building": 2,
         "cube": "4049",
+        "floor": 4,
         "title": "Salesforce.com Technical Administrator",
         "office": "Santa Clara 44-4049",
         "phone": "+1-669-444-6159",
@@ -6149,6 +6822,7 @@
     {
         "building": 2,
         "cube": "3018",
+        "floor": 3,
         "title": "Online Community Specialist",
         "office": "Santa Clara 44-3018",
         "phone": "+1408-753-3993",
@@ -6158,6 +6832,7 @@
     {
         "building": 2,
         "cube": "4089",
+        "floor": 4,
         "title": "Cyber Security Sales Expert",
         "office": "Santa Clara 44-4089",
         "phone": "+408-753-3935",
@@ -6167,6 +6842,7 @@
     {
         "building": 1,
         "cube": "5026",
+        "floor": 5,
         "title": "Supply Base Manager",
         "office": "Santa Clara 43-5026",
         "phone": "+1-669-444-6127",
@@ -6176,6 +6852,7 @@
     {
         "building": 2,
         "cube": "3016",
+        "floor": 3,
         "title": "Intern - Lab Administrator",
         "office": "Santa Clara 44-3016",
         "phone": null,
@@ -6185,6 +6862,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Mgr, Education Course Development & Certification",
         "office": "Santa Clara",
         "phone": null,
@@ -6194,6 +6872,7 @@
     {
         "building": 1,
         "cube": "5007",
+        "floor": 5,
         "title": "Intern - Manufacturing Engineer",
         "office": "Santa Clara 43-5007",
         "phone": "+1 (669) 444-6177",
@@ -6203,6 +6882,7 @@
     {
         "building": 1,
         "cube": "3069",
+        "floor": 3,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-3069",
         "phone": "+1 (408) 638-3392",
@@ -6212,6 +6892,7 @@
     {
         "building": 1,
         "cube": "4056",
+        "floor": 4,
         "title": "Intern - Engineering Tools",
         "office": "Santa Clara 43-4056",
         "phone": "+1 (669) 444-6180",
@@ -6221,6 +6902,7 @@
     {
         "building": 2,
         "cube": "6004",
+        "floor": 6,
         "title": "Sr Financial Analyst, Marketing",
         "office": "Santa Clara 44-6004",
         "phone": "+1-408-753-4301",
@@ -6230,6 +6912,7 @@
     {
         "building": 2,
         "cube": "3090",
+        "floor": 3,
         "title": "Technical Account Manager",
         "office": "Santa Clara 44-3090",
         "phone": "408-638-3289",
@@ -6239,6 +6922,7 @@
     {
         "building": 1,
         "cube": "3066",
+        "floor": 3,
         "title": "Intern - Software Engineer",
         "office": "Santa Clara 43-3066",
         "phone": "+1 (669) 444-6056",
@@ -6248,6 +6932,7 @@
     {
         "building": 2,
         "cube": "2050",
+        "floor": 2,
         "title": "Intern - IT Client Services",
         "office": "Santa Clara 44-2050",
         "phone": "+1-669-444-6069",
@@ -6257,6 +6942,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Onsite Program Manager",
         "office": "Santa Clara",
         "phone": "+1 (408) 638-3204",
@@ -6266,6 +6952,7 @@
     {
         "building": 2,
         "cube": "4057",
+        "floor": 4,
         "title": "Marketing Database Analyst",
         "office": "Santa Clara 44-4057",
         "phone": "+1 (408) 638-3245",
@@ -6275,6 +6962,7 @@
     {
         "building": 2,
         "cube": "4050",
+        "floor": 4,
         "title": "Web Technologies Manager",
         "office": "Santa Clara 44-4050",
         "phone": null,
@@ -6284,6 +6972,7 @@
     {
         "building": 2,
         "cube": "5103",
+        "floor": 5,
         "title": "Staffing Coordinator",
         "office": "Santa Clara 44-5103",
         "phone": "+1-408-753-4195",
@@ -6293,6 +6982,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Intern - Customer Account Data Analyst",
         "office": "Santa Clara",
         "phone": null,
@@ -6302,6 +6992,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Staff Engineer",
         "office": "Santa Clara",
         "phone": "+1-408-753-3929",
@@ -6311,6 +7002,7 @@
     {
         "building": 1,
         "cube": "4051",
+        "floor": 4,
         "title": "Intern - Platform Engineer",
         "office": "Santa Clara 43-4051",
         "phone": "+1-669-444-7102",
@@ -6320,6 +7012,7 @@
     {
         "building": 1,
         "cube": "3141",
+        "floor": 3,
         "title": "Intern- Security Threat Research Engineer",
         "office": "Santa Clara 43-3141",
         "phone": "+1 (408) 638-3353",
@@ -6329,6 +7022,7 @@
     {
         "building": 2,
         "cube": "4085",
+        "floor": 4,
         "title": "Sr Content Manager",
         "office": "Santa Clara 44-4085",
         "phone": "+1 (408) 753-3972",
@@ -6338,6 +7032,7 @@
     {
         "building": 2,
         "cube": "3088",
+        "floor": 3,
         "title": "Intern - Partner Services Programs",
         "office": "Santa Clara 44-3088",
         "phone": "+1-408-753-4256",
@@ -6347,6 +7042,7 @@
     {
         "building": 2,
         "cube": "2008",
+        "floor": 2,
         "title": "Sr Dir, IT Infrastructure and Operations",
         "office": "Santa Clara, 44-2008",
         "phone": "+1-669-444-7103",
@@ -6356,6 +7052,7 @@
     {
         "building": 1,
         "cube": "5075",
+        "floor": 5,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-5075",
         "phone": "669-444-6060",
@@ -6365,6 +7062,7 @@
     {
         "building": 1,
         "cube": "5068",
+        "floor": 5,
         "title": null,
         "office": "Santa Clara 43-5068",
         "phone": "+1 (408) 753-4290",
@@ -6374,6 +7072,7 @@
     {
         "building": 2,
         "cube": "6086",
+        "floor": 6,
         "title": "Sr Financial Analyst, G&A",
         "office": "Santa Clara 44-6086",
         "phone": null,
@@ -6383,6 +7082,7 @@
     {
         "building": 2,
         "cube": "4022",
+        "floor": 4,
         "title": "Sr Product Marketing, Global 2000 Programs",
         "office": "Santa Clara, 44-4022",
         "phone": "+1-669-444-6138",
@@ -6392,6 +7092,7 @@
     {
         "building": 2,
         "cube": "4004",
+        "floor": 4,
         "title": "Sr Mgr, Marketing Events Mgmt",
         "office": "Santa Clara 44-4004",
         "phone": "+1-669-444-6134",
@@ -6401,6 +7102,7 @@
     {
         "building": 1,
         "cube": "3105",
+        "floor": 3,
         "title": "Intern - Security Threat Research",
         "office": "Santa Clara 43-3105",
         "phone": "+1-669-444-6133",
@@ -6410,6 +7112,7 @@
     {
         "building": 2,
         "cube": "6088",
+        "floor": 6,
         "title": "Executive Assistant",
         "office": "Santa Clara 44-6088",
         "phone": "+1-669-444-7104",
@@ -6419,6 +7122,7 @@
     {
         "building": 2,
         "cube": "4055",
+        "floor": 4,
         "title": "Marketing Systems Manager",
         "office": "Santa Clara 44-4055",
         "phone": "+1 (408) 753-3827",
@@ -6428,6 +7132,7 @@
     {
         "building": 1,
         "cube": "5039",
+        "floor": 5,
         "title": "Risk Manager",
         "office": "Santa Clara 43-5039",
         "phone": null,
@@ -6437,6 +7142,7 @@
     {
         "building": 2,
         "cube": "2038",
+        "floor": 2,
         "title": "PM - SAP Revanue Recognition",
         "office": "Santa Clara 44-2038",
         "phone": "+1 (408) 638-3234",
@@ -6446,6 +7152,7 @@
     {
         "building": 1,
         "cube": "4095",
+        "floor": 4,
         "title": "Staff Engineer Software",
         "office": "Santa Clara 43-4095A",
         "phone": "+1 (408) 638-3448",
@@ -6455,6 +7162,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Application Support Manager",
         "office": "Santa Clara",
         "phone": "+1-669-444-6068",
@@ -6464,6 +7172,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Marketing Operations Manager",
         "office": "Santa Clara",
         "phone": null,
@@ -6473,6 +7182,7 @@
     {
         "building": 1,
         "cube": "3007",
+        "floor": 3,
         "title": "Dir, Technical Operations",
         "office": "Santa Clara 43-3007A",
         "phone": "+1-408-753-4046",
@@ -6482,6 +7192,7 @@
     {
         "building": 2,
         "cube": "5114",
+        "floor": 5,
         "title": "Staffing Coordinator",
         "office": "Santa Clara 44-5114",
         "phone": "+1-408-753-3966",
@@ -6491,6 +7202,7 @@
     {
         "building": 1,
         "cube": "3015",
+        "floor": 3,
         "title": "Sr Product Manager",
         "office": "Santa Clara 43-3015",
         "phone": "+1 (408) 753-3886",
@@ -6500,6 +7212,7 @@
     {
         "building": 1,
         "cube": "5066",
+        "floor": 5,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-5066",
         "phone": null,
@@ -6509,6 +7222,7 @@
     {
         "building": 2,
         "cube": "4060",
+        "floor": 4,
         "title": "Web Project Manager",
         "office": "Santa Clara 44-4060",
         "phone": "+1-669-444-6135",
@@ -6518,6 +7232,7 @@
     {
         "building": 2,
         "cube": "4029",
+        "floor": 4,
         "title": "Marketing Project Manager",
         "office": "Santa Clara 44-4029",
         "phone": "+1 (408) 638-3382",
@@ -6527,6 +7242,7 @@
     {
         "building": 2,
         "cube": "4007",
+        "floor": 4,
         "title": "Channel Operations Program Manager",
         "office": "Santa Clara 44-4007a",
         "phone": null,
@@ -6536,6 +7252,7 @@
     {
         "building": 1,
         "cube": "2082",
+        "floor": 2,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-2082A",
         "phone": null,
@@ -6545,6 +7262,7 @@
     {
         "building": 2,
         "cube": "2148",
+        "floor": 2,
         "title": "Channel Programs Specialist",
         "office": "Santa Clara 44-2148",
         "phone": "+1-669-444-7109",
@@ -6554,6 +7272,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "HQ - Facilities Technician (RCC)",
         "office": "Santa Clara",
         "phone": null,
@@ -6563,6 +7282,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "VP, Global Tax",
         "office": "Santa Clara",
         "phone": "+1-408-753-3755",
@@ -6572,6 +7292,7 @@
     {
         "building": 2,
         "cube": "3072",
+        "floor": 3,
         "title": "Sr Support Salesforce Administrator",
         "office": "Santa Clara 44-3072",
         "phone": null,
@@ -6581,6 +7302,7 @@
     {
         "building": 1,
         "cube": "3110",
+        "floor": 3,
         "title": "Editorial Staff",
         "office": "Santa Clara 43-3110",
         "phone": "+1-408-753-4332",
@@ -6590,6 +7312,7 @@
     {
         "building": 2,
         "cube": "4009",
+        "floor": 4,
         "title": "Product Marketing Manager, Advanced Threat Prevention",
         "office": "Santa Clara 44-4009",
         "phone": "+1 408 753 6147",
@@ -6599,6 +7322,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Enviornment Health and Safety Specialist",
         "office": "Santa Clara",
         "phone": null,
@@ -6608,6 +7332,7 @@
     {
         "building": 2,
         "cube": "6050",
+        "floor": 6,
         "title": "Sr Finance Strategy Manager",
         "office": "Santa Clara 44-6050.A",
         "phone": "+1-669-444-6146",
@@ -6617,6 +7342,7 @@
     {
         "building": 2,
         "cube": "5002",
+        "floor": 5,
         "title": "Accounts Payable Specialist",
         "office": "Santa Clara 44-5002",
         "phone": "+1-669-444-6151",
@@ -6626,6 +7352,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Mgr, Inside Sales",
         "office": "Santa Clara",
         "phone": "+1-669-444-6139",
@@ -6635,6 +7362,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Payroll Accountant",
         "office": "Santa Clara 44-531-A",
         "phone": null,
@@ -6644,6 +7372,7 @@
     {
         "building": 2,
         "cube": "2101",
+        "floor": 2,
         "title": "Desktop Support Specialist",
         "office": "Santa Clara 44-2101",
         "phone": "+1-669 444-6062",
@@ -6653,6 +7382,7 @@
     {
         "building": 2,
         "cube": "2130",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2130",
         "phone": "+1-408-753-4253",
@@ -6662,6 +7392,7 @@
     {
         "building": 2,
         "cube": "3008",
+        "floor": 3,
         "title": "Consultant",
         "office": "Santa Clara 44-3008",
         "phone": null,
@@ -6671,6 +7402,7 @@
     {
         "building": 2,
         "cube": "3011",
+        "floor": 3,
         "title": "Lab Technician",
         "office": "Santa Clara 44-3011",
         "phone": "+1 (669) 444-6136",
@@ -6680,6 +7412,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Payroll Accountant",
         "office": "Santa Clara 44-531-C",
         "phone": null,
@@ -6689,6 +7422,7 @@
     {
         "building": 1,
         "cube": "2066",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2066",
         "phone": "+1-669-444-6166",
@@ -6698,6 +7432,7 @@
     {
         "building": 1,
         "cube": "3095",
+        "floor": 3,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-3095",
         "phone": null,
@@ -6707,6 +7442,7 @@
     {
         "building": 1,
         "cube": "2016",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2016",
         "phone": "+1 (408) 753-3819",
@@ -6716,6 +7452,7 @@
     {
         "building": 1,
         "cube": "5050",
+        "floor": 5,
         "title": "Sr Supply Base Manager",
         "office": "Santa Clara 43-5050",
         "phone": "+1 (408) 638-3349",
@@ -6725,6 +7462,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "POC (Procf of Concept) Engineer",
         "office": "Santa Clara",
         "phone": "+1-669-444-7111",
@@ -6734,6 +7472,7 @@
     {
         "building": 2,
         "cube": "4019",
+        "floor": 4,
         "title": "Dir, Product Marketing",
         "office": "Santa Clara 44-4019",
         "phone": null,
@@ -6743,6 +7482,7 @@
     {
         "building": 1,
         "cube": "3064",
+        "floor": 3,
         "title": "Principal Engineer",
         "office": "Santa Clara 43-3064",
         "phone": null,
@@ -6752,6 +7492,7 @@
     {
         "building": 1,
         "cube": "2062",
+        "floor": 2,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-2062",
         "phone": "+1 (408) 638-3295",
@@ -6761,6 +7502,7 @@
     {
         "building": 1,
         "cube": "4043",
+        "floor": 4,
         "title": "Sr Staff Signal Integrity Engineer",
         "office": "Santa Clara 43-4043",
         "phone": "+1 (408) 753-4275",
@@ -6770,6 +7512,7 @@
     {
         "building": 2,
         "cube": "5069",
+        "floor": 5,
         "title": "Contingent Workforce",
         "office": "Santa Clara 44-5069",
         "phone": "+1-408-753-4327",
@@ -6779,6 +7522,7 @@
     {
         "building": 1,
         "cube": "5013",
+        "floor": 5,
         "title": "Order Fulfillment Specialist",
         "office": "Santa Clara 43-5013",
         "phone": null,
@@ -6788,6 +7532,7 @@
     {
         "building": 2,
         "cube": "2124",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2124",
         "phone": "+1 (669) 444-6044",
@@ -6797,6 +7542,7 @@
     {
         "building": 2,
         "cube": "6030",
+        "floor": 6,
         "title": "Treasury\/Cash Manager",
         "office": "Santa Clara 44-6030",
         "phone": "+1 (408) 638-3393",
@@ -6806,6 +7552,7 @@
     {
         "building": 2,
         "cube": "2155",
+        "floor": 2,
         "title": "Proof of Concept Engineer",
         "office": "Santa Clara 44-2155",
         "phone": "+1 (408) 638-3420",
@@ -6815,6 +7562,7 @@
     {
         "building": 1,
         "cube": "2067",
+        "floor": 2,
         "title": "Staff Engineer",
         "office": "Santa Clara 43-2067",
         "phone": "+1-669-444-6158",
@@ -6824,6 +7572,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Sr Dir, Finance R&D",
         "office": "Santa Clara",
         "phone": null,
@@ -6833,6 +7582,7 @@
     {
         "building": 1,
         "cube": "3017",
+        "floor": 3,
         "title": "Sr Product Manager",
         "office": "Santa Clara 43-3017",
         "phone": "+1 (408) 753-3892",
@@ -6842,6 +7592,7 @@
     {
         "building": 2,
         "cube": "5072",
+        "floor": 5,
         "title": "Sr Revenue Accountant",
         "office": "Santa Clara 44-5072",
         "phone": null,
@@ -6851,6 +7602,7 @@
     {
         "building": 1,
         "cube": "5068",
+        "floor": 5,
         "title": "Software Engineer",
         "office": "Santa Clara 43-5068",
         "phone": null,
@@ -6860,6 +7612,7 @@
     {
         "building": 2,
         "cube": "3035",
+        "floor": 3,
         "title": "Technical Support Engineer",
         "office": "Santa Clara 44-3035",
         "phone": null,
@@ -6869,6 +7622,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "Global Channels Operations Analyst",
         "office": "Santa Clara - 4401",
         "phone": "408-753-3942",
@@ -6878,6 +7632,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "EBC Coordinator",
         "office": "Santa Clara EBC Desk",
         "phone": "+1 (408) 638-3501",
@@ -6887,6 +7642,7 @@
     {
         "building": 1,
         "cube": "3002",
+        "floor": 3,
         "title": "Sr DevOps Engineer",
         "office": "Santa Clara 43-3002A",
         "phone": "+1 (408) 638-3439",
@@ -6896,6 +7652,7 @@
     {
         "building": 2,
         "cube": "2135",
+        "floor": 2,
         "title": "Corporate Sales Representative",
         "office": "Santa Clara 44-2135",
         "phone": "+1 (408) 638-3530",
@@ -6905,6 +7662,7 @@
     {
         "building": 1,
         "cube": "5070",
+        "floor": 5,
         "title": "Sr Staff Engineer",
         "office": "Santa Clara 43-5070",
         "phone": null,
@@ -6914,6 +7672,7 @@
     {
         "building": 1,
         "cube": "3110",
+        "floor": 3,
         "title": "Editorial Staff",
         "office": "Santa Clara 43-3110",
         "phone": null,
@@ -6923,6 +7682,7 @@
     {
         "building": 1,
         "cube": "3003",
+        "floor": 3,
         "title": "Principal DevOps Engineer",
         "office": "Santa Clara 43-3003A",
         "phone": "+1 (408) 638-3367",
@@ -6932,6 +7692,7 @@
     {
         "building": 2,
         "cube": "4027",
+        "floor": 4,
         "title": "Sr Industry Marketing Programs Manager",
         "office": "Santa Clara 44-4027",
         "phone": "+1 (669) 444-6119",
@@ -6941,6 +7702,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": null,
         "office": "HQ Santa Clara  4401",
         "phone": null,
@@ -6950,6 +7712,7 @@
     {
         "building": null,
         "cube": null,
+        "floor": null,
         "title": "HR Coordinator",
         "office": "Santa Clara 40-5044",
         "phone": "+1 (669) 444-6196",
@@ -6959,6 +7722,7 @@
     {
         "building": 2,
         "cube": "4063",
+        "floor": 4,
         "title": "Marketing Assistant",
         "office": "Santa Clara 44-4063",
         "phone": "+1-408-753-3998",
