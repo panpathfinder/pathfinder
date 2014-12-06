@@ -10,6 +10,7 @@ $(document).ready(function () {
     var starSVG;
     $search = $("#search");
     $searched = $("#searched");
+    $thumbnail = $("#thumbnail");
 
     function resetPaper(x, y, w, h) {
         if (paper) {
@@ -44,6 +45,7 @@ $(document).ready(function () {
                 floor = entry['floor'];
                 building = entry['building'];
                 $searched.text(getDesc(entry));
+                $thumbnail.html(getThumbnail(entry));
                 starred = entry;
                 drawStarred();
                 resizeMap();
@@ -97,6 +99,13 @@ $(document).ready(function () {
     var $window = $(window);
     var $toolbar = $('#toolbar');
 
+    var getThumbnail = function(entry) {
+        if (entry.name &&  thumbnailsdb[entry.name]) {
+            return '<img src="data:image/jpeg;base64,' +thumbnailsdb[entry.name]+ '"/>';
+        }
+        return '';
+    };
+
     var getQtip = function (entry) {
         var label = '';
         if (entry['rooms']) {
@@ -110,8 +119,11 @@ $(document).ready(function () {
                 entry.title + '<br/>' +
                 entry.phone + '<br/>' +
                 ' GAP' + entry.building + '/' + entry['floor'] + '<br/>' +
-                entry.office
-
+                entry.office;
+            var thumb = getThumbnail(entry);
+            if (thumb) {
+                label += '<br/>' + thumb;
+            }
         }
         return label;
     };
