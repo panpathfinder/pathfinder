@@ -1,12 +1,25 @@
-<ion-view title="Path Finder">
+<ion-view ng-init="initData()" title="Path Finder">
   <ion-content ui-view class="padding">
      <div>
-  	   <h1> Located on: </h1>
+  	   <h1>Located on:</h1>
   	 </div>
-     <div class="list">
+
+      <div class="list">
         <label class="item item-input item-stacked-label">
             <span class="input-label">Name:</span>
-            <input type="text" placeholder={{resultInfo.name}} disabled>
+            <input type="text" placeholder={{resultInfo.display}} disabled>
+        </label>
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">Title:</span>
+            <input type="text" placeholder={{resultInfo.title}} disabled>
+        </label>
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">Office:</span>
+            <input type="text" placeholder={{resultInfo.office}} disabled>
+        </label>
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">Phone:</span>
+            <input type="text" placeholder={{resultInfo.phone}} disabled>
         </label>
         <label class="item item-input item-stacked-label">
             <span class="input-label">Building:</span>
@@ -17,16 +30,8 @@
             <input type="text" placeholder={{resultInfo.floor}} disabled>
         </label>
         <label class="item item-input item-stacked-label">
-            <span class="input-label">Cube No:</span>
-            <input type="text" placeholder={{resultInfo.cubeno}} disabled>
-        </label>
-        <label class="item item-input item-stacked-label">
-            <span class="input-label">Direction:</span>
-            <input type="text" placeholder={{resultInfo.direction}} disabled>
-        </label>
-        <label class="item item-input item-stacked-label">
-            <span class="input-label">Proximity:</span>
-            <input type="text" placeholder="{{resultInfo.proximity}}" disabled>
+            <span class="input-label">Cube:</span>
+            <input type="text" placeholder={{resultInfo.cube}} disabled>
         </label>
         <a href="#/map/{{resultInfo.building + 'f' + resultInfo.floor}}">
             <button class="button button-full button-positive">

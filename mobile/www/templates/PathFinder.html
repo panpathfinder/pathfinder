@@ -10,7 +10,7 @@
 	</ion-header-bar>
 	<ion-content>
 		<ion-list>
-			<ion-item ng-repeat="item in data.names" >{{item.display}}</ion-item>
+			<ion-item ng-repeat="item in data.names" href="#/pathfinder/{{item.name}}">{{item.display}}</ion-item>
 		</ion-list>
 	</ion-content>
 </ion-view>
