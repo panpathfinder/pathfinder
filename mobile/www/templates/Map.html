@@ -1,7 +1,11 @@
 <ion-view title="Path Finder {{mapId}}">
   	<ion-content ui-view class="padding">
-		<div class="item item-image">
-			<img degrees='angle' rotate ng-src="img/assets/map_images/{{mapImageUrl}}">
-		</div>>
+  		<ion-scroll zooming="true" direction="xy" style="width: 500px; height: 500px">
+  			<div class="list card">
+				<div class="item item-image">
+					<img degrees='angle' rotate ng-src="img/assets/map_images/{{mapImageUrl}}">
+				</div>
+			</div>
+		</ion-scroll>
   	</ion-content>
 </ion-view>

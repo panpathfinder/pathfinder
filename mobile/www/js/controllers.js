@@ -25,22 +25,20 @@ angular.module('starter.controllers', [])
         
         if (window.myState) {
             cordova.exec(function (response) {
-                alert (response);
+               /* alert (response);
                 alert (JSON.stringify(response));
-                alert (response ? response.direction : "Do not know");
+                alert (response ? response.direction : "Do not know");*/
             }, function(err) {
                 alert('Nothing to echo.' + err);
             }, "Echo", "poll", []);
         } else {
             window.myState = true;
-            cordova.exec(function (response) {
+            /*cordova.exec(function (response) {
                 alert (JSON.stringify(response));
             }, function(err) {
                 alert('Nothing to echo.' + err);
-            }, "Echo", "init", []);
+            }, "Echo", "init", []);*/
         }
-        
-        
     })
 	.controller('InfoCtrl', function($scope, $stateParams) {
         $scope.resultInfo = {};
@@ -55,13 +53,67 @@ angular.module('starter.controllers', [])
             }
         };
 	})
-	.controller('MapCtrl', function($scope, $stateParams) {
-		var infoAr = $stateParams.mapId.split("f");
+	.controller('MapCtrl', function($scope, $stateParams, $cordovaDeviceOrientation, $timeout) {
+        var infoAr = $stateParams.mapId.split("f");
         $scope.mapImageUrl = (infoAr[0] == 1)? '4301':(infoAr == 2)?'4302':'4301';
         $scope.mapImageUrl += 'f' + infoAr[1] + '.png';
         $scope.angle = 0;
 
-        if (navigator.compass) {
+        var pollTimer;
+        /*cordova.exec(function (response) {
+                alert (JSON.stringify(response));
+            }, function(err) {
+                alert('Nothing to echo.' + err);
+            }, "Echo", "init", []);*/
+        var poll = function() {
+            pollTimer = $timeout(function() {
+                /*cordova.exec(function (response) {
+                    if (Math.abs($scope.angle - response.degree) > 10)
+                        $scope.angle = response.degree;
+                }, function(err) {
+                    alert('Nothing to echo.' + err);
+                }, "Echo", "poll", []);
+*/
+                if (navigator.compass) {
+                    function onSuccess(heading) {
+                        if (Math.abs($scope.angle - heading.magneticHeading) > 10)
+                            $scope.angle = heading.magneticHeading;
+                    };
+
+                    function onError(error) {
+                        alert('CompassError: ' + error.code);
+                    };
+                    navigator.compass.getCurrentHeading (onSuccess, onError);
+                }
+                poll();
+            }, 1000);
+        };
+        poll();
+
+
+        /*var locationTimer;
+        var drawLocation = function() {
+            pollTimer = $timeout(function() {
+                console.log($scope.truthyVal);
+                ($scope.truthyVal)?$scope.truthyVal=false:$scope.truthyVal=true;
+                drawLocation();
+            }, 2000);
+        };
+        drawLocation();
+        $scope.$on(
+            "$destroy",
+            function( event ) {
+                $timeout.cancel(pollTimer);
+                $timeout.cancel(locationTimer);
+            }
+        );*/
+        
+        
+
+        $scope.rotate = function() {
+            //$scope.angle = $scope.angle + 10;
+        };
+        /*if (navigator.compass) {
             function onSuccess(heading) {
                 alert('Heading: ' + JSON.stringify(heading));
                 $scope.angle = heading.magneticHeading;
@@ -71,6 +123,6 @@ angular.module('starter.controllers', [])
                 alert('CompassError: ' + error.code);
             };
             navigator.compass.getCurrentHeading (onSuccess, onError);
-        }
+        }*/
     });
 
