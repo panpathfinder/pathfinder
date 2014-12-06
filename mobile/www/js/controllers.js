@@ -60,22 +60,31 @@ angular.module('starter.controllers', [])
         $scope.angle = 0;
 
         var pollTimer;
-        cordova.exec(function (response) {
+        /*cordova.exec(function (response) {
                 alert (JSON.stringify(response));
             }, function(err) {
                 alert('Nothing to echo.' + err);
-            }, "Echo", "init", []);
+            }, "Echo", "init", []);*/
         var poll = function() {
             pollTimer = $timeout(function() {
-                cordova.exec(function (response) {
-                    /*alert (response);
-                    alert (JSON.stringify(response));
-                    alert (response ? response.direction : "Do not know");*/
+                /*cordova.exec(function (response) {
                     if (Math.abs($scope.angle - response.degree) > 10)
                         $scope.angle = response.degree;
                 }, function(err) {
                     alert('Nothing to echo.' + err);
                 }, "Echo", "poll", []);
+*/
+                if (navigator.compass) {
+                    function onSuccess(heading) {
+                        if (Math.abs($scope.angle - heading.magneticHeading) > 10)
+                            $scope.angle = heading.magneticHeading;
+                    };
+
+                    function onError(error) {
+                        alert('CompassError: ' + error.code);
+                    };
+                    navigator.compass.getCurrentHeading (onSuccess, onError);
+                }
                 poll();
             }, 1000);
         };
@@ -104,5 +113,16 @@ angular.module('starter.controllers', [])
         $scope.rotate = function() {
             //$scope.angle = $scope.angle + 10;
         };
+        /*if (navigator.compass) {
+            function onSuccess(heading) {
+                alert('Heading: ' + JSON.stringify(heading));
+                $scope.angle = heading.magneticHeading;
+            };
+
+            function onError(error) {
+                alert('CompassError: ' + error.code);
+            };
+            navigator.compass.getCurrentHeading (onSuccess, onError);
+        }*/
     });
 
