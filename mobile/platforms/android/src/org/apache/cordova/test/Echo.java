@@ -175,7 +175,7 @@ public class Echo extends CordovaPlugin implements SensorEventListener {
 
 	private void updateValues() {
 
-		if (magneticFieldValuesList.size() < 1) {
+		if (magneticFieldValuesList.size() < 100) {
 			return;
 		}
 
