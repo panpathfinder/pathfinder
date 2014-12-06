@@ -133,6 +133,18 @@ $(document).ready(function () {
         }
     };
 
+    var setButtonStyles = function () {
+        var color;
+        for (var b = 1; b <= 2; b++) {
+            color = (b == building) ? '#66CCFF' : "rgb(192, 192, 192)";
+            $('#GAP' + b).css('background-color', color);
+        }
+        for (var f = 1; f <= 5; f++) {
+            color = (f == floor) ? '#66CCFF' : "rgb(192, 192, 192)";
+            $('#floor' + f).css('background-color', color);
+        }
+    };
+
     var resizeMap = function () {
         console.log('resizeMap');
         var tw = $toolbar.width();
@@ -146,6 +158,7 @@ $(document).ready(function () {
         paper.image(getMapImageSource(), 0, 0, w, h);
         drawStarred();
         drawHotspots();
+        setButtonStyles();
     };
     resizeMap();
     $(window).resize(resizeMap);
