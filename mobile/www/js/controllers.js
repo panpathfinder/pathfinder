@@ -22,6 +22,25 @@ angular.module('starter.controllers', [])
                 }
             )
         }
+        
+        if (window.myState) {
+            cordova.exec(function (response) {
+                alert (response);
+                alert (JSON.stringify(response));
+                alert (response ? response.direction : "Do not know");
+            }, function(err) {
+                alert('Nothing to echo.' + err);
+            }, "Echo", "poll", []);
+        } else {
+            window.myState = true;
+            cordova.exec(function (response) {
+                alert (JSON.stringify(response));
+            }, function(err) {
+                alert('Nothing to echo.' + err);
+            }, "Echo", "init", []);
+        }
+        
+        
     })
 	.controller('InfoCtrl', function($scope, $stateParams) {
         $scope.resultInfo = {};
