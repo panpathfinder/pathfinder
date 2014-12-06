@@ -17,7 +17,9 @@ angular.module('starter.controllers', [])
 .controller('InfoCtrl', function($scope) {
 	$scope.resultInfo = {
 		'name' : 'Santhosh',
-		'floor' : '2.4.5.5.2',
+		'cubeno': '1.2.3.4.5',
+		'building': '4301',
+		'floor' : '1',
 		'direction' : 'NE Corner',
 		'proximity' : "Close to Anupam's Cube"
 	};

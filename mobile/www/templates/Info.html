@@ -4,27 +4,35 @@
   	   <h1> Located on: </h1>
   	 </div>
      <div class="list">
-  		<label class="item item-input item-stacked-label">
-    		<span class="input-label">Name</span>
-    		<input type="text" placeholder={{resultInfo.name}} disabled>
-  		</label>
-  		<label class="item item-input item-stacked-label">
-    		<span class="input-label">Floor</span>
-    		<input type="text" placeholder={{resultInfo.floor}}>
-  		</label>
         <label class="item item-input item-stacked-label">
-            <span class="input-label">Direction</span>
-            <input type="text" placeholder={{resultInfo.direction}}>
+            <span class="input-label">Name:</span>
+            <input type="text" placeholder={{resultInfo.name}} disabled>
         </label>
         <label class="item item-input item-stacked-label">
-            <span class="input-label">Proximity</span>
-            <input type="text" placeholder={{resultInfo.proximity}}>
+            <span class="input-label">Building:</span>
+            <input type="text" placeholder={{resultInfo.building}} disabled>
+        </label>
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">Floor:</span>
+            <input type="text" placeholder={{resultInfo.floor}} disabled>
+        </label>
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">Cube No:</span>
+            <input type="text" placeholder={{resultInfo.cubeno}} disabled>
+        </label>
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">Direction:</span>
+            <input type="text" placeholder={{resultInfo.direction}} disabled>
+        </label>
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">Proximity:</span>
+            <input type="text" placeholder="{{resultInfo.proximity}}" disabled>
         </label>
         <a ui-sref="resultinfo">
             <button class="button button-full button-positive">
                MAP IT
             </button>
         </a>
-</div>
+    </div>
   </ion-content>
 </ion-view>
