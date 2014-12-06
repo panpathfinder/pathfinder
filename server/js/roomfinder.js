@@ -7,10 +7,20 @@ $(document).ready(function () {
     var floor = 1;
     var building = 1;
     var starred = null;
+    var starSVG;
     $search = $("#search");
     $searched = $("#searched");
 
-    var getDesc = function(entry) {
+    function resetPaper(x, y, w, h) {
+        if (paper) {
+            var paperDom = paper.canvas;
+            paperDom.parentNode.removeChild(paperDom);
+            paper = null;
+        }
+        paper = Raphael(x, y, w, h);
+    }
+
+    var getDesc = function (entry) {
         var label = '';
         if (entry['rooms']) {
             label = entry.display + ' GAP' + entry.building + '/' + entry['floor'] + ' (' + entry.rooms + ')';
@@ -30,32 +40,36 @@ $(document).ready(function () {
             var entry = ldapdb[val];
             console.log(entry['building']);
             console.log(entry['floor']);
-            if (entry['building'] && entry['floor']) {
+            if (entry['building'] && entry['floor'] && entry['floor'] <= 5) {
                 floor = entry['floor'];
                 building = entry['building'];
+                $searched.text(getDesc(entry));
+                starred = entry;
+                drawStarred();
                 resizeMap();
             }
-            $searched.text(getDesc(entry));
-            starred = entry;
-            drawStarred();
         }
     };
 
-    var getRelativeX = function(x,xmax) {
-        return  (0.0 + x)*paper.width/xmax;
+    var getRelativeX = function (x, xmax) {
+        return  (0.0 + x) * paper.width / xmax;
     };
-    var getRelativeY = function(y,ymax) {
-        return  (0.0 + y)*paper.height/ymax;
+    var getRelativeY = function (y, ymax) {
+        return  (0.0 + y) * paper.height / ymax;
     };
 
     var drawStarred = function () {
         if (starred && starred['floor'] == floor && starred['building'] == building) {
+            console.log(starred);
             if (starred.x && starred.y && starred.xmax && starred.ymax) {
                 console.log('draw star');
                 var r = 10;
-                var x = getRelativeX(starred.x,starred.xmax);
-                var y = getRelativeY(starred.y,starred.ymax);
-                var star = paper.star(paper, x, y, r).attr({
+                var x = getRelativeX(starred.x, starred.xmax);
+                var y = getRelativeY(starred.y, starred.ymax);
+                if (starSVG) {
+                    starSVG.remove();
+                }
+                starSVG = paper.star(paper, x, y, r).attr({
                     fill: "#00FF00",
                     'stroke-width': 1
                 });
@@ -83,7 +97,7 @@ $(document).ready(function () {
     var $window = $(window);
     var $toolbar = $('#toolbar');
 
-    var getQtip = function(entry) {
+    var getQtip = function (entry) {
         var label = '';
         if (entry['rooms']) {
             label = entry.display + ' (' + entry.rooms + ')' + '<br/>' +
@@ -92,29 +106,29 @@ $(document).ready(function () {
                 label += '<br/>' + "Projector";
             }
         } else {
-            label = entry.display  + '<br/>' +
-                entry.title  + '<br/>' +
-                entry.phone  + '<br/>' +
+            label = entry.display + '<br/>' +
+                entry.title + '<br/>' +
+                entry.phone + '<br/>' +
                 ' GAP' + entry.building + '/' + entry['floor'] + '<br/>' +
-            entry.office
+                entry.office
 
         }
         return label;
     };
-    var drawHotspots = function() {
-        for(var n in ldapdb) {
+    var drawHotspots = function () {
+        for (var n in ldapdb) {
             var entry = ldapdb[n];
             if (entry && entry['floor'] == floor && entry['building'] == building) {
                 if (entry.x && entry.y && entry.xmax && entry.ymax) {
                     var r = 12;
-                    var x = getRelativeX(entry.x,entry.xmax);
-                    var y = getRelativeY(entry.y,entry.ymax);
+                    var x = getRelativeX(entry.x, entry.xmax);
+                    var y = getRelativeY(entry.y, entry.ymax);
                     var cir = paper.circle(x, y, r).attr({
                         stroke: "none",
                         "fill-opacity": 0.10,
                         fill: "pink"
                     });
-                    (function(cir) {
+                    (function (cir) {
                         cir.hover(function () {
                                 cir.attr({"stroke": "red"});
                             },
@@ -154,7 +168,7 @@ $(document).ready(function () {
         var h = $window.height() - th - padding;
         console.log(w);
         console.log(h);
-        paper = Raphael(0, th, w, h);
+        resetPaper(0, th, w, h);
         paper.image(getMapImageSource(), 0, 0, w, h);
         drawStarred();
         drawHotspots();
