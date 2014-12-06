@@ -3,9 +3,10 @@ function getRandomInt(min, max) {
 }
 
 $(document).ready(function () {
+    var paper;
     var floor = 1;
     var building = 1;
-
+    var starred = null;
     $search = $("#search");
     $searched = $("#searched");
 
@@ -31,7 +32,25 @@ $(document).ready(function () {
                 label = entry.display + ' GAP' + entry.building + '/' + entry['floor'] + ' (' + entry.cube + ') ' + entry['phone'];
             }
             $searched.text(label);
+            starred = entry;
+            drawStarred();
+        }
+    };
 
+    var drawStarred = function () {
+        if (starred && starred['floor'] == floor && starred['building'] == building) {
+            if (starred.x && starred.y && starred.xmax && starred.ymax) {
+                console.log('draw star')
+                var r = 12;
+                //var x = getRandomInt(2 * r, w - 2 * r);
+                //var y = getRandomInt(2 * r, h - 2 * r);
+                var x = (0.0 + starred.x)*paper.width/starred.xmax;
+                var y = (0.0 + starred.y)*paper.height/starred.ymax;
+                var star = paper.star(paper, x, y, r).attr({
+                    fill: "#00FF00",
+                    'stroke-width': 1
+                });
+            }
         }
     };
 
@@ -64,15 +83,8 @@ $(document).ready(function () {
         var h = $window.height() - th - padding;
         console.log(w);
         console.log(h);
-        var paper = Raphael(0, th, w, h);
+        paper = Raphael(0, th, w, h);
         paper.image(getMapImageSource(), 0, 0, w, h);
-        var r = 12;
-        var x = getRandomInt(2 * r, w - 2 * r);
-        var y = getRandomInt(2 * r, h - 2 * r);
-        var star = paper.star(paper, x, y, r).attr({
-            fill: "#00FF00",
-            'stroke-width': 1
-        });
         rect = paper.rect(30, 30, 90, 90);
         rect.attr({
             stroke: "none",

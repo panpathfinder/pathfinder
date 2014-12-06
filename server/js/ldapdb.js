@@ -266,8 +266,10 @@ var ldapdb = {
         "has_projector": false,
         "display": "Ace Ventura",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1061,
+        "y": 197,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Anchorman": {
         "building": 1,
@@ -275,8 +277,10 @@ var ldapdb = {
         "has_projector": true,
         "display": "Anchorman",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1174,
+        "y": 107,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Austin Power": {
         "building": 1,
@@ -284,8 +288,10 @@ var ldapdb = {
         "has_projector": true,
         "display": "Austin Power",
         "rooms": 16,
-        "x": 0,
-        "y": 1
+        "x": 1375,
+        "y": 121,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Caddyshack": {
         "building": 1,
@@ -293,8 +299,10 @@ var ldapdb = {
         "has_projector": false,
         "display": "Caddyshack",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1288,
+        "y": 304,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Dodgeball": {
         "building": 1,
@@ -302,8 +310,10 @@ var ldapdb = {
         "has_projector": false,
         "display": "Dodgeball",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1686,
+        "y": 301,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Dumb & Dumber": {
         "building": 1,
@@ -311,8 +321,10 @@ var ldapdb = {
         "has_projector": true,
         "display": "Dumb & Dumber",
         "rooms": 14,
-        "x": 0,
-        "y": 1
+        "x": 1623,
+        "y": 117,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Groundhog Day": {
         "building": 1,
@@ -320,8 +332,10 @@ var ldapdb = {
         "has_projector": false,
         "display": "Groundhog Day",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1814,
+        "y": 101,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Happy Gilmore": {
         "building": 1,
@@ -329,8 +343,10 @@ var ldapdb = {
         "has_projector": true,
         "display": "Happy Gilmore",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 2348,
+        "y": 969,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Office Space": {
         "building": 1,
@@ -338,8 +354,10 @@ var ldapdb = {
         "has_projector": true,
         "display": "Office Space",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 2782,
+        "y": 1175,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Spaceballs": {
         "building": 1,
@@ -347,8 +365,10 @@ var ldapdb = {
         "has_projector": true,
         "display": "Spaceballs",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 258,
+        "y": 1027,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "The Big Lebowski": {
         "building": 1,
@@ -356,8 +376,10 @@ var ldapdb = {
         "has_projector": true,
         "display": "The Big Lebowski",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 163,
+        "y": 1184,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "The Holy Grail": {
         "building": 1,
@@ -374,8 +396,10 @@ var ldapdb = {
         "has_projector": false,
         "display": "The Sand Lot",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 2081,
+        "y": 900,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Zoolander": {
         "building": 1,
@@ -383,8 +407,10 @@ var ldapdb = {
         "has_projector": false,
         "display": "Zoolander",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 599,
+        "y": 898,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Beetlejuice": {
         "building": 1,
@@ -1151,7 +1177,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4113",
         "phone": "+1-408-753-4069",
         "display": "Siu-Wang Leung",
-        "name": "sleung"
+        "name": "sleung",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1782,
+        "y": 984
     },
     "Stone Li": {
         "building": 1,
@@ -1161,7 +1191,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4001",
         "phone": "+1-408-753-4054",
         "display": "Stone Li",
-        "name": "sli"
+        "name": "sli",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 909,
+        "y": 404
     },
     "Paul Nguyen": {
         "building": 2,
@@ -1181,7 +1215,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4124",
         "phone": "+1-408-753-4067",
         "display": "Song Wang",
-        "name": "swang"
+        "name": "swang",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1753,
+        "y": 703
     },
     "Vinh Nguyen": {
         "building": 1,
@@ -1244,14 +1282,18 @@ var ldapdb = {
         "name": "jmcclendon"
     },
     "Rajiv Batra": {
-        "building": null,
+        "building": 1,
         "cube": null,
-        "floor": null,
+        "floor": 4,
         "title": "Founder",
         "office": "Santa Clara 43-422",
         "phone": "+1-408-753-3867",
         "display": "Rajiv Batra",
-        "name": "rbatra"
+        "name": "rbatra",
+        "x": 2622,
+        "y": 947,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Huagang Xie": {
         "building": 1,
@@ -1361,7 +1403,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4036",
         "phone": "+1-408-753-4051",
         "display": "RK Anabathula",
-        "name": "rk"
+        "name": "rk",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 720,
+        "y": 1400
     },
     "Ed Mincher": {
         "building": 1,
@@ -1411,7 +1457,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4066",
         "phone": "+1-408-753-4065",
         "display": "Hao Long",
-        "name": "hlong"
+        "name": "hlong",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1760,
+        "y": 1400
     },
     "Frank Fang": {
         "building": 2,
@@ -1651,17 +1701,25 @@ var ldapdb = {
         "office": "Santa Clara 43-4069",
         "phone": "+1-408-753-4068",
         "display": "Wilson Xu",
-        "name": "wxu"
+        "name": "wxu",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 2030,
+        "y": 1210
     },
     "Nir Zuk": {
-        "building": null,
+        "building": 1,
         "cube": null,
-        "floor": null,
+        "floor": 4,
         "title": "SVP, CTO",
         "office": "Santa Clara 43-423",
         "phone": "+1-408-753-3868",
         "display": "Nir Zuk",
-        "name": "nzuk"
+        "name": "nzuk",
+        "x": 2716,
+        "y": 1042,
+        "xmax": 2952,
+        "ymax": 1794
     },
     "Madhavi Reddy": {
         "building": 1,
@@ -1731,7 +1789,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4127",
         "phone": "+1-408-753-4059",
         "display": "Eric Chen",
-        "name": "echen"
+        "name": "echen",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1965,
+        "y": 703
     },
     "Bo Qu": {
         "building": 1,
@@ -1821,7 +1883,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4054",
         "phone": "+1-408-753-4091",
         "display": "Elkova Sallaberry",
-        "name": "ESallaberry"
+        "name": "ESallaberry",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1360,
+        "y": 1400
     },
     "Patrick Xu": {
         "building": 1,
@@ -1831,7 +1897,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4058",
         "phone": "+1-408-753-4097",
         "display": "Patrick Xu",
-        "name": "pxu"
+        "name": "pxu",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1555,
+        "y": 1305
     },
     "Rachel Yabut": {
         "building": 1,
@@ -1851,7 +1921,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4072",
         "phone": "+1-408-753-4063",
         "display": "Chang Li",
-        "name": "changl"
+        "name": "changl",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1950,
+        "y": 1400
     },
     "Jesse Ebel": {
         "building": null,
@@ -1901,7 +1975,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4042",
         "phone": "+1-408-753-4050",
         "display": "Gagan Bansal",
-        "name": "gbansal"
+        "name": "gbansal",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 925,
+        "y": 1400
     },
     "Barun Kar": {
         "building": 1,
@@ -1911,7 +1989,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4037",
         "phone": "+1-408-753-4053",
         "display": "Barun Kar",
-        "name": "bkar"
+        "name": "bkar",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 800,
+        "y": 1400
     },
     "Jing Zhang": {
         "building": 1,
@@ -1921,7 +2003,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4032",
         "phone": "+1-408-753-4056",
         "display": "Jing Zhang",
-        "name": "JZhang"
+        "name": "JZhang",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 720,
+        "y": 1210
     },
     "Dominique Tran": {
         "building": 2,
@@ -1981,7 +2067,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4047",
         "phone": "+1-408-753-4089",
         "display": "Jesse B. Ralston",
-        "name": "jbralston"
+        "name": "jbralston",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1240,
+        "y": 1305
     },
     "Kim Tran-Young": {
         "building": 2,
@@ -2101,7 +2191,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4033",
         "phone": "+1-408-753-4052",
         "display": "Sam Ho",
-        "name": "SHo"
+        "name": "SHo",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 800,
+        "y": 1210
     },
     "Nilesh Bansal": {
         "building": 1,
@@ -2111,7 +2205,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4046",
         "phone": "+1-408-753-4088",
         "display": "Nilesh Bansal",
-        "name": "nbansal"
+        "name": "nbansal",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1160,
+        "y": 1305
     },
     "Sona Shah": {
         "building": 2,
@@ -2131,7 +2229,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4110",
         "phone": "+1-408-753-4074",
         "display": "Yongjie Yin",
-        "name": "yyin"
+        "name": "yyin",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1923,
+        "y": 894
     },
     "Tony Lin": {
         "building": 1,
@@ -2141,7 +2243,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4114",
         "phone": "+1-408-753-4070",
         "display": "Tony Lin",
-        "name": "tlin"
+        "name": "tlin",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1851,
+        "y": 984
     },
     "Leo Peng": {
         "building": 1,
@@ -2151,7 +2257,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4109",
         "phone": "+1-408-753-4071",
         "display": "Leo Peng",
-        "name": "lpeng"
+        "name": "lpeng",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1851,
+        "y": 894
     },
     "Nanette Leroy": {
         "building": 1,
@@ -2171,7 +2281,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4060",
         "phone": "+1-408-753-4064",
         "display": "Shu Lin",
-        "name": "slin"
+        "name": "slin",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1555,
+        "y": 1400
     },
     "Renato Kalugdan": {
         "building": 2,
@@ -2211,7 +2325,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4122",
         "phone": "+1-408-753-4060",
         "display": "Suiqiang Deng",
-        "name": "sdeng"
+        "name": "sdeng",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1892,
+        "y": 619
     },
     "Vandu Ly": {
         "building": 2,
@@ -2241,7 +2359,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4064",
         "phone": "+1-408-753-4095",
         "display": "Zhiping Liu",
-        "name": "zliu"
+        "name": "zliu",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1760,
+        "y": 1305
     },
     "Lin Xu": {
         "building": 1,
@@ -2291,7 +2413,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4067",
         "phone": "+1-408-753-4066",
         "display": "Mingfei Peng",
-        "name": "mpeng"
+        "name": "mpeng",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1840,
+        "y": 1400
     },
     "Tsugunori Sugawara": {
         "building": 2,
@@ -2361,7 +2487,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4055",
         "phone": "+1-408-753-4090",
         "display": "Eswar Sadaram",
-        "name": "Esadaram"
+        "name": "Esadaram",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1435,
+        "y": 1400
     },
     "Charles Bransi": {
         "building": 1,
@@ -2371,7 +2501,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4070",
         "phone": "+1-408-753-4058",
         "display": "Charles Bransi",
-        "name": "cbransi"
+        "name": "cbransi",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1950,
+        "y": 1305
     },
     "Scott Chiang": {
         "building": 2,
@@ -2401,7 +2535,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4108",
         "phone": "+1-408-753-4072",
         "display": "Andrey Tverdokhleb",
-        "name": "Atverdokhleb"
+        "name": "Atverdokhleb",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1782,
+        "y": 894
     },
     "Albert Estevez": {
         "building": 2,
@@ -2441,7 +2579,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4120",
         "phone": "+1-408-753-4073",
         "display": "Wanchun Wang",
-        "name": "Wwang"
+        "name": "Wwang",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1753,
+        "y": 619
     },
     "Scott Gayhardt": {
         "building": 1,
@@ -3241,7 +3383,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4044",
         "phone": "+1-408-753-4156",
         "display": "Joe Metz",
-        "name": "jmetz"
+        "name": "jmetz",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1160,
+        "y": 1210
     },
     "Hamid Mahvidi": {
         "building": 1,
@@ -3271,7 +3417,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4040",
         "phone": "+1-408-753-4200",
         "display": "Peter Liljequist",
-        "name": "pliljequist"
+        "name": "pliljequist",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 925,
+        "y": 1305
     },
     "Mariam Craver": {
         "building": 2,
@@ -3611,7 +3761,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4008",
         "phone": "+1-408-753-4171",
         "display": "Joanne Ottney",
-        "name": "jottney"
+        "name": "jottney",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 967,
+        "y": 653
     },
     "Amro Younes": {
         "building": 1,
@@ -3621,7 +3775,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4126",
         "phone": "+1-408-753-4169",
         "display": "Amro Younes",
-        "name": "ayounes"
+        "name": "ayounes",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1892,
+        "y": 703
     },
     "Nicholas Pierini": {
         "building": 2,
@@ -3661,7 +3819,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4065",
         "phone": "+1-408-753-4170",
         "display": "Li Meng",
-        "name": "lmeng"
+        "name": "lmeng",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1840,
+        "y": 1305
     },
     "Nayan Dambalkar": {
         "building": 2,
@@ -3821,7 +3983,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4014",
         "phone": "+1-408-753-4177",
         "display": "De Vu",
-        "name": "dvu"
+        "name": "dvu",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 967,
+        "y": 837
     },
     "Billy Ho": {
         "building": null,
@@ -3931,7 +4097,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4013",
         "phone": "+1-408-753-4226",
         "display": "Lionel King",
-        "name": "lking"
+        "name": "lking",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 840,
+        "y": 837
     },
     "Noel Alegado": {
         "building": null,
@@ -3961,7 +4131,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4007",
         "phone": "+1-408-753-4175",
         "display": "Gyanesh Saharia",
-        "name": "gsaharia"
+        "name": "gsaharia",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 840,
+        "y": 653
     },
     "Janiece Woodland": {
         "building": null,
@@ -3981,7 +4155,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4052",
         "phone": "+1-408-753-4176",
         "display": "Sebastian Liu",
-        "name": "sliu"
+        "name": "sliu",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1360,
+        "y": 1305
     },
     "Josephine Yu": {
         "building": 1,
@@ -4041,7 +4219,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4096B",
         "phone": "+1-408-753-4213",
         "display": "Andrew Waller",
-        "name": "awaller"
+        "name": "awaller",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1356,
+        "y": 1555
     },
     "Meenal Ghanekar": {
         "building": 2,
@@ -4171,7 +4353,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4034",
         "phone": "+1-408-753-4184",
         "display": "Jun Wang",
-        "name": "jwang"
+        "name": "jwang",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 720,
+        "y": 1305
     },
     "Patricia Chu": {
         "building": 2,
@@ -4251,7 +4437,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4016",
         "phone": "+1-408-753-4191",
         "display": "Tom Wellbaum",
-        "name": "twellbaum"
+        "name": "twellbaum",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 840,
+        "y": 932
     },
     "Zhi Xu": {
         "building": 1,
@@ -4521,7 +4711,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4017",
         "phone": "+1-408-753-4100",
         "display": "Dharmendra Patel",
-        "name": "dpatel"
+        "name": "dpatel",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 967,
+        "y": 932
     },
     "Mandy Yuan": {
         "building": 2,
@@ -4571,7 +4765,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4010",
         "phone": "+1-408-753-4336",
         "display": "Joel Adam",
-        "name": "jadam"
+        "name": "jadam",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 840,
+        "y": 744
     },
     "Syam Kavala": {
         "building": 1,
@@ -4661,7 +4859,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4012",
         "phone": "+1-408-753-3883",
         "display": "Savitha Raghunath",
-        "name": "sraghunath"
+        "name": "sraghunath",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1047,
+        "y": 744
     },
     "Elton Fontaine": {
         "building": 2,
@@ -4751,7 +4953,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4009",
         "phone": "+1-408-753-3864",
         "display": "Matthew Rohm",
-        "name": "mrohm"
+        "name": "mrohm",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1047,
+        "y": 653
     },
     "Ingrid Chippendale": {
         "building": 2,
@@ -4811,7 +5017,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4068",
         "phone": "+1-408-753-4328",
         "display": "Soundarya Sivaramakrishnan",
-        "name": "ssivaramakrishnan"
+        "name": "ssivaramakrishnan",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1950,
+        "y": 1210
     },
     "Gerard Capuno": {
         "building": 2,
@@ -5001,7 +5211,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4019",
         "phone": "+1-408-753-3787",
         "display": "Sampath Krishna",
-        "name": "skrishna"
+        "name": "skrishna",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 840,
+        "y": 1028
     },
     "Baoyue Hu": {
         "building": 1,
@@ -5011,7 +5225,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4115",
         "phone": "+1-408-753-3963",
         "display": "Baoyue Hu",
-        "name": "bhu"
+        "name": "bhu",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1923,
+        "y": 984
     },
     "Sunalee Joshi": {
         "building": 2,
@@ -5041,7 +5259,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4015",
         "phone": "+1-408-753-4285",
         "display": "Subramani Ganesh",
-        "name": "sganesh"
+        "name": "sganesh",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1047,
+        "y": 837
     },
     "Zachary Guild": {
         "building": 2,
@@ -5391,7 +5613,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4041",
         "phone": "+1-408-638-3214",
         "display": "Mrunal Patel",
-        "name": "mpatel"
+        "name": "mpatel",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1000,
+        "y": 1305
     },
     "Hung Truong": {
         "building": 1,
@@ -5401,7 +5627,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4018",
         "phone": "+1-408-638-3215",
         "display": "Hung Truong",
-        "name": "htruong"
+        "name": "htruong",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1047,
+        "y": 932
     },
     "Joshua Hoffman": {
         "building": null,
@@ -5431,7 +5661,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4053",
         "phone": "+1-408-638-3224",
         "display": "Wilson Li",
-        "name": "wli"
+        "name": "wli",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1435,
+        "y": 1305
     },
     "Joshua Ebel": {
         "building": 1,
@@ -5571,7 +5805,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4071",
         "phone": "+1-408-638-3241",
         "display": "Linda Chan",
-        "name": "lchan"
+        "name": "lchan",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 2030,
+        "y": 1305
     },
     "Gary Owens": {
         "building": 2,
@@ -5601,7 +5839,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4038",
         "phone": "+1-408-638-3237",
         "display": "Lyle Looney",
-        "name": "llooney"
+        "name": "llooney",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 925,
+        "y": 1210
     },
     "Bud Kwan": {
         "building": 1,
@@ -5871,7 +6113,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4062",
         "phone": "+1-408-638-3261",
         "display": "Sean Wang",
-        "name": "sean.wang"
+        "name": "sean.wang",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1760,
+        "y": 1210
     },
     "Mark Devenport": {
         "building": 1,
@@ -5881,7 +6127,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4039",
         "phone": "+1-408-753-4030",
         "display": "Mark Devenport",
-        "name": "mdevenport"
+        "name": "mdevenport",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1000,
+        "y": 1210
     },
     "Sandra Everett": {
         "building": 2,
@@ -5911,7 +6161,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4045",
         "phone": "+1-408-638-3262",
         "display": "David Alexander",
-        "name": "dalexander"
+        "name": "dalexander",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1240,
+        "y": 1210
     },
     "Emily Chiu": {
         "building": 2,
@@ -5961,7 +6215,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4021",
         "phone": "+1-408-753-3979",
         "display": "Aseem Maheshwari",
-        "name": "amaheshwari"
+        "name": "amaheshwari",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1047,
+        "y": 1028
     },
     "Janice Sharer": {
         "building": 2,
@@ -6031,7 +6289,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4011",
         "phone": "+1-408-753-3264",
         "display": "Kalyan Mahajan",
-        "name": "kmahajan"
+        "name": "kmahajan",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 967,
+        "y": 744
     },
     "Mark Honer": {
         "building": 2,
@@ -6331,7 +6593,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4063",
         "phone": "+1-408-638-3248",
         "display": "Ryan Yang",
-        "name": "ryang"
+        "name": "ryang",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1840,
+        "y": 1210
     },
     "Noel Jr.. Cavazos": {
         "building": null,
@@ -6671,7 +6937,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4125",
         "phone": "+1 (669) 444-7090",
         "display": "Nidhi Shah",
-        "name": "nshah"
+        "name": "nshah",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1819,
+        "y": 703
     },
     "Gregg Schroeder": {
         "building": 2,
@@ -7051,7 +7321,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4048",
         "phone": "408-638-3277",
         "display": "Nick Cabi",
-        "name": "ncabi"
+        "name": "ncabi",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1160,
+        "y": 1400
     },
     "Rosie Leung": {
         "building": null,
@@ -7111,7 +7385,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4020",
         "phone": "+1-408- 753-4263",
         "display": "Eric Gu",
-        "name": "egu"
+        "name": "egu",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 967,
+        "y": 1028
     },
     "Josh Ren": {
         "building": null,
@@ -7271,7 +7549,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4006",
         "phone": "+1-669-444-6097",
         "display": "Aditya Deorha",
-        "name": "adeorha"
+        "name": "adeorha",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1101,
+        "y": 474
     },
     "Vidya Srinivasan": {
         "building": 2,
@@ -7331,7 +7613,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4123",
         "phone": "+1-408-753-3876",
         "display": "Ivan Lam",
-        "name": "ilam"
+        "name": "ilam",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1965,
+        "y": 619
     },
     "Moshe Itah": {
         "building": 1,
@@ -7431,7 +7717,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4064",
         "phone": null,
         "display": "Govind Raghunath",
-        "name": "graghunath"
+        "name": "graghunath",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1760,
+        "y": 1305
     },
     "Eileen Pollock": {
         "building": null,
@@ -7741,7 +8031,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4096A",
         "phone": "+1 (408) 753-4260",
         "display": "Tom Ligda",
-        "name": "tligda"
+        "name": "tligda",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1356,
+        "y": 1555
     },
     "Karyn Leffel": {
         "building": 1,
@@ -7751,7 +8045,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4098",
         "phone": "+1-669-444-6120",
         "display": "Karyn Leffel",
-        "name": "kleffel"
+        "name": "kleffel",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1502,
+        "y": 1555
     },
     "Robert Ashley": {
         "building": 1,
@@ -7861,7 +8159,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4121",
         "phone": null,
         "display": "Song Liu",
-        "name": "soliu"
+        "name": "soliu",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1819,
+        "y": 619
     },
     "Leon Chang": {
         "building": 1,
@@ -7871,7 +8173,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4061",
         "phone": "(669) 444-7094",
         "display": "Leon Chang",
-        "name": "lchang"
+        "name": "lchang",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1630,
+        "y": 1400
     },
     "Daniel Kovach": {
         "building": 1,
@@ -8031,7 +8337,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4056",
         "phone": "+1 (669) 444-6180",
         "display": "Jon Kalfayan",
-        "name": "jkalfayan"
+        "name": "jkalfayan",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1555,
+        "y": 1210
     },
     "Barkha Jasuja": {
         "building": 2,
@@ -8141,7 +8451,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4051",
         "phone": "+1-669-444-7102",
         "display": "Jack A. Zhang",
-        "name": "jazhang"
+        "name": "jazhang",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1435,
+        "y": 1210
     },
     "Jared Shumway": {
         "building": 1,
@@ -8291,7 +8605,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4095A",
         "phone": "+1 (408) 638-3448",
         "display": "Sudhanshu Mishra",
-        "name": "smishra"
+        "name": "smishra",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1282,
+        "y": 1555
     },
     "Prasanna Kumar": {
         "building": null,
@@ -8641,7 +8959,11 @@ var ldapdb = {
         "office": "Santa Clara 43-4043",
         "phone": "+1 (408) 753-4275",
         "display": "Darshan Shah",
-        "name": "dshah"
+        "name": "dshah",
+        "xmax": 2952,
+        "ymax": 1794,
+        "x": 1000,
+        "y": 1400
     },
     "Jonathan Salazar": {
         "building": 2,
