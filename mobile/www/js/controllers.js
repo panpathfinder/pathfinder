@@ -45,4 +45,29 @@ angular.module('starter.controllers', [])
         $scope.rotate = function() {
             $scope.angle = $scope.angle + 10;
         };
+
+        compass.getCurrentHeading().then(function(result) {
+            // Success!
+        }, function(err) {
+            // An error occurred
+        });
+
+        var options = { frequency: 1000 }; // Update every 1 second
+        var watch = compass.watchHeading(options);
+
+        watch.promise.then(function(result) { /* unused */ },
+            function(err) {
+                // An error occurred
+            }, function(position) {
+                // Heading comes back in
+                // position.magneticHeading
+                $scope.angle = 120;
+            });
+
+        compass.clearWatch(watch.watchId)
+            .then(function(result) {
+                // Success!
+            }, function(err) {
+                // An error occurred
+            });
     });

@@ -62,4 +62,9 @@ angular.module('starter.services', [])
         return {
             searchNames : searchNames
         }
+    })
+    .factory('LocationService', function() {
+        return {
+            getCurrentHeading : function() {compass.getCurrentHeading.apply(this, arguments);}
+        }
     });
