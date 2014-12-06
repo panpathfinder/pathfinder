@@ -43,6 +43,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 				url: '/resultInfo',
 				templateUrl: 'templates/Info.html',
 				controller: 'InfoCtrl'
+			})
+			.state('map', {
+				url: '/map/:mapId',
+				templateUrl: 'templates/Map.html',
+				controller: 'MapCtrl'
 			});
 
 		// if none of the above states are matched, use this as the fallback

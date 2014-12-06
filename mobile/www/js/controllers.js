@@ -32,4 +32,7 @@ angular.module('starter.controllers', [])
 			'direction' : 'NE Corner',
 			'proximity' : "Close to Anupam's Cube"
 		};
-	});
+	})
+	.controller('MapCtrl', function($scope, $stateParams) {
+        console.log($stateParams.mapId);
+    });
