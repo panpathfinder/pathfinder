@@ -40,12 +40,14 @@ foreach ($entries as $entry) {
     $office = $entry['physicaldeliveryofficename'];
     $building = null;
     $cube = null;
+    $floor = null;
     if ($office && $office[0]) {
         $office = $office[0];
         #'Santa Clara 43-5118'
         if (preg_match("/ 4(3|4)-(\\d{4})/", $office, $matches)) {
             $building = $matches[1];
             $cube = $matches[2];
+            $floor = intval(substr($cube, 0, 1));
             if ($building == '3') {
                 $building = 1;
             } elseif ($building == '4') {
@@ -58,7 +60,8 @@ foreach ($entries as $entry) {
     }
     $person = array(
         'building' => $building,
-        'cube' => $cube
+        'cube' => $cube,
+        'floor' => $floor
     );
     foreach ($attributesmap as $from => $to) {
         if ($entry[$from] && $entry[$from][0]) {
@@ -68,7 +71,9 @@ foreach ($entries as $entry) {
             $person[$to] = null;
         }
     }
-    $json[] = $person;
+    if ($person['display']) {
+        $json[] = $person;
+    }
 }
 
 print json_encode($json, JSON_PRETTY_PRINT);
