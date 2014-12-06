@@ -40,7 +40,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 				controller: 'PathFinderCtrl'
 			})
 			.state('resultinfo', {
-				url: '/resultInfo',
+				url: '/pathfinder/:name',
 				templateUrl: 'templates/Info.html',
 				controller: 'InfoCtrl'
 			});

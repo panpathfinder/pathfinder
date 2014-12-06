@@ -23,13 +23,16 @@ angular.module('starter.controllers', [])
             )
         }
     })
-	.controller('InfoCtrl', function($scope) {
-		$scope.resultInfo = {
-			'name' : 'Santhosh',
-			'cubeno': '1.2.3.4.5',
-			'building': '4301',
-			'floor' : '1',
-			'direction' : 'NE Corner',
-			'proximity' : "Close to Anupam's Cube"
-		};
+	.controller('InfoCtrl', function($scope, $stateParams) {
+        $scope.resultInfo = {};
+
+        $scope.initData = function() {
+            var name = $stateParams.name;
+            for (var i=0; i<ldapdata.length; i++) {
+                if (name == ldapdata[i].name) {
+                    $scope.resultInfo = ldapdata[i];
+                    return
+                }
+            }
+        };
 	});
