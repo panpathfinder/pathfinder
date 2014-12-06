@@ -10,6 +10,19 @@ $(document).ready(function () {
     $search = $("#search");
     $searched = $("#searched");
 
+    var getDesc = function(entry) {
+        var label = '';
+        if (entry['rooms']) {
+            label = entry.display + ' GAP' + entry.building + '/' + entry['floor'] + ' (' + entry.rooms + ')';
+            if (entry["has_projector"]) {
+                label += " Projector";
+            }
+        } else {
+            label = entry.display + ' GAP' + entry.building + '/' + entry['floor'] + ' (' + entry.cube + ') ' + entry['phone'];
+        }
+        return label;
+    };
+
     var searchChanged = function () {
         var val = $search.val();
         console.log(val);
@@ -22,30 +35,26 @@ $(document).ready(function () {
                 building = entry['building'];
                 resizeMap();
             }
-            var label;
-            if (entry['rooms']) {
-                label = entry.display + ' GAP' + entry.building + '/' + entry['floor'] + ' (' + entry.rooms + ')';
-                if (entry["has_projector"]) {
-                    label += " Projector";
-                }
-            } else {
-                label = entry.display + ' GAP' + entry.building + '/' + entry['floor'] + ' (' + entry.cube + ') ' + entry['phone'];
-            }
-            $searched.text(label);
+            $searched.text(getDesc(entry));
             starred = entry;
             drawStarred();
         }
     };
 
+    var getRelativeX = function(x,xmax) {
+        return  (0.0 + x)*paper.width/xmax;
+    };
+    var getRelativeY = function(y,ymax) {
+        return  (0.0 + y)*paper.height/ymax;
+    };
+
     var drawStarred = function () {
         if (starred && starred['floor'] == floor && starred['building'] == building) {
             if (starred.x && starred.y && starred.xmax && starred.ymax) {
-                console.log('draw star')
-                var r = 12;
-                //var x = getRandomInt(2 * r, w - 2 * r);
-                //var y = getRandomInt(2 * r, h - 2 * r);
-                var x = (0.0 + starred.x)*paper.width/starred.xmax;
-                var y = (0.0 + starred.y)*paper.height/starred.ymax;
+                console.log('draw star');
+                var r = 10;
+                var x = getRelativeX(starred.x,starred.xmax);
+                var y = getRelativeY(starred.y,starred.ymax);
                 var star = paper.star(paper, x, y, r).attr({
                     fill: "#00FF00",
                     'stroke-width': 1
@@ -74,6 +83,56 @@ $(document).ready(function () {
     var $window = $(window);
     var $toolbar = $('#toolbar');
 
+    var getQtip = function(entry) {
+        var label = '';
+        if (entry['rooms']) {
+            label = entry.display + ' (' + entry.rooms + ')' + '<br/>' +
+                ' GAP' + entry.building + '/' + entry['floor'];
+            if (entry["has_projector"]) {
+                label += '<br/>' + "Projector";
+            }
+        } else {
+            label = entry.display  + '<br/>' +
+                entry.title  + '<br/>' +
+                entry.phone  + '<br/>' +
+                ' GAP' + entry.building + '/' + entry['floor'] + '<br/>' +
+            entry.office
+
+        }
+        return label;
+    };
+    var drawHotspots = function() {
+        for(var n in ldapdb) {
+            var entry = ldapdb[n];
+            if (entry && entry['floor'] == floor && entry['building'] == building) {
+                if (entry.x && entry.y && entry.xmax && entry.ymax) {
+                    var r = 12;
+                    var x = getRelativeX(entry.x,entry.xmax);
+                    var y = getRelativeY(entry.y,entry.ymax);
+                    var cir = paper.circle(x, y, r).attr({
+                        stroke: "none",
+                        "fill-opacity": 0.10,
+                        fill: "pink"
+                    });
+                    (function(cir) {
+                        cir.hover(function () {
+                                cir.attr({"stroke": "red"});
+                            },
+                            function () {
+                                cir.attr({"stroke": "none"});
+                            }
+                        );
+                    })(cir);
+                    $(cir.node).qtip({
+                        content: {
+                            text: getQtip(entry)
+                        }
+                    });
+                }
+            }
+        }
+    };
+
     var resizeMap = function () {
         console.log('resizeMap');
         var tw = $toolbar.width();
@@ -86,25 +145,7 @@ $(document).ready(function () {
         paper = Raphael(0, th, w, h);
         paper.image(getMapImageSource(), 0, 0, w, h);
         drawStarred();
-        rect = paper.rect(30, 30, 90, 90);
-        rect.attr({
-            stroke: "none",
-            "fill-opacity": 0.10,
-            fill: "pink"
-        });
-        rect.hover(function () {
-                rect.attr({"stroke": "#000"});
-            },
-            function () {
-                rect.attr({"stroke": "none"});
-            }
-        );
-        $(rect.node).qtip({
-            content: {
-                text: 'name: mac<br/>cube: 5566'
-            }
-        })
-
+        drawHotspots();
     };
     resizeMap();
     $(window).resize(resizeMap);
