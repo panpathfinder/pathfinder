@@ -37,5 +37,8 @@ angular.module('starter.controllers', [])
         };
 	})
 	.controller('MapCtrl', function($scope, $stateParams) {
-        console.log($stateParams.mapId);
+		var infoAr = $stateParams.mapId.split("f");
+        $scope.mapImageUrl = (infoAr[0] == 1)? '4301':(infoAr == 2)?'4302':'4301';
+        $scope.mapImageUrl += 'f' + infoAr[1] + '.png';
+        console.log($scope.mapImageUrl);
     });

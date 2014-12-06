@@ -1,5 +1,10 @@
 <ion-view title="Path Finder {{mapId}}">
   <ion-content ui-view class="padding">
-     <img ng-src="../assests/map_images/{{$scope.mapId}}.png">
+  	<div class="list card">
+	  	<div class="item item-image">
+	    	<img ng-src="img/assets/map_images/{{mapImageUrl}}">
+	  	</div>
+	</div>
+     <!-- <img style = "max-width: 500px;max-height: 550px;" ng-src="../assets/map_images/{{mapImageUrl}} "> -->
   </ion-content>
 </ion-view>
