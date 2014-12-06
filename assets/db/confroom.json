@@ -277,8 +277,10 @@
         "has_projector": true,
         "display": "Anchorman",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1174,
+        "y": 107,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -286,8 +288,10 @@
         "has_projector": true,
         "display": "Austin Power",
         "rooms": 16,
-        "x": 0,
-        "y": 1
+        "x": 1375,
+        "y": 121,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -295,8 +299,10 @@
         "has_projector": false,
         "display": "Caddyshack",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1288,
+        "y": 304,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -304,8 +310,10 @@
         "has_projector": false,
         "display": "Dodgeball",
         "rooms": 4,
-        "x": 0,
-        "y": 1
+        "x": 1686,
+        "y": 301,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -313,8 +321,10 @@
         "has_projector": true,
         "display": "Dumb & Dumber",
         "rooms": 14,
-        "x": 0,
-        "y": 1
+        "x": 1623,
+        "y": 117,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -322,8 +332,10 @@
         "has_projector": false,
         "display": "Groundhog Day",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 1814,
+        "y": 101,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -331,8 +343,10 @@
         "has_projector": true,
         "display": "Happy Gilmore",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 2348,
+        "y": 969,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -340,8 +354,10 @@
         "has_projector": true,
         "display": "Office Space",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 2782,
+        "y": 1175,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -349,8 +365,10 @@
         "has_projector": true,
         "display": "Spaceballs",
         "rooms": 8,
-        "x": 0,
-        "y": 1
+        "x": 258,
+        "y": 1027,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -358,8 +376,10 @@
         "has_projector": true,
         "display": "The Big Lebowski",
         "rooms": 12,
-        "x": 0,
-        "y": 1
+        "x": 163,
+        "y": 1184,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -376,8 +396,10 @@
         "has_projector": false,
         "display": "The Sand Lot",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 2081,
+        "y": 900,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -385,8 +407,10 @@
         "has_projector": false,
         "display": "Zoolander",
         "rooms": 6,
-        "x": 0,
-        "y": 1
+        "x": 599,
+        "y": 898,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,

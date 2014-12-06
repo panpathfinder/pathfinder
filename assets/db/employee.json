@@ -110,14 +110,18 @@
         "name": "jmcclendon"
     },
     {
-        "building": null,
+        "building": 1,
         "cube": null,
-        "floor": null,
+        "floor": 4,
         "title": "Founder",
         "office": "Santa Clara 43-422",
         "phone": "+1-408-753-3867",
         "display": "Rajiv Batra",
-        "name": "rbatra"
+        "name": "rbatra",
+        "x": 2622,
+        "y": 947,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
@@ -520,14 +524,18 @@
         "name": "wxu"
     },
     {
-        "building": null,
+        "building": 1,
         "cube": null,
-        "floor": null,
+        "floor": 4,
         "title": "SVP, CTO",
         "office": "Santa Clara 43-423",
         "phone": "+1-408-753-3868",
         "display": "Nir Zuk",
-        "name": "nzuk"
+        "name": "nzuk",
+        "x": 2716,
+        "y": 1042,
+        "xmax": 2952,
+        "ymax": 1794
     },
     {
         "building": 1,
