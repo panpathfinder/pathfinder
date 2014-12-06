@@ -32,12 +32,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 
 			.state('panapps', {
 				url: '/panapps',
-				templateUrl: 'templates/panapps.html',
-				controller: 'DashCtrl'
+				templateUrl: 'templates/panapps.html'
 			})
 			.state('pathfinder', {
 				url: '/pathfinder',
-				templateUrl: 'templates/PathFinder.html'
+				templateUrl: 'templates/PathFinder.html',
+				controller: 'PathFinderCtrl'
 			})
 			.state('resultinfo', {
 				url: '/resultInfo',
