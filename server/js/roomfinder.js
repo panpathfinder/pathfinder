@@ -7,8 +7,32 @@ $(document).ready(function () {
     var floor = 1;
     var building = 1;
     var starred = null;
+    var starSVG;
     $search = $("#search");
     $searched = $("#searched");
+    $thumbnail = $("#thumbnail");
+
+    function resetPaper(x, y, w, h) {
+        if (paper) {
+            var paperDom = paper.canvas;
+            paperDom.parentNode.removeChild(paperDom);
+            paper = null;
+        }
+        paper = Raphael(x, y, w, h);
+    }
+
+    var getDesc = function (entry) {
+        var label = '';
+        if (entry['rooms']) {
+            label = entry.display + ' GAP' + entry.building + '/' + entry['floor'] + ' (' + entry.rooms + ')';
+            if (entry["has_projector"]) {
+                label += " Projector";
+            }
+        } else {
+            label = entry.display + ' GAP' + entry.building + '/' + entry['floor'] + ' (' + entry.cube + ') ' + entry['phone'];
+        }
+        return label;
+    };
 
     var searchChanged = function () {
         var val = $search.val();
@@ -17,36 +41,37 @@ $(document).ready(function () {
             var entry = ldapdb[val];
             console.log(entry['building']);
             console.log(entry['floor']);
-            if (entry['building'] && entry['floor']) {
+            if (entry['building'] && entry['floor'] && entry['floor'] <= 5) {
                 floor = entry['floor'];
                 building = entry['building'];
+                $searched.text(getDesc(entry));
+                $thumbnail.html(getThumbnail(entry));
+                starred = entry;
+                drawStarred();
                 resizeMap();
             }
-            var label;
-            if (entry['rooms']) {
-                label = entry.display + ' GAP' + entry.building + '/' + entry['floor'] + ' (' + entry.rooms + ')';
-                if (entry["has_projector"]) {
-                    label += " Projector";
-                }
-            } else {
-                label = entry.display + ' GAP' + entry.building + '/' + entry['floor'] + ' (' + entry.cube + ') ' + entry['phone'];
-            }
-            $searched.text(label);
-            starred = entry;
-            drawStarred();
         }
+    };
+
+    var getRelativeX = function (x, xmax) {
+        return  (0.0 + x) * paper.width / xmax;
+    };
+    var getRelativeY = function (y, ymax) {
+        return  (0.0 + y) * paper.height / ymax;
     };
 
     var drawStarred = function () {
         if (starred && starred['floor'] == floor && starred['building'] == building) {
+            console.log(starred);
             if (starred.x && starred.y && starred.xmax && starred.ymax) {
-                console.log('draw star')
-                var r = 12;
-                //var x = getRandomInt(2 * r, w - 2 * r);
-                //var y = getRandomInt(2 * r, h - 2 * r);
-                var x = (0.0 + starred.x)*paper.width/starred.xmax;
-                var y = (0.0 + starred.y)*paper.height/starred.ymax;
-                var star = paper.star(paper, x, y, r).attr({
+                console.log('draw star');
+                var r = 10;
+                var x = getRelativeX(starred.x, starred.xmax);
+                var y = getRelativeY(starred.y, starred.ymax);
+                if (starSVG) {
+                    starSVG.remove();
+                }
+                starSVG = paper.star(paper, x, y, r).attr({
                     fill: "#00FF00",
                     'stroke-width': 1
                 });
@@ -74,6 +99,78 @@ $(document).ready(function () {
     var $window = $(window);
     var $toolbar = $('#toolbar');
 
+    var getThumbnail = function(entry) {
+        if (entry.name &&  thumbnailsdb[entry.name]) {
+            return '<img src="data:image/jpeg;base64,' +thumbnailsdb[entry.name]+ '"/>';
+        }
+        return '';
+    };
+
+    var getQtip = function (entry) {
+        var label = '';
+        if (entry['rooms']) {
+            label = entry.display + ' (' + entry.rooms + ')' + '<br/>' +
+                ' GAP' + entry.building + '/' + entry['floor'];
+            if (entry["has_projector"]) {
+                label += '<br/>' + "Projector";
+            }
+        } else {
+            label = entry.display + '<br/>' +
+                entry.title + '<br/>' +
+                entry.phone + '<br/>' +
+                ' GAP' + entry.building + '/' + entry['floor'] + '<br/>' +
+                entry.office;
+            var thumb = getThumbnail(entry);
+            if (thumb) {
+                label += '<br/>' + thumb;
+            }
+        }
+        return label;
+    };
+    var drawHotspots = function () {
+        for (var n in ldapdb) {
+            var entry = ldapdb[n];
+            if (entry && entry['floor'] == floor && entry['building'] == building) {
+                if (entry.x && entry.y && entry.xmax && entry.ymax) {
+                    var r = 12;
+                    var x = getRelativeX(entry.x, entry.xmax);
+                    var y = getRelativeY(entry.y, entry.ymax);
+                    var cir = paper.circle(x, y, r).attr({
+                        stroke: "none",
+                        "fill-opacity": 0.10,
+                        fill: "pink"
+                    });
+                    (function (cir) {
+                        cir.hover(function () {
+                                cir.attr({"stroke": "red"});
+                            },
+                            function () {
+                                cir.attr({"stroke": "none"});
+                            }
+                        );
+                    })(cir);
+                    $(cir.node).qtip({
+                        content: {
+                            text: getQtip(entry)
+                        }
+                    });
+                }
+            }
+        }
+    };
+
+    var setButtonStyles = function () {
+        var color;
+        for (var b = 1; b <= 2; b++) {
+            color = (b == building) ? '#66CCFF' : "rgb(192, 192, 192)";
+            $('#GAP' + b).css('background-color', color);
+        }
+        for (var f = 1; f <= 5; f++) {
+            color = (f == floor) ? '#66CCFF' : "rgb(192, 192, 192)";
+            $('#floor' + f).css('background-color', color);
+        }
+    };
+
     var resizeMap = function () {
         console.log('resizeMap');
         var tw = $toolbar.width();
@@ -83,28 +180,11 @@ $(document).ready(function () {
         var h = $window.height() - th - padding;
         console.log(w);
         console.log(h);
-        paper = Raphael(0, th, w, h);
+        resetPaper(0, th, w, h);
         paper.image(getMapImageSource(), 0, 0, w, h);
         drawStarred();
-        rect = paper.rect(30, 30, 90, 90);
-        rect.attr({
-            stroke: "none",
-            "fill-opacity": 0.10,
-            fill: "pink"
-        });
-        rect.hover(function () {
-                rect.attr({"stroke": "#000"});
-            },
-            function () {
-                rect.attr({"stroke": "none"});
-            }
-        );
-        $(rect.node).qtip({
-            content: {
-                text: 'name: mac<br/>cube: 5566'
-            }
-        })
-
+        drawHotspots();
+        setButtonStyles();
     };
     resizeMap();
     $(window).resize(resizeMap);
