@@ -12,4 +12,13 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PathFinderCtrl', function($scope) {
+})
+
+.controller('InfoCtrl', function($scope) {
+	$scope.resultInfo = {
+		'name' : 'Santhosh',
+		'floor' : '2.4.5.5.2',
+		'direction' : 'NE Corner',
+		'proximity' : "Close to Anupam's Cube"
+	};
 });

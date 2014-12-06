@@ -5,22 +5,26 @@
   	 </div>
      <div class="list">
   		<label class="item item-input item-stacked-label">
-    		<span class="input-label">First Name</span>
-    		<input type="text" placeholder="2.6.2.4.6">
+    		<span class="input-label">Name</span>
+    		<input type="text" placeholder={{resultInfo.name}} disabled>
   		</label>
   		<label class="item item-input item-stacked-label">
-    		<span class="input-label">Last Name</span>
-    		<input type="text" placeholder="Suhr">
+    		<span class="input-label">Floor</span>
+    		<input type="text" placeholder={{resultInfo.floor}}>
   		</label>
-      <label class="item item-input item-stacked-label">
-        <span class="input-label">Email</span>
-        <input type="text" placeholder="john@suhr.com">
-      </label>
-      <a ui-sref="resultinfo">
-        <button class="button button-full button-positive">
-           MAP IT
-        </button>
-      </a>
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">Direction</span>
+            <input type="text" placeholder={{resultInfo.direction}}>
+        </label>
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">Proximity</span>
+            <input type="text" placeholder={{resultInfo.proximity}}>
+        </label>
+        <a ui-sref="resultinfo">
+            <button class="button button-full button-positive">
+               MAP IT
+            </button>
+        </a>
 </div>
   </ion-content>
 </ion-view>
