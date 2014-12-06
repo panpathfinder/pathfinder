@@ -45,7 +45,7 @@ angular.module('starter.controllers', [])
             }
         };
 	})
-	.controller('MapCtrl', function($scope, $stateParams) {
+	.controller('MapCtrl', function($scope, $stateParams, $cordovaDeviceOrientation) {
 		var infoAr = $stateParams.mapId.split("f");
         $scope.mapImageUrl = (infoAr[0] == 1)? '4301':(infoAr == 2)?'4302':'4301';
         $scope.mapImageUrl += 'f' + infoAr[1] + '.png';
@@ -54,15 +54,14 @@ angular.module('starter.controllers', [])
         $scope.rotate = function() {
             $scope.angle = $scope.angle + 10;
         };
-
-        compass.getCurrentHeading().then(function(result) {
+        $cordovaDeviceOrientation.getCurrentHeading().then(function(result) {
             // Success!
         }, function(err) {
             // An error occurred
         });
 
         var options = { frequency: 1000 }; // Update every 1 second
-        var watch = compass.watchHeading(options);
+        var watch = $cordovaDeviceOrientation.watchHeading(options);
 
         watch.promise.then(function(result) { /* unused */ },
             function(err) {
@@ -70,13 +69,14 @@ angular.module('starter.controllers', [])
             }, function(position) {
                 // Heading comes back in
                 // position.magneticHeading
-                $scope.angle = 120;
+                $scope.angle = 138;
             });
 
-        compass.clearWatch(watch.watchId)
+        $cordovaDeviceOrientation.clearWatch(watch.watchId)
             .then(function(result) {
                 // Success!
             }, function(err) {
                 // An error occurred
             });
     });
+
