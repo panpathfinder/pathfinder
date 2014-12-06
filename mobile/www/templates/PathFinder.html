@@ -1,17 +1,16 @@
 <ion-view title="Path Finder">
-  <ion-content ui-view class="padding">
-     <div class="list">
-	  <label class="item item-input">
-	    <input type="text" placeholder="Enter Person name or Conference Room Name">
-	  </label>
-	  <label class="item item-input">
-	    <input type="text" placeholder="Enter Person name or Conference Room Name">
-	  </label>
-	  <a ui-sref="resultinfo">
-	    <button class="button button-full button-positive">
-		   Locate
-        </button>
-      </a>
-	</div>
-  </ion-content>
+	<ion-header-bar class="bar-subheader item-input-inset">
+	<label class="item-input-wrapper">
+		<i class="icon ion-ios7-search placeholder-icon"></i>
+		<input type="search" placeholder="Search" ng-change="search()" ng-model="data.search">
+	</label>
+	<button class="button button-clear">
+		Cancel
+	</button>
+	</ion-header-bar>
+	<ion-content>
+		<div class="list">
+			<li class="item" ng-repeat="item in data.names">{{item.name}}</li>
+		</div>
+	</ion-content>
 </ion-view>
