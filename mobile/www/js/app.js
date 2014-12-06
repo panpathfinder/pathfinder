@@ -34,7 +34,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 	  templateUrl: 'templates/panapps.html',
 	  controller: 'DashCtrl'
 	})
-	.state('panapps.pathfinder', {
+	.state('pathfinder', {
 		url: '/pathfinder',
 		templateUrl: 'templates/PathFinder.html'
 	})
