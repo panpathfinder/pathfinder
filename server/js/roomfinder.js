@@ -11,7 +11,7 @@ $(document).ready(function () {
     $search = $("#search");
     $searched = $("#searched");
     $thumbnail = $("#thumbnail");
-
+    $search.focus();
     function resetPaper(x, y, w, h) {
         if (paper) {
             var paperDom = paper.canvas;
@@ -80,14 +80,16 @@ $(document).ready(function () {
     };
 
     $search.autocomplete({
-        source: ldapkeys
+        source: ldapkeys,
+        select: searchChanged
     });
 //    $search.keyup(searchChanged);
     $search.keypress(searchChanged);
     $search.change(searchChanged);
     $search.blur(searchChanged);
+    //$search.select(searchChanged);
 //    $search.focus(searchChanged);
-    $search.on('autocompleteselect', searchChanged);
+    //$search.on('autocompleteselect', searchChanged);
 
 
     var getMapImageSource = function () {
