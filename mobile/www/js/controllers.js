@@ -22,6 +22,15 @@ angular.module('starter.controllers', [])
                 }
             )
         }
+        /*window.echo = function(str, callback) {
+            cordova.exec(callback, function(err) {
+                callback('Nothing to echo.' + err);
+            }, "Echo", "echo", [str]);
+        };
+
+        window.echo("echome", function(echoValue) {
+            alert(echoValue); // should alert true.
+        });*/
     })
 	.controller('InfoCtrl', function($scope, $stateParams) {
         $scope.resultInfo = {};
