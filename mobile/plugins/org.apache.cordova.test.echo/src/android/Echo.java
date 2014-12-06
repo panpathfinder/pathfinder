@@ -115,6 +115,7 @@ public class Echo extends CordovaPlugin implements SensorEventListener {
 			json.put("degree", degrees);
 			json.put("direction", direction);
 			json.put("steps", stepsTaken);
+			initalSteps += stepsTaken;
 			callbackContext.success(json);
 		}
 
