@@ -23,11 +23,22 @@ angular.module('starter.controllers', [])
             )
         }
     })
-    .controller('InfoCtrl', function($scope) {
-	    $scope.resultInfo = {
-		    'name' : 'Santhosh',
-		    'floor' : '2.4.5.5.2',
-		    'direction' : 'NE Corner',
-		    'proximity' : "Close to Anupam's Cube"
-	    };
+	.controller('InfoCtrl', function($scope, $stateParams) {
+        $scope.resultInfo = {};
+
+        $scope.initData = function() {
+            var name = $stateParams.name;
+            for (var i=0; i<ldapdata.length; i++) {
+                if (name == ldapdata[i].name) {
+                    $scope.resultInfo = ldapdata[i];
+                    return
+                }
+            }
+        };
+	})
+	.controller('MapCtrl', function($scope, $stateParams) {
+		var infoAr = $stateParams.mapId.split("f");
+        $scope.mapImageUrl = (infoAr[0] == 1)? '4301':(infoAr == 2)?'4302':'4301';
+        $scope.mapImageUrl += 'f' + infoAr[1] + '.png';
+        console.log($scope.mapImageUrl);
     });
